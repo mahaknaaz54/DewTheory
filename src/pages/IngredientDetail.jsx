@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { ArrowLeft, Clock, ShieldCheck, AlertCircle, Sparkles, CheckCircle2 } from 'lucide-react';
 import Container from '../components/Container';
 import { allIngredients as ingredients } from '../data/ingredients';
+import IngredientMockup from '../components/IngredientMockup';
 
 const IngredientDetail = () => {
     const { slug } = useParams();

@@ -49,20 +49,9 @@ const AnimatedRoutes = () => {
 };
 
 function App() {
-    const [introComplete, setIntroComplete] = useState(() => {
-        try {
-            return localStorage.getItem(INTRO_STORAGE_KEY) === '1';
-        } catch {
-            return false;
-        }
-    });
+    const [introComplete, setIntroComplete] = useState(false);
 
     const handleIntroComplete = useCallback(() => {
-        try {
-            localStorage.setItem(INTRO_STORAGE_KEY, '1');
-        } catch {
-            // localStorage unavailable — silently continue
-        }
         setIntroComplete(true);
     }, []);
 

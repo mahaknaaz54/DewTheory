@@ -533,11 +533,11 @@ export default function CinematicIntro({ onComplete }) {
         // Reduced motion → instant reveal
         if (prefersReducedMotion.current) {
             setBrandVisible(true);
-            return;
+            return undefined;
         }
 
         const setup = setupCanvas();
-        if (!setup) return;
+        if (!setup) return undefined;
 
         const { w, h } = setup;
         stateRef.current.nodes = createNodes(w, h);
