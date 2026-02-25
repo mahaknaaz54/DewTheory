@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>HIKARI | Find Your Radiance Skin Quiz</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#ec5b13",
+                        "background-light": "#f8f6f6",
+                        "background-dark": "#0a0a0a",
+                    },
+                    fontFamily: {
+                        "display": ["Public Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Public Sans', sans-serif;
+        }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .option-card:hover {
+            border-color: #ec5b13;
+            background: rgba(236, 91, 19, 0.05);
+        }
+        .option-card.active {
+            border-color: #ec5b13;
+            background: rgba(236, 91, 19, 0.1);
+            box-shadow: 0 0 15px rgba(236, 91, 19, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-background-dark text-slate-100 min-h-screen selection:bg-primary/30">
+<!-- Top Navigation Bar -->
+<header class="fixed top-0 w-full z-50 border-b border-white/10 bg-background-dark/80 backdrop-blur-md">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="text-primary">
+<svg class="w-8 h-8" fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 45.8096C19.6865 45.8096 15.4698 44.5305 11.8832 42.134C8.29667 39.7376 5.50128 36.3314 3.85056 32.3462C2.19985 28.361 1.76794 23.9758 2.60947 19.7452C3.451 15.5145 5.52816 11.6284 8.57829 8.5783C11.6284 5.52817 15.5145 3.45101 19.7452 2.60948C23.9758 1.76795 28.361 2.19986 32.3462 3.85057C36.3314 5.50129 39.7376 8.29668 42.134 11.8833C44.5305 15.4698 45.8096 19.6865 45.8096 24L24 24L24 45.8096Z" fill="currentColor"></path>
+</svg>
+</div>
+<span class="text-xl font-bold tracking-widest uppercase text-white">Hikari</span>
+</div>
+<nav class="hidden md:flex items-center gap-10">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Shop</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Philosophy</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">About</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="p-2 hover:bg-white/5 rounded-full transition-colors">
+<span class="material-symbols-outlined text-white">person</span>
+</button>
+<button class="p-2 hover:bg-white/5 rounded-full transition-colors relative">
+<span class="material-symbols-outlined text-white">shopping_bag</span>
+<span class="absolute top-1 right-1 w-2 h-2 bg-primary rounded-full"></span>
+</button>
+</div>
+</div>
+</header>
+<main class="pt-32 pb-20 px-6">
+<div class="max-w-4xl mx-auto">
+<!-- Progress Tracker -->
+<div class="mb-12">
+<div class="flex justify-between items-end mb-4">
+<div>
+<span class="text-primary text-sm font-bold uppercase tracking-widest">Guided Consultation</span>
+<h1 class="text-4xl md:text-5xl font-bold mt-1 text-white">Find Your Radiance</h1>
+</div>
+<div class="text-right">
+<span class="text-slate-400 text-sm">Step 02 of 04</span>
+</div>
+</div>
+<div class="h-1 w-full bg-white/10 rounded-full overflow-hidden">
+<div class="h-full bg-primary transition-all duration-500" style="width: 50%;"></div>
+</div>
+</div>
+<!-- Quiz Content Area -->
+<div class="glass-panel rounded-xl p-8 md:p-12">
+<!-- Question Header -->
+<div class="mb-10 text-center">
+<h2 class="text-2xl md:text-3xl font-semibold text-white mb-4">What are your primary skin concerns?</h2>
+<p class="text-slate-400 max-w-lg mx-auto">Select all that apply. This helps us curate the specific active ingredients your skin needs most.</p>
+</div>
+<!-- Option Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<!-- Option: Aging -->
+<button class="option-card active group relative flex items-center gap-6 p-6 rounded-xl border border-white/10 transition-all text-left">
+<div class="w-16 h-16 rounded-lg overflow-hidden flex-shrink-0 bg-slate-800">
+<img class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity" data-alt="Close up of smooth mature skin texture" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBzD4pQkc5M5N51FuGsqhtw8c78kQUcXX4-JOtq6zxaNWoJLDxlGgVv4miKA007WRI2KagMyVSiHiNlqOOa5HYQ09jWt1cd7PAU3eV0uVPj_kpjWSu6kNC8ChEFLWfqa3FauEy2bb7FhHNgsTEh6b5WwOTBgub-JLZY84Lc7pqccMSjEAoVrxERUATaKKfG26ZlRf6UYl3hjRAelVqjye-6JBVr9LM-8QtX3yZnVuke5bnr1YHBa1oKY1t7Ybp4rZYWpqp14IYAQQEP"/>
+</div>
+<div class="flex-1">
+<h3 class="text-lg font-bold text-white mb-1">Aging &amp; Fine Lines</h3>
+<p class="text-sm text-slate-400 leading-relaxed">Targeting wrinkles, loss of elasticity, and firming.</p>
+</div>
+<div class="absolute top-4 right-4 text-primary">
+<span class="material-symbols-outlined">check_circle</span>
+</div>
+</button>
+<!-- Option: Hydration -->
+<button class="option-card group relative flex items-center gap-6 p-6 rounded-xl border border-white/10 transition-all text-left">
+<div class="w-16 h-16 rounded-lg overflow-hidden flex-shrink-0 bg-slate-800">
+<img class="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition-opacity" data-alt="Refreshing water splashes on skin surface" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDtOg_qjnTSZ5eD4V5jENj-vunyDMWeJ6xtAsZ1PDMBqiAQQBUXWZ5RoeN85N3xAXzY7xWSqLQLtPGVfRZYdZPrK_7eDj5lZJwwWpQOOtrs9ePGe_s9_fEkcUuDuAMc2WeCx92vCVq0BWa608KaVdpaWHJ5DkH9ABkT0PMRN57lndKyK0UAGMbIkNUy7AnINe4nrcYHcb48Z-j0Aqx9PIaDxIv-I2GcqAf875DWK79T5Dy1zkzS3HMYbWJ-AgTR3C9WqoO-itqBtaia"/>
+</div>
+<div class="flex-1">
+<h3 class="text-lg font-bold text-white mb-1">Deep Hydration</h3>
+<p class="text-sm text-slate-400 leading-relaxed">Addressing dryness, flakiness, and moisture retention.</p>
+</div>
+</button>
+<!-- Option: Glow -->
+<button class="option-card group relative flex items-center gap-6 p-6 rounded-xl border border-white/10 transition-all text-left">
+<div class="w-16 h-16 rounded-lg overflow-hidden flex-shrink-0 bg-slate-800">
+<img class="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition-opacity" data-alt="Radiant glowing skin in warm light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAx2eQoP0Y7b_3uNwf9ycBdbTTQN4JvbsgYlal3dFpTnyUn_l58wa5e7byvrfmCFCngHbvdGJylEIXO1H9J4YEkG_0dHSyxF2TccSeTUjqQgxGpMt9e6sBQ2gF-VFL9ds4_IJGEk5nhdUuo3VAvPONgdg3FwElBgaH_fs6G921iD09u5AzIU_8tMsCLxaYVFZMVRQ9ChsEVIdkbmTk6Ju3XCkAiZ8IDKPaIL-PLogH0_IGJ1LWGxB9CvWjLk6kGaAl6jxXq-xsJendk"/>
+</div>
+<div class="flex-1">
+<h3 class="text-lg font-bold text-white mb-1">Radiance &amp; Glow</h3>
+<p class="text-sm text-slate-400 leading-relaxed">Combating dullness and uneven skin tone.</p>
+</div>
+</button>
+<!-- Option: Blemishes -->
+<button class="option-card group relative flex items-center gap-6 p-6 rounded-xl border border-white/10 transition-all text-left">
+<div class="w-16 h-16 rounded-lg overflow-hidden flex-shrink-0 bg-slate-800">
+<img class="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition-opacity" data-alt="Clear skin texture focus close up" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAN2nJikZ_fAFRrAm-d0Z8HwfBdDoZMBzuDEG_VFoHJvnymvhJV6JHgL-hvz4eaHzDal9IBix4B_CjRdvsoXEewjGXIGl51pbb915wxMeieifzAo2CKRsFpaCDdppFBKgWASy7rlSgXk5Y9tzRYvdx-fh_gzOfQFRepIi4-xppBH4gZ7WEBhA1vq9XTq5NDDVdXKtkIh-JMNgkAwP6XnETz0nG1LLfXDFYzmmQU6MXD9AhXzVCWyPcYAK5oH_p_JE15RTJFf_-ifZyx"/>
+</div>
+<div class="flex-1">
+<h3 class="text-lg font-bold text-white mb-1">Blemishes &amp; Oil</h3>
+<p class="text-sm text-slate-400 leading-relaxed">Pore management and clarifying active treatments.</p>
+</div>
+</button>
+</div>
+<!-- Navigation Controls -->
+<div class="mt-12 flex flex-col sm:flex-row items-center justify-between gap-6 border-t border-white/10 pt-8">
+<button class="flex items-center gap-2 text-slate-400 hover:text-white transition-colors group">
+<span class="material-symbols-outlined text-sm group-hover:-translate-x-1 transition-transform">arrow_back_ios</span>
+<span class="font-medium">Previous Step</span>
+</button>
+<div class="flex items-center gap-4 w-full sm:w-auto">
+<button class="w-full sm:w-48 bg-primary hover:bg-primary/90 text-white font-bold py-4 rounded-lg transition-all shadow-lg shadow-primary/20 flex items-center justify-center gap-2">
+                            Next Question
+                            <span class="material-symbols-outlined text-sm">arrow_forward_ios</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Lifestyle Preview (Quick Hint) -->
+<div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="p-6 rounded-xl border border-white/5 bg-white/[0.02]">
+<span class="material-symbols-outlined text-primary mb-3">sunny</span>
+<h4 class="text-white font-semibold mb-1">Sun Exposure</h4>
+<p class="text-xs text-slate-500 leading-relaxed">UV protection is 90% of anti-aging. We factor your climate into the results.</p>
+</div>
+<div class="p-6 rounded-xl border border-white/5 bg-white/[0.02]">
+<span class="material-symbols-outlined text-primary mb-3">psychology</span>
+<h4 class="text-white font-semibold mb-1">Stress Levels</h4>
+<p class="text-xs text-slate-500 leading-relaxed">Cortisol impacts skin barrier function. We select calming adaptogens.</p>
+</div>
+<div class="p-6 rounded-xl border border-white/5 bg-white/[0.02]">
+<span class="material-symbols-outlined text-primary mb-3">bedtime</span>
+<h4 class="text-white font-semibold mb-1">Sleep Quality</h4>
+<p class="text-xs text-slate-500 leading-relaxed">Night-time repair cycles are critical for cellular turnover.</p>
+</div>
+</div>
+</div>
+</main>
+<!-- Background Decorative Elements -->
+<div class="fixed top-0 left-0 w-full h-full pointer-events-none -z-10 overflow-hidden">
+<div class="absolute top-[-10%] right-[-10%] w-[50%] h-[50%] bg-primary/5 rounded-full blur-[120px]"></div>
+<div class="absolute bottom-[-10%] left-[-10%] w-[40%] h-[40%] bg-primary/3 rounded-full blur-[100px]"></div>
+</div>
+<!-- Footer -->
+<footer class="border-t border-white/5 py-10 mt-20">
+<div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
+<p class="text-slate-500 text-sm">© 2024 HIKARI Skincare Labs. All rights reserved.</p>
+<div class="flex gap-8 text-slate-500 text-sm">
+<a class="hover:text-primary transition-colors" href="#">Privacy Policy</a>
+<a class="hover:text-primary transition-colors" href="#">Terms of Service</a>
+<a class="hover:text-primary transition-colors" href="#">Contact Expert</a>
+</div>
+</div>
+</footer>
+</body></html>

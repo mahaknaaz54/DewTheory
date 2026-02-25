@@ -1,0 +1,53 @@
+{
+  "id": "ing_012",
+  "name": "Panthenol",
+  "inciName": "Panthenol",
+  "category": "Humectant",
+  "origin": "Synthetic",
+  "countryOfOrigin": null,
+  "description": "Pro-vitamin B5, renowned for its hydrating and wound-healing abilities.",
+  "benefits": [
+    "Moisturizes",
+    "Reduces inflammation",
+    "Heals barrier"
+  ],
+  "skinTypes": [
+    "Dry",
+    "Sensitive",
+    "Normal"
+  ],
+  "concerns": [
+    "Irritation",
+    "Dryness"
+  ],
+  "image": "https://images.unsplash.com/photo-1615397323758-c0b0ee31288c?q=80&w=600&auto=format&fit=crop",
+  "irritationLevel": 1,
+  "comedogenicRating": 0,
+  "fungalAcneSafe": true,
+  "pregnancySafe": true,
+  "strengthLevel": "low",
+  "barrierImpactScore": 2,
+  "pH_range": "N/A",
+  "photosensitivityRisk": false,
+  "goalTags": [
+    "irritation",
+    "dryness"
+  ],
+  "layeringConflicts": [],
+  "redundancyTags": [],
+  "frequencyLimit": "daily",
+  "timeOfDay": "both",
+  "climateSuitability": [
+    "dry",
+    "temperate",
+    "humid",
+    "tropical"
+  ],
+  "scientificSummary": "Converts to pantothenic acid on the skin, binding water and enhancing barrier repair.",
+  "mechanismOfAction": "Converts to pantothenic acid on the skin, binding water and enhancing barrier repair.",
+  "evidenceLevel": "strong",
+  "seo": {
+    "title": "Panthenol - Clinical Profile & Compatibility | Dew Theory",
+    "description": "Discover the scientific benefits, compatibility, and clinical profile of Panthenol in skincare."
+  }
+}

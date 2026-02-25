@@ -1,0 +1,53 @@
+{
+  "id": "ing_008",
+  "name": "Squalane",
+  "inciName": "Squalane",
+  "category": "Emollient",
+  "origin": "Natural",
+  "countryOfOrigin": "Spain",
+  "description": "A biomimetic oil that mimics skin's natural sebum, derived from olives or sugarcane.",
+  "benefits": [
+    "Moisturizes",
+    "Soothes skin",
+    "Non-comedogenic oil"
+  ],
+  "skinTypes": [
+    "All",
+    "Dry",
+    "Acne-Prone"
+  ],
+  "concerns": [
+    "Dryness",
+    "Sensitivity"
+  ],
+  "image": "https://images.unsplash.com/photo-1615397323758-c0b0ee31288c?q=80&w=600&auto=format&fit=crop",
+  "irritationLevel": 1,
+  "comedogenicRating": 1,
+  "fungalAcneSafe": true,
+  "pregnancySafe": true,
+  "strengthLevel": "low",
+  "barrierImpactScore": 2,
+  "pH_range": "N/A",
+  "photosensitivityRisk": false,
+  "goalTags": [
+    "dryness",
+    "sensitivity"
+  ],
+  "layeringConflicts": [],
+  "redundancyTags": [],
+  "frequencyLimit": "daily",
+  "timeOfDay": "both",
+  "climateSuitability": [
+    "dry",
+    "temperate",
+    "humid",
+    "tropical"
+  ],
+  "scientificSummary": "Penetrates deeply to provide hydration without feeling heavy or causing breakouts.",
+  "mechanismOfAction": "Penetrates deeply to provide hydration without feeling heavy or causing breakouts.",
+  "evidenceLevel": "strong",
+  "seo": {
+    "title": "Squalane - Clinical Profile & Compatibility | Dew Theory",
+    "description": "Discover the scientific benefits, compatibility, and clinical profile of Squalane in skincare."
+  }
+}

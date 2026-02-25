@@ -1,0 +1,55 @@
+{
+  "id": "ing_029",
+  "name": "Zinc Oxide",
+  "inciName": "Zinc Oxide",
+  "category": "Occlusive",
+  "origin": "Synthetic",
+  "countryOfOrigin": null,
+  "description": "A mineral UV filter that also provides significant anti-inflammatory benefits.",
+  "benefits": [
+    "Broad-spectrum UV protection",
+    "Calms acne",
+    "Soothes redness"
+  ],
+  "skinTypes": [
+    "All",
+    "Sensitive",
+    "Acne-Prone"
+  ],
+  "concerns": [
+    "Sun Protection",
+    "Acne",
+    "Rosacea"
+  ],
+  "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600&auto=format&fit=crop",
+  "irritationLevel": 1,
+  "comedogenicRating": 1,
+  "fungalAcneSafe": true,
+  "pregnancySafe": true,
+  "strengthLevel": "low",
+  "barrierImpactScore": 2,
+  "pH_range": "N/A",
+  "photosensitivityRisk": false,
+  "goalTags": [
+    "sun-protection",
+    "acne",
+    "rosacea"
+  ],
+  "layeringConflicts": [],
+  "redundancyTags": [],
+  "frequencyLimit": "daily",
+  "timeOfDay": "PM",
+  "climateSuitability": [
+    "dry",
+    "temperate",
+    "humid",
+    "tropical"
+  ],
+  "scientificSummary": "Sits on the skin's surface to reflect/scatter UV rays while reducing local inflammation.",
+  "mechanismOfAction": "Sits on the skin's surface to reflect/scatter UV rays while reducing local inflammation.",
+  "evidenceLevel": "strong",
+  "seo": {
+    "title": "Zinc Oxide - Clinical Profile & Compatibility | Dew Theory",
+    "description": "Discover the scientific benefits, compatibility, and clinical profile of Zinc Oxide in skincare."
+  }
+}

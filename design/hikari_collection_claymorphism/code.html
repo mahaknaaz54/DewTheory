@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>HIKARI | Shop All Skincare</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#ec5b13",
+                        "background-light": "#f8f6f6",
+                        "background-dark": "#221610",
+                        "midnight": "#1a0d14",
+                        "clay-white": "#fcfaf9",
+                        "radiant-gold": "#d4af37",
+                    },
+                    fontFamily: {
+                        "display": ["Public Sans", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "1.5rem", "full": "9999px"},
+                    boxShadow: {
+                        'clay': 'inset 4px 4px 8px rgba(255, 255, 255, 0.8), inset -4px -4px 8px rgba(166, 150, 140, 0.2), 8px 8px 16px rgba(166, 150, 140, 0.15)',
+                        'clay-pressed': 'inset 2px 2px 4px rgba(166, 150, 140, 0.2), inset -2px -2px 4px rgba(255, 255, 255, 0.8)',
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .clay-card {
+            background: #fcfaf9;
+            box-shadow: inset 6px 6px 12px #ffffff, inset -6px -6px 12px rgba(166, 150, 140, 0.15), 12px 12px 24px rgba(166, 150, 140, 0.1);
+            border-radius: 2rem;
+            border: 1px solid rgba(255, 255, 255, 0.4);
+        }
+        .clay-button {
+            background: #f8f6f6;
+            box-shadow: inset 3px 3px 6px #ffffff, inset -3px -3px 6px rgba(166, 150, 140, 0.2), 4px 4px 8px rgba(166, 150, 140, 0.1);
+            transition: all 0.2s ease;
+        }
+        .clay-button:active {
+            box-shadow: inset 2px 2px 4px rgba(166, 150, 140, 0.2), inset -2px -2px 4px #ffffff;
+            transform: scale(0.98);
+        }
+        .clay-input {
+            background: #fcfaf9;
+            box-shadow: inset 4px 4px 8px rgba(166, 150, 140, 0.1), inset -4px -4px 8px #ffffff;
+            border: none !important;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 antialiased">
+<div class="relative flex min-h-screen flex-col overflow-x-hidden">
+<!-- Navigation -->
+<header class="sticky top-0 z-50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md px-6 lg:px-20 py-4 border-b border-slate-200 dark:border-slate-800">
+<nav class="max-w-7xl mx-auto flex items-center justify-between">
+<div class="flex items-center gap-12">
+<div class="flex items-center gap-2 group cursor-pointer">
+<div class="w-10 h-10 clay-button flex items-center justify-center rounded-xl bg-primary text-white">
+<span class="material-symbols-outlined">auto_awesome</span>
+</div>
+<h1 class="text-2xl font-black tracking-tighter text-slate-900 dark:text-white">HIKARI</h1>
+</div>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Shop</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Sets</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Rituals</a>
+</div>
+</div>
+<div class="flex items-center gap-4 lg:gap-6">
+<div class="hidden sm:block relative">
+<input class="clay-input w-64 py-2 px-10 rounded-full text-sm focus:ring-2 focus:ring-primary/20 transition-all" placeholder="Search essence..." type="text"/>
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-lg">search</span>
+</div>
+<button class="w-10 h-10 clay-button flex items-center justify-center rounded-full">
+<span class="material-symbols-outlined text-slate-700">shopping_bag</span>
+</button>
+<div class="w-10 h-10 clay-button rounded-full overflow-hidden border-2 border-white shadow-sm">
+<img class="w-full h-full object-cover" data-alt="Portrait of a woman with glowing skin" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDPvgXwfvAw5dn_fbQSggoksoAtoGglVFVvca5KrBGT6lXHN1so5z5PbpuzD1V6AOK2DzvhFXwRzs2mABu9Z8RCPqb0iDVrOe42PoqmNPoUBNGXpwBrTdq4HHlpHINyFUeKGs7a1pSGL0xTrUnz0vh7NlRNuksrSk1Cdx-7LBDKVIipGgjh8eN5bDbyCXJESSnT7S8BOyOZYhE-7tyN6f3xRBmhoEtvXowOd2SOFZ-gh7LSpXsoUtNEJO9S0ZPGtylQGGYFs2PCIkwc"/>
+</div>
+</div>
+</nav>
+</header>
+<main class="max-w-7xl mx-auto px-6 lg:px-20 py-12 flex-1 w-full">
+<!-- Hero Section -->
+<div class="mb-12">
+<h2 class="text-5xl lg:text-7xl font-black tracking-tight mb-4 text-slate-900 dark:text-white">
+                Shop <span class="text-primary italic">All</span>
+</h2>
+<p class="text-lg text-slate-500 max-w-2xl leading-relaxed">
+                Experience the harmony of ancient Japanese wisdom and modern clay science. Sculpt your radiance with our signature collection.
+            </p>
+</div>
+<!-- Filters & Category Nav -->
+<div class="mb-10 space-y-6">
+<div class="flex items-center gap-4 overflow-x-auto pb-4 scrollbar-hide">
+<button class="clay-button bg-primary text-white px-6 py-2.5 rounded-full text-sm font-bold whitespace-nowrap">All Essence</button>
+<button class="clay-button px-6 py-2.5 rounded-full text-sm font-semibold text-slate-600 whitespace-nowrap">Cleansers</button>
+<button class="clay-button px-6 py-2.5 rounded-full text-sm font-semibold text-slate-600 whitespace-nowrap">Serums</button>
+<button class="clay-button px-6 py-2.5 rounded-full text-sm font-semibold text-slate-600 whitespace-nowrap">Moisturizers</button>
+<button class="clay-button px-6 py-2.5 rounded-full text-sm font-semibold text-slate-600 whitespace-nowrap">Eye Care</button>
+<button class="clay-button px-6 py-2.5 rounded-full text-sm font-semibold text-slate-600 whitespace-nowrap">Masks</button>
+</div>
+<div class="flex flex-wrap items-center justify-between gap-4">
+<div class="flex gap-3">
+<button class="clay-button px-4 py-2 flex items-center gap-2 rounded-xl text-sm font-medium text-slate-700">
+                        Price <span class="material-symbols-outlined text-sm">expand_more</span>
+</button>
+<button class="clay-button px-4 py-2 flex items-center gap-2 rounded-xl text-sm font-medium text-slate-700">
+                        Skin Type <span class="material-symbols-outlined text-sm">expand_more</span>
+</button>
+<button class="clay-button px-4 py-2 flex items-center gap-2 rounded-xl text-sm font-medium text-slate-700">
+                        Concern <span class="material-symbols-outlined text-sm">expand_more</span>
+</button>
+</div>
+<div class="text-sm font-medium text-slate-400">
+                    Showing 12 of 34 products
+                </div>
+</div>
+</div>
+<!-- Product Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+<!-- Card 1 -->
+<div class="clay-card p-4 group transition-transform hover:-translate-y-2 duration-300">
+<div class="relative aspect-square rounded-2xl overflow-hidden mb-6 bg-[#f1eeec]">
+<img class="w-full h-full object-cover mix-blend-multiply opacity-90" data-alt="Midnight Silk Cleanser in elegant dark bottle" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAJE8m7aRublSne4m3XBkqW0IdFNSBCpfplts_qhasyq_BOFHHg6eF3KtokEcWslrxrFPmX_Qgig0ok6MP1T8Av6a30UCA1bM7587VTX-3SSn-FGjv-Pwfkhm7r2UwWQTVWl4sGNfGf4RabQj20dPMsG7tSZas8X5Re1UFy898K-xvveVIYs58pcnr2pA6A_CQ_mqsSazvHxQvfgQwDentBSEUimEAik1iTIjyHMo8wC95cu-RK3o1raDVMugQyQ2lugrRoHkpouZxa"/>
+<div class="absolute top-3 right-3">
+<button class="w-10 h-10 clay-button rounded-full flex items-center justify-center bg-white/80 backdrop-blur">
+<span class="material-symbols-outlined text-slate-400 group-hover:text-primary transition-colors">favorite</span>
+</button>
+</div>
+</div>
+<div class="px-2">
+<div class="flex justify-between items-start mb-2">
+<div>
+<h3 class="font-bold text-slate-800 text-lg">Midnight Silk Cleanser</h3>
+<p class="text-xs font-bold text-primary uppercase tracking-widest">Purifying Gel</p>
+</div>
+<span class="font-black text-slate-900">$42</span>
+</div>
+<p class="text-sm text-slate-500 mb-6 line-clamp-2">Deeply purifies pores while maintaining the skin's natural moisture barrier.</p>
+<button class="w-full clay-button py-3 rounded-xl font-bold text-sm bg-slate-900 text-white flex items-center justify-center gap-2">
+                        Add to bag
+                    </button>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="clay-card p-4 group transition-transform hover:-translate-y-2 duration-300">
+<div class="relative aspect-square rounded-2xl overflow-hidden mb-6 bg-[#f7f2ed]">
+<img class="w-full h-full object-cover mix-blend-multiply opacity-90" data-alt="Radiant Gold Serum with gold flecks" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAJmWubvf7vKUrmaHeybEZ77EsttDuI_2klSmOqLWd3ReWJDU_1deJ135PadjGoGcPxEbYIZmCIxN6aQcE09BjEkGtAw7CqBgxQGN_JhJLUadnBMusxIJEKdwjMyNGDuMLb1iEX7A6Rbo_kS3aL-p4x09Tj7qXHMyUA8lVfzfbyRvbgP-E2AqOE7kIFg5IKdB7F1Nmi8duG32MlQ37er5-3RbRLZ2dWX_F56ygYT2qj5somy46exZ67QKvzaMkAO79flnnyRStZ8vL4"/>
+<div class="absolute top-3 left-3">
+<span class="bg-radiant-gold text-white text-[10px] font-black uppercase px-2 py-1 rounded-full shadow-lg">Best Seller</span>
+</div>
+<div class="absolute top-3 right-3">
+<button class="w-10 h-10 clay-button rounded-full flex items-center justify-center bg-white/80 backdrop-blur">
+<span class="material-symbols-outlined text-slate-400 group-hover:text-primary transition-colors">favorite</span>
+</button>
+</div>
+</div>
+<div class="px-2">
+<div class="flex justify-between items-start mb-2">
+<div>
+<h3 class="font-bold text-slate-800 text-lg">Radiant Gold Serum</h3>
+<p class="text-xs font-bold text-primary uppercase tracking-widest">Vitamin C + 24K</p>
+</div>
+<span class="font-black text-slate-900">$85</span>
+</div>
+<p class="text-sm text-slate-500 mb-6 line-clamp-2">A luxurious blend of pure gold and Vitamin C for instant luminosity and repair.</p>
+<button class="w-full clay-button py-3 rounded-xl font-bold text-sm bg-slate-900 text-white flex items-center justify-center gap-2">
+                        Add to bag
+                    </button>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="clay-card p-4 group transition-transform hover:-translate-y-2 duration-300">
+<div class="relative aspect-square rounded-2xl overflow-hidden mb-6 bg-[#fcfaf9]">
+<img class="w-full h-full object-cover mix-blend-multiply" data-alt="Clay White Moisturizer in a soft white jar" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBd5U7PzYXo2HEoM0Qqk6hJF9ajp1YCZS0qBR3gqu9jtBbf8Z4eSygMGD-k5fw97o267IMP61smY35lq8KxVCnjvU2QI1_neKTZHrPDhyirBbdwTr-dx3p_zvcXm8CqlHgEHUppHGJFhmDHUYpGtFzthunnFRj9HLZH4DJ98CmhWE2tz3WEOM3PJ3pVkI1zudEovTdhZ99sBPLLk9kHsRht0SRYYDq9QZDVzr_H10pUkwQK8PrCr4uRJf5O55_9NhVsTxRCt_G6WWcd"/>
+<div class="absolute top-3 right-3">
+<button class="w-10 h-10 clay-button rounded-full flex items-center justify-center bg-white/80 backdrop-blur">
+<span class="material-symbols-outlined text-slate-400 group-hover:text-primary transition-colors">favorite</span>
+</button>
+</div>
+</div>
+<div class="px-2">
+<div class="flex justify-between items-start mb-2">
+<div>
+<h3 class="font-bold text-slate-800 text-lg">Clay White Cream</h3>
+<p class="text-xs font-bold text-primary uppercase tracking-widest">Deep Hydration</p>
+</div>
+<span class="font-black text-slate-900">$64</span>
+</div>
+<p class="text-sm text-slate-500 mb-6 line-clamp-2">Whipped Kaolin clay texture that melts into skin for 24-hour intense moisture.</p>
+<button class="w-full clay-button py-3 rounded-xl font-bold text-sm bg-slate-900 text-white flex items-center justify-center gap-2">
+                        Add to bag
+                    </button>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="clay-card p-4 group transition-transform hover:-translate-y-2 duration-300">
+<div class="relative aspect-square rounded-2xl overflow-hidden mb-6 bg-[#eef1f3]">
+<img class="w-full h-full object-cover mix-blend-multiply opacity-90" data-alt="Luminous Eye Cream small luxury pot" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWv9BpKfHmBq5h1HmLbXPVvmNVB8nHhTa49CLQOLm1GAOaTJFwIo-dx4PMTB_E4v1iFAJdWMkpyQwpmLULpaKSSl5Yn5QsVxPolmrvM7K6-WTsD8eBtDnerlmqzxhP6Kr_7lxANPp8LgEZsaY6JWVeA1LsWkOeUXvF7Q-Vx81BUF04hwROoTNPuAwAjlqrfJ8am4iQJ40HkKhOtPrXPapJq4A5bjjfwL7gAuirw8uegIJbwUYyuglidJhk0HQ8-5vQQAmo25Kyi9bt"/>
+<div class="absolute top-3 right-3">
+<button class="w-10 h-10 clay-button rounded-full flex items-center justify-center bg-white/80 backdrop-blur">
+<span class="material-symbols-outlined text-slate-400 group-hover:text-primary transition-colors">favorite</span>
+</button>
+</div>
+</div>
+<div class="px-2">
+<div class="flex justify-between items-start mb-2">
+<div>
+<h3 class="font-bold text-slate-800 text-lg">Luminous Eye Repair</h3>
+<p class="text-xs font-bold text-primary uppercase tracking-widest">Fine Line Repair</p>
+</div>
+<span class="font-black text-slate-900">$58</span>
+</div>
+<p class="text-sm text-slate-500 mb-6 line-clamp-2">Targeted treatment for dark circles and fine lines using silk proteins.</p>
+<button class="w-full clay-button py-3 rounded-xl font-bold text-sm bg-slate-900 text-white flex items-center justify-center gap-2">
+                        Add to bag
+                    </button>
+</div>
+</div>
+<!-- Card 5 -->
+<div class="clay-card p-4 group transition-transform hover:-translate-y-2 duration-300">
+<div class="relative aspect-square rounded-2xl overflow-hidden mb-6 bg-[#f5f1ef]">
+<img class="w-full h-full object-cover mix-blend-multiply" data-alt="Ritual Mist bottle with spray nozzle" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2no3j6vDkVZgzPBZrIAcrLDqFbciQl0mXVkl5Le3LkxJJ6gV1_0hj--NsYLJEuPPBmvcDG_LfL_X8UrUvrn0wjv91CVREd_tYzYhO6eHAbE2BOw0t6O22Hr3ezgI38Ik8COEOc_KUxKcRzNoNotQBlX5623tTCFE6huxWzX1yjfoSx6JFVjZRAQlRtEo_eQ4FR2dIE2dmUJ_TEvp2SHbEPlhtAP0JpJVs8Pk2pmmFnLf1tIoor8jqwRIF_ciHiDnQowLkOcsjaZ9k"/>
+<div class="absolute top-3 right-3">
+<button class="w-10 h-10 clay-button rounded-full flex items-center justify-center bg-white/80 backdrop-blur">
+<span class="material-symbols-outlined text-slate-400 group-hover:text-primary transition-colors">favorite</span>
+</button>
+</div>
+</div>
+<div class="px-2">
+<div class="flex justify-between items-start mb-2">
+<div>
+<h3 class="font-bold text-slate-800 text-lg">Zen Ritual Mist</h3>
+<p class="text-xs font-bold text-primary uppercase tracking-widest">Hydrating Toner</p>
+</div>
+<span class="font-black text-slate-900">$34</span>
+</div>
+<p class="text-sm text-slate-500 mb-6 line-clamp-2">Infused with green tea and cherry blossom for instant refreshment.</p>
+<button class="w-full clay-button py-3 rounded-xl font-bold text-sm bg-slate-900 text-white flex items-center justify-center gap-2">
+                        Add to bag
+                    </button>
+</div>
+</div>
+<!-- Card 6 -->
+<div class="clay-card p-4 group transition-transform hover:-translate-y-2 duration-300">
+<div class="relative aspect-square rounded-2xl overflow-hidden mb-6 bg-[#f1f3f4]">
+<img class="w-full h-full object-cover mix-blend-multiply opacity-80" data-alt="Clay Mask in a textured jar" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWv3V8C9oNQL6ooTgHao6a1iBZ_5-jjmwcMjPvTv201yaeRD__qboTO98qsFxOhRMTFKVWy0dmXFdVYN3xBsn7D6tIhPlvuCyKfrySjnXG_Phx14gmHtlfMQ-c0remF-jxO_H67CgRL1fXNHmRWpQUDxI4QrwenOFnXcKMw3gR408Vn6oNxIRFvPkKJcUlk8lIv6Mh9Gdh9Qr4Ru1ZU-hn7XERle7P2esyuHJllq03soGHBF0n9urvaisF4jU6FKf4VELicU-62K5j"/>
+<div class="absolute top-3 right-3">
+<button class="w-10 h-10 clay-button rounded-full flex items-center justify-center bg-white/80 backdrop-blur">
+<span class="material-symbols-outlined text-slate-400 group-hover:text-primary transition-colors">favorite</span>
+</button>
+</div>
+</div>
+<div class="px-2">
+<div class="flex justify-between items-start mb-2">
+<div>
+<h3 class="font-bold text-slate-800 text-lg">Volcanic Clay Mask</h3>
+<p class="text-xs font-bold text-primary uppercase tracking-widest">Detox Ritual</p>
+</div>
+<span class="font-black text-slate-900">$48</span>
+</div>
+<p class="text-sm text-slate-500 mb-6 line-clamp-2">Rare volcanic clay from Kyushu that extracts impurities without drying.</p>
+<button class="w-full clay-button py-3 rounded-xl font-bold text-sm bg-slate-900 text-white flex items-center justify-center gap-2">
+                        Add to bag
+                    </button>
+</div>
+</div>
+<!-- Card 7 -->
+<div class="clay-card p-4 group transition-transform hover:-translate-y-2 duration-300">
+<div class="relative aspect-square rounded-2xl overflow-hidden mb-6 bg-[#f8f5f2]">
+<img class="w-full h-full object-cover mix-blend-multiply opacity-90" data-alt="Night Recovery Oil in dark glass dropper" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBhMpgZ46B-gAx9rtOX1ThtoiUUtRsthdGmnanZkMda_xW10Xgop9atoYPVfb76yBxwulFKlUe1yXqJpYDhdIG7OXOWZpi-U7EAlbY2cadyX4w8fB3HfGUsjSKovWmeUyJM8glcWgVYAq5rVxaAc6li2zucZ6S4A1_OVGK2CQLNQRIeiN1X9vwALfKlPCGudPbCd0CS0LaYjai_NLWQulKxRQacJ71KiYK16-qlgxGxMtWsi49U2-K7RNj07tEtpiQamIeQZbl3h6pO"/>
+<div class="absolute top-3 right-3">
+<button class="w-10 h-10 clay-button rounded-full flex items-center justify-center bg-white/80 backdrop-blur">
+<span class="material-symbols-outlined text-slate-400 group-hover:text-primary transition-colors">favorite</span>
+</button>
+</div>
+</div>
+<div class="px-2">
+<div class="flex justify-between items-start mb-2">
+<div>
+<h3 class="font-bold text-slate-800 text-lg">Night Recovery Oil</h3>
+<p class="text-xs font-bold text-primary uppercase tracking-widest">Overnight Repair</p>
+</div>
+<span class="font-black text-slate-900">$92</span>
+</div>
+<p class="text-sm text-slate-500 mb-6 line-clamp-2">A potent blend of 12 botanical oils to restore skin elasticity while you sleep.</p>
+<button class="w-full clay-button py-3 rounded-xl font-bold text-sm bg-slate-900 text-white flex items-center justify-center gap-2">
+                        Add to bag
+                    </button>
+</div>
+</div>
+<!-- Card 8 -->
+<div class="clay-card p-4 group transition-transform hover:-translate-y-2 duration-300">
+<div class="relative aspect-square rounded-2xl overflow-hidden mb-6 bg-[#f3f0ee]">
+<img class="w-full h-full object-cover mix-blend-multiply" data-alt="Silk Exfoliant powder container" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBi4pvDOcxd4RVXBFZr4taxcn21UNXeng-JVuffkapIrEyix-W61i9Pdg7ixR-lvHHYRJbm-9xzJf5N2lDzJ4Bh4dVL7CYFGrohAW2CWWoAKj4tCHL73irSJeNwvGgvLchnYAd-6dXC92i9-BHRDOrhfeisoJJtrU3xiZ72RXE--5rRAI063LQeHg1m1M4214-IWILw31dBPeCO8Lro-b_NIZSc4t7fbdJLKDUgxalQud8p9nlpK3YYQJ2Gq7VbAttlRMzwzvoHvETA"/>
+<div class="absolute top-3 right-3">
+<button class="w-10 h-10 clay-button rounded-full flex items-center justify-center bg-white/80 backdrop-blur">
+<span class="material-symbols-outlined text-slate-400 group-hover:text-primary transition-colors">favorite</span>
+</button>
+</div>
+</div>
+<div class="px-2">
+<div class="flex justify-between items-start mb-2">
+<div>
+<h3 class="font-bold text-slate-800 text-lg">Silk Enzyme Peel</h3>
+<p class="text-xs font-bold text-primary uppercase tracking-widest">Gentle Exfoliant</p>
+</div>
+<span class="font-black text-slate-900">$54</span>
+</div>
+<p class="text-sm text-slate-500 mb-6 line-clamp-2">Micro-fine silk powder and rice enzymes for a polished, smooth complexion.</p>
+<button class="w-full clay-button py-3 rounded-xl font-bold text-sm bg-slate-900 text-white flex items-center justify-center gap-2">
+                        Add to bag
+                    </button>
+</div>
+</div>
+</div>
+<!-- Pagination -->
+<div class="mt-20 flex justify-center items-center gap-4">
+<button class="w-12 h-12 clay-button rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined">chevron_left</span>
+</button>
+<div class="flex gap-2">
+<button class="w-12 h-12 clay-button rounded-full font-bold bg-primary text-white">1</button>
+<button class="w-12 h-12 clay-button rounded-full font-bold text-slate-600">2</button>
+<button class="w-12 h-12 clay-button rounded-full font-bold text-slate-600">3</button>
+</div>
+<button class="w-12 h-12 clay-button rounded-full flex items-center justify-center">
+<span class="material-symbols-outlined">chevron_right</span>
+</button>
+</div>
+</main>
+<!-- Footer -->
+<footer class="mt-20 bg-midnight text-white py-16 px-6 lg:px-20">
+<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+<div class="space-y-6">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-3xl">auto_awesome</span>
+<h2 class="text-2xl font-black tracking-tighter">HIKARI</h2>
+</div>
+<p class="text-slate-400 text-sm leading-relaxed">
+                    Crafting timeless beauty through the wisdom of nature and Japanese craftsmanship. Discover your inner glow.
+                </p>
+<div class="flex gap-4">
+<a class="w-8 h-8 rounded-full border border-slate-700 flex items-center justify-center hover:border-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-lg">public</span>
+</a>
+<a class="w-8 h-8 rounded-full border border-slate-700 flex items-center justify-center hover:border-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-lg">alternate_email</span>
+</a>
+</div>
+</div>
+<div>
+<h4 class="font-bold mb-6">Shop</h4>
+<ul class="space-y-4 text-sm text-slate-400">
+<li><a class="hover:text-primary" href="#">Best Sellers</a></li>
+<li><a class="hover:text-primary" href="#">New Arrivals</a></li>
+<li><a class="hover:text-primary" href="#">Skincare Sets</a></li>
+<li><a class="hover:text-primary" href="#">Gift Cards</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold mb-6">About</h4>
+<ul class="space-y-4 text-sm text-slate-400">
+<li><a class="hover:text-primary" href="#">Our Story</a></li>
+<li><a class="hover:text-primary" href="#">Ingredients</a></li>
+<li><a class="hover:text-primary" href="#">Sustainability</a></li>
+<li><a class="hover:text-primary" href="#">Store Locator</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold mb-6">Newsletter</h4>
+<p class="text-sm text-slate-400 mb-4">Join our ritual and receive 15% off your first order.</p>
+<form class="space-y-3">
+<input class="w-full bg-slate-800 border-none rounded-xl py-3 px-4 text-sm focus:ring-1 focus:ring-primary" placeholder="Email address" type="email"/>
+<button class="w-full bg-primary hover:bg-primary/90 text-white font-bold py-3 rounded-xl text-sm transition-colors">Subscribe</button>
+</form>
+</div>
+</div>
+<div class="max-w-7xl mx-auto mt-16 pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-slate-500 uppercase tracking-widest">
+<p>© 2024 HIKARI SKINCARE. ALL RIGHTS RESERVED.</p>
+<div class="flex gap-8">
+<a href="#">Privacy Policy</a>
+<a href="#">Terms of Service</a>
+</div>
+</div>
+</footer>
+</div>
+</body></html>

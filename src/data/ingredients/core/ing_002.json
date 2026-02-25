@@ -1,0 +1,55 @@
+{
+  "id": "ing_002",
+  "name": "Hyaluronic Acid",
+  "inciName": "Sodium Hyaluronate",
+  "category": "Humectant",
+  "origin": "Synthetic",
+  "countryOfOrigin": null,
+  "description": "A powerful moisture-binding molecule capable of holding 1000x its weight in water.",
+  "benefits": [
+    "Hydrates",
+    "Plumps skin",
+    "Reduces fine lines"
+  ],
+  "skinTypes": [
+    "All",
+    "Dry",
+    "Dehydrated"
+  ],
+  "concerns": [
+    "Dryness",
+    "Fine Lines",
+    "Dullness"
+  ],
+  "image": "https://images.unsplash.com/photo-1629198688000-71f23e745b6e?q=80&w=600&auto=format&fit=crop",
+  "irritationLevel": 1,
+  "comedogenicRating": 0,
+  "fungalAcneSafe": true,
+  "pregnancySafe": true,
+  "strengthLevel": "low",
+  "barrierImpactScore": 2,
+  "pH_range": "N/A",
+  "photosensitivityRisk": false,
+  "goalTags": [
+    "dryness",
+    "fine-lines",
+    "dullness"
+  ],
+  "layeringConflicts": [],
+  "redundancyTags": [],
+  "frequencyLimit": "daily",
+  "timeOfDay": "both",
+  "climateSuitability": [
+    "dry",
+    "temperate",
+    "humid",
+    "tropical"
+  ],
+  "scientificSummary": "Draws moisture from the environment into the upper layers of the skin.",
+  "mechanismOfAction": "Draws moisture from the environment into the upper layers of the skin.",
+  "evidenceLevel": "strong",
+  "seo": {
+    "title": "Hyaluronic Acid - Clinical Profile & Compatibility | Dew Theory",
+    "description": "Discover the scientific benefits, compatibility, and clinical profile of Hyaluronic Acid in skincare."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "ing_013",
+  "name": "Azelaic Acid",
+  "inciName": "Azelaic Acid",
+  "category": "Antioxidant",
+  "origin": "Synthetic",
+  "countryOfOrigin": null,
+  "description": "A dicarboxylic acid that targets rosacea, acne, and hyperpigmentation.",
+  "benefits": [
+    "Reduces redness",
+    "Fades dark spots",
+    "Clears pores"
+  ],
+  "skinTypes": [
+    "Sensitive",
+    "Acne-Prone",
+    "Rosacea"
+  ],
+  "concerns": [
+    "Redness",
+    "Hyperpigmentation",
+    "Acne"
+  ],
+  "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600&auto=format&fit=crop",
+  "irritationLevel": 1,
+  "comedogenicRating": 0,
+  "fungalAcneSafe": true,
+  "pregnancySafe": true,
+  "strengthLevel": "low",
+  "barrierImpactScore": 1,
+  "pH_range": "N/A",
+  "photosensitivityRisk": false,
+  "goalTags": [
+    "redness",
+    "hyperpigmentation",
+    "acne"
+  ],
+  "layeringConflicts": [],
+  "redundancyTags": [],
+  "frequencyLimit": "daily",
+  "timeOfDay": "AM",
+  "climateSuitability": [
+    "dry",
+    "temperate",
+    "humid",
+    "tropical"
+  ],
+  "scientificSummary": "Inhibits tyrosinase (pigment production) and has strong antibacterial properties against acne-causing bacteria.",
+  "mechanismOfAction": "Inhibits tyrosinase (pigment production) and has strong antibacterial properties against acne-causing bacteria.",
+  "evidenceLevel": "strong",
+  "seo": {
+    "title": "Azelaic Acid - Clinical Profile & Compatibility | Dew Theory",
+    "description": "Discover the scientific benefits, compatibility, and clinical profile of Azelaic Acid in skincare."
+  }
+}

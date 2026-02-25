@@ -1,0 +1,56 @@
+{
+  "id": "ing_001",
+  "name": "Niacinamide",
+  "inciName": "Niacinamide",
+  "category": "Antioxidant",
+  "origin": "Synthetic",
+  "countryOfOrigin": null,
+  "description": "A versatile form of vitamin B3 that supports the skin barrier.",
+  "benefits": [
+    "Brightens skin",
+    "Reduces inflammation",
+    "Strengthens barrier"
+  ],
+  "skinTypes": [
+    "All",
+    "Oily",
+    "Acne-Prone",
+    "Sensitive"
+  ],
+  "concerns": [
+    "Redness",
+    "Enlarged Pores",
+    "Hyperpigmentation"
+  ],
+  "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600&auto=format&fit=crop",
+  "irritationLevel": 1,
+  "comedogenicRating": 0,
+  "fungalAcneSafe": true,
+  "pregnancySafe": true,
+  "strengthLevel": "low",
+  "barrierImpactScore": 1,
+  "pH_range": "N/A",
+  "photosensitivityRisk": false,
+  "goalTags": [
+    "redness",
+    "enlarged-pores",
+    "hyperpigmentation"
+  ],
+  "layeringConflicts": [],
+  "redundancyTags": [],
+  "frequencyLimit": "daily",
+  "timeOfDay": "AM",
+  "climateSuitability": [
+    "dry",
+    "temperate",
+    "humid",
+    "tropical"
+  ],
+  "scientificSummary": "Boosts keratin and ceramide production, acting as a powerful anti-inflammatory and barrier-strengthening agent.",
+  "mechanismOfAction": "Boosts keratin and ceramide production, acting as a powerful anti-inflammatory and barrier-strengthening agent.",
+  "evidenceLevel": "strong",
+  "seo": {
+    "title": "Niacinamide - Clinical Profile & Compatibility | Dew Theory",
+    "description": "Discover the scientific benefits, compatibility, and clinical profile of Niacinamide in skincare."
+  }
+}

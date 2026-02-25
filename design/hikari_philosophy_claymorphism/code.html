@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#ec5b13",
+                        "background-light": "#f8f6f6",
+                        "background-dark": "#221610",
+                    },
+                    fontFamily: {
+                        "display": ["Public Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "1.5rem",
+                        "2xl": "2.5rem",
+                        "full": "9999px"
+                    },
+                    boxShadow: {
+                        'clay-light': 'inset -8px -8px 12px 0 rgba(0, 0, 0, 0.1), inset 8px 8px 12px 0 rgba(255, 255, 255, 0.8), 10px 10px 20px 0 rgba(0, 0, 0, 0.05)',
+                        'clay-dark': 'inset -8px -8px 12px 0 rgba(255, 255, 255, 0.05), inset 8px 8px 12px 0 rgba(0, 0, 0, 0.3), 12px 12px 24px 0 rgba(0, 0, 0, 0.4)',
+                        'clay-primary': 'inset -6px -6px 10px 0 rgba(0, 0, 0, 0.2), inset 6px 6px 10px 0 rgba(255, 255, 255, 0.3), 8px 8px 16px 0 rgba(236, 91, 19, 0.3)',
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .clay-card {
+            @apply bg-background-light dark:bg-[#2d1e16] rounded-2xl shadow-clay-light dark:shadow-clay-dark transition-all duration-300;
+        }
+        .clay-button {
+            @apply bg-primary text-white rounded-full shadow-clay-primary px-6 py-2 font-bold hover:opacity-90 active:scale-95 transition-all;
+        }
+        .clay-pill {
+            @apply bg-background-light/50 dark:bg-white/5 rounded-full px-4 py-1 text-sm font-medium backdrop-blur-sm border border-white/10;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 selection:bg-primary/30">
+<div class="relative min-h-screen w-full flex flex-col overflow-x-hidden">
+<header class="sticky top-0 z-50 px-6 py-4 backdrop-blur-md bg-background-light/80 dark:bg-background-dark/80 border-b border-primary/10">
+<div class="max-w-7xl mx-auto flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 bg-primary rounded-xl flex items-center justify-center shadow-clay-primary">
+<span class="material-symbols-outlined text-white">flare</span>
+</div>
+<h1 class="text-2xl font-bold tracking-tighter text-slate-900 dark:text-white">HIKARI</h1>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Heritage</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Purity</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Science</a>
+</nav>
+<div class="flex items-center gap-4">
+<button class="w-10 h-10 clay-card flex items-center justify-center">
+<span class="material-symbols-outlined text-sm">shopping_bag</span>
+</button>
+<button class="clay-button hidden sm:block">Explore Rituals</button>
+<div class="w-10 h-10 rounded-full border-2 border-primary/20 overflow-hidden">
+<img class="w-full h-full object-cover" data-alt="User profile avatar portrait" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZ37xOlZKJYK4_T_mj2x6lSmK80O0GRjRndP34Oyw1iT8QQD78eaovmY1VO_p37V8UlpQohELRmDKi3lFienaTkaw4nsjbZuHmic4HWu-ylwNN5oHLuwljD5CbhpLVmJYipm-j3seuuQcoHSYUSpPhx9TXDavNx75eRCku4SrFsCQ4e53l-mjpt76014ikkYBWWheunACaB7Ip5iqhWd2n2zhwm_QW3cJUUe4S1w260DPUOv0DNOtcyH3DVW-ZzcNLlqH5gvUxPXvM"/>
+</div>
+</div>
+</div>
+</header>
+<main class="flex-1 w-full max-w-7xl mx-auto px-6 py-12 space-y-24">
+<section class="grid lg:grid-cols-2 gap-12 items-center">
+<div class="space-y-6">
+<div class="clay-pill inline-block text-primary">Est. 1924 • Kyoto, Japan</div>
+<h2 class="text-5xl lg:text-7xl font-bold leading-tight tracking-tight">
+                        The Art of <span class="text-primary">Luminous</span> Skin
+                    </h2>
+<p class="text-lg text-slate-600 dark:text-slate-400 max-w-xl leading-relaxed">
+                        HIKARI, meaning 'Light' in Japanese, represents our century-long quest to capture the radiance of purity. We blend ancestral botanical secrets with precision molecular science.
+                    </p>
+<div class="flex gap-4">
+<button class="clay-button h-14 px-8 text-lg">Our Story</button>
+<button class="clay-card h-14 px-8 font-bold flex items-center gap-2">
+                            Watch Film <span class="material-symbols-outlined">play_circle</span>
+</button>
+</div>
+</div>
+<div class="relative group">
+<div class="absolute -inset-4 bg-primary/20 blur-3xl rounded-full opacity-50"></div>
+<div class="clay-card aspect-square overflow-hidden p-6 relative z-10">
+<img class="w-full h-full object-cover rounded-xl shadow-inner" data-alt="Minimalist Japanese skincare bottles on stone" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2RXDPXQiGxmImlnfwH3lyF8g9O-V3Xw_XubPiiQWBEKRciPa33WB6Wi8cK21jnE8rJdQ0VTJbDnZuBmKT5oRtpNyXxWh69wHLMOaJuikEodWsik0ai2Pm8XMzQN4MqjfRgfxBr03BecGH4c_r6jQ7yYx6LtfFB5q2gdRfYYF6hlHoe6lTqbzqMAXyD9Z_Mv5KebiZDoqjr56od4BV1UsoANgl34EAlxr0A1zVbMcnXzLrOUrS2pPeFwOvLBQQDHo02bsjTaTGqjNE"/>
+</div>
+</div>
+</section>
+<section class="grid md:grid-cols-3 gap-8">
+<div class="clay-card p-8 space-y-4 hover:-translate-y-2">
+<div class="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-primary text-3xl">history_edu</span>
+</div>
+<h3 class="text-2xl font-bold">Ancient Heritage</h3>
+<p class="text-slate-600 dark:text-slate-400">Time-honored extraction methods passed down through generations of artisans in the heart of Kyoto.</p>
+</div>
+<div class="clay-card p-8 space-y-4 hover:-translate-y-2">
+<div class="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-primary text-3xl">water_drop</span>
+</div>
+<h3 class="text-2xl font-bold">Absolute Purity</h3>
+<p class="text-slate-600 dark:text-slate-400">Every drop is triple-filtered and sourced from volcanic springs, ensuring zero synthetic additives.</p>
+</div>
+<div class="clay-card p-8 space-y-4 hover:-translate-y-2">
+<div class="w-14 h-14 bg-primary/10 rounded-2xl flex items-center justify-center mb-6">
+<span class="material-symbols-outlined text-primary text-3xl">biotech</span>
+</div>
+<h3 class="text-2xl font-bold">Proven Science</h3>
+<p class="text-slate-600 dark:text-slate-400">Clinical-grade results powered by our proprietary Hikari-Glow™ complex and bioactive ferments.</p>
+</div>
+</section>
+<section class="clay-card overflow-hidden">
+<div class="grid lg:grid-cols-2">
+<div class="p-12 lg:p-20 space-y-8 flex flex-col justify-center">
+<h2 class="text-4xl font-bold">Our Philosophy: <br/><span class="text-primary italic">The Golden Ratio of Glow</span></h2>
+<div class="space-y-6">
+<div class="flex items-start gap-4">
+<span class="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center shrink-0 shadow-clay-primary font-bold">1</span>
+<div>
+<h4 class="font-bold text-xl">Sourcing</h4>
+<p class="text-slate-600 dark:text-slate-400">Wild-harvested ingredients from the foothills of Mount Fuji.</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center shrink-0 shadow-clay-primary font-bold">2</span>
+<div>
+<h4 class="font-bold text-xl">Refinement</h4>
+<p class="text-slate-600 dark:text-slate-400">Cold-press fermentation preserves the integrity of delicate enzymes.</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center shrink-0 shadow-clay-primary font-bold">3</span>
+<div>
+<h4 class="font-bold text-xl">Activation</h4>
+<p class="text-slate-600 dark:text-slate-400">Nano-delivery systems ensure deep dermal penetration.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-primary/5 min-h-[400px] relative">
+<img class="absolute inset-0 w-full h-full object-cover mix-blend-overlay opacity-80" data-alt="Macro photography of golden oil droplets in water" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDFZsusC0QoT92Fyb0lSMrdLYrLXFJq-dRO_s8Cd7z3RZ9nGx9STcZcZ1Agm9-qwfVmGUlV8Bnet8Nwjmd9S2VcmC_TvAI3UHOsSAYytYBnpgZNrRRZKTMtc4E2fbNjIDotPsG2ajFzCwMxLGYtKU7OODRmlTX8b2UPMHZlFDl260yklKvRwALJ4yel_qedSkhjAK6ZN_tvPWp7tR61W1MdDJt6hWeLC71YvB4a6dvao51LvkWRXQUyLsVssnvEBl8GkUjbaGV9Pm_q"/>
+<div class="absolute inset-0 flex items-center justify-center">
+<div class="w-48 h-48 bg-white/10 backdrop-blur-xl rounded-full border border-white/20 shadow-clay-light dark:shadow-clay-dark flex items-center justify-center text-center p-6">
+<p class="text-sm font-bold tracking-widest uppercase text-white">The Science of Light</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="space-y-12 pb-20">
+<div class="text-center space-y-4">
+<h2 class="text-4xl font-bold">Crafted for Clarity</h2>
+<p class="text-slate-600 dark:text-slate-400 max-w-2xl mx-auto">Experience the transformation. Our clinical trials show a 94% increase in moisture retention and a visible reduction in fine lines within 14 days.</p>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+<div class="clay-card aspect-[3/4] overflow-hidden group">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Close up of face serum being applied" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBNMwFx-4Lp5Qu6WsI_Mt-XQIvJeeDz3w9WtyAxgs4vXAyaZVPjuTC_qAzPufA785FOIwdQ9QNG1DIUWPL_e6ri4d7DWu18N3eD4AG3_QmChxIfSP6u3CoodRLex2hq4CeOSJ5XhhFRwsOhABVlQGoF5Pwj0WvpUJYIGqqnBrvHxEgqcqcDCipGku9y_eqB3n-qy02nXQdyrlqgLuQptyV-c7BzgC5vRX5SpaFibWRC_j6iY14otEPT7WJZGEymf5bpUe_fdvRG80V6"/>
+</div>
+<div class="clay-card aspect-[3/4] overflow-hidden group mt-8">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Fresh botanical ingredients in a ceramic bowl" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBosxo0p-GhldJMEKzUYbZ8DDZ_5gCpKC2scDJnhM01BG3P-brAro9qTKYwEe_CfPEZV4b4FJ855S9cj8DLGsSS-7ajvHCjqHG0Dt6D-5nsIXB8efw8uCNZ7Im95eUg1REnmFcnFY5yJWtnvzldzJ6AeTHFU0GyNVjEWeEp4TPt-ZjtzoY3avbE6NY8nUyNjr5ga5IemkX8D6eaZ347MWijSITIqVTx7vIcDW5GQ_ABEL8JPwpOeg6kMmHYXsgy9ofrjgj5cmN0MRxf"/>
+</div>
+<div class="clay-card aspect-[3/4] overflow-hidden group">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Skin texture macro shot showing hydration" src="https://lh3.googleusercontent.com/aida-public/AB6AXuByQ2YAhyIWmRvqBbJfFC7gy8t7faTkW_klTxJDKU1UEeXdJ7VTuqwGWy6GKxVuDGm4VAyFQjkekX5qr7N0a0I4RVUJ_f3dzjjbQkqOmaqXPsBwFGBdtk6qvPLCa4E-YMDWc6kVhKPJP9XICn7jyoMqlTmOzlMNfB1XEYghOXayJ_Y0gGRcbHxozuxeKU54l02btUrWlyKBf1aKJSxSH4JloPgVfsZj4RXoNo_HN9cCQc_LpWUXfqrmahdxbwKovLBkXIYNo8WCXCF8"/>
+</div>
+<div class="clay-card aspect-[3/4] overflow-hidden group mt-8">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Elegant cosmetic jars on a marble surface" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCi6_lJJ9iD9KslB2Vcp3OC2UAEi0TPts3KN3bXNEYUgVRVB_ExRQORzuvvjPCqK5xNYCwjcsaZVcvzDVNeSl8rG-3LRLfpTaSxCaUNoVqMhJIWSZUAJNllWIjEudHpW5g9Z40sY9FrDP0E0jAe-uwkg27QkXmpH4FjxwPVbOSYjiYNpr9kzQ8WIKsuCJOUlLSHV7KggI2AbKy3cE-jrTuPcmIE8niPRUVq-7ZVtV21yVHGQn-4pd_rqjZtrXb07PELGj8C9jumTf89"/>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-background-light dark:bg-[#1a110c] border-t border-primary/10 pt-20 pb-10 px-6">
+<div class="max-w-7xl mx-auto">
+<div class="grid md:grid-cols-4 gap-12 mb-20">
+<div class="col-span-2 space-y-6">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 bg-primary rounded-lg flex items-center justify-center shadow-clay-primary">
+<span class="material-symbols-outlined text-white text-sm">flare</span>
+</div>
+<h2 class="text-xl font-bold tracking-tighter">HIKARI</h2>
+</div>
+<p class="text-slate-600 dark:text-slate-400 max-w-sm">Join the circle of light. Receive exclusive access to new rituals, scientific breakthroughs, and member-only events.</p>
+<form class="flex gap-2 max-w-md">
+<input class="flex-1 bg-white/5 border border-primary/20 rounded-full px-6 focus:ring-primary focus:border-primary" placeholder="Enter your email" type="email"/>
+<button class="clay-button">Join</button>
+</form>
+</div>
+<div class="space-y-4">
+<h4 class="font-bold">Explore</h4>
+<ul class="space-y-2 text-slate-600 dark:text-slate-400">
+<li><a class="hover:text-primary" href="#">Our Story</a></li>
+<li><a class="hover:text-primary" href="#">Sustainability</a></li>
+<li><a class="hover:text-primary" href="#">Press</a></li>
+<li><a class="hover:text-primary" href="#">Careers</a></li>
+</ul>
+</div>
+<div class="space-y-4">
+<h4 class="font-bold">Support</h4>
+<ul class="space-y-2 text-slate-600 dark:text-slate-400">
+<li><a class="hover:text-primary" href="#">Contact Us</a></li>
+<li><a class="hover:text-primary" href="#">Shipping</a></li>
+<li><a class="hover:text-primary" href="#">Returns</a></li>
+<li><a class="hover:text-primary" href="#">Store Locator</a></li>
+</ul>
+</div>
+</div>
+<div class="flex flex-col md:row-reverse md:flex-row justify-between items-center pt-10 border-t border-primary/5 text-sm text-slate-500">
+<div class="flex gap-6 mb-4 md:mb-0">
+<a class="hover:text-primary" href="#">Instagram</a>
+<a class="hover:text-primary" href="#">LinkedIn</a>
+<a class="hover:text-primary" href="#">Pinterest</a>
+</div>
+<p>© 2024 HIKARI LABS. All rights reserved. Designed for Radiance.</p>
+</div>
+</div>
+</footer>
+</div>
+</body></html>

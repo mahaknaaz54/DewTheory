@@ -1,0 +1,55 @@
+{
+  "id": "ing_009",
+  "name": "Lactic Acid",
+  "inciName": "Lactic Acid",
+  "category": "Exfoliant",
+  "origin": "Synthetic",
+  "countryOfOrigin": null,
+  "description": "A gentle AHA that acts as both an exfoliant and a humectant.",
+  "benefits": [
+    "Gentle exfoliation",
+    "Hydrates",
+    "Fades dark spots"
+  ],
+  "skinTypes": [
+    "Dry",
+    "Sensitive",
+    "Combination"
+  ],
+  "concerns": [
+    "Texture",
+    "Dullness",
+    "Dryness"
+  ],
+  "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600&auto=format&fit=crop",
+  "irritationLevel": 3,
+  "comedogenicRating": 0,
+  "fungalAcneSafe": true,
+  "pregnancySafe": true,
+  "strengthLevel": "medium",
+  "barrierImpactScore": -1,
+  "pH_range": "N/A",
+  "photosensitivityRisk": false,
+  "goalTags": [
+    "texture",
+    "dullness",
+    "dryness"
+  ],
+  "layeringConflicts": [],
+  "redundancyTags": [],
+  "frequencyLimit": "3x_week",
+  "timeOfDay": "PM",
+  "climateSuitability": [
+    "dry",
+    "temperate",
+    "humid",
+    "tropical"
+  ],
+  "scientificSummary": "Loosens dead skin cells while pulling moisture directly into the newly exposed skin layers.",
+  "mechanismOfAction": "Loosens dead skin cells while pulling moisture directly into the newly exposed skin layers.",
+  "evidenceLevel": "strong",
+  "seo": {
+    "title": "Lactic Acid - Clinical Profile & Compatibility | Dew Theory",
+    "description": "Discover the scientific benefits, compatibility, and clinical profile of Lactic Acid in skincare."
+  }
+}

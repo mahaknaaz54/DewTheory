@@ -1,0 +1,54 @@
+{
+  "id": "ing_019",
+  "name": "Bakuchiol",
+  "inciName": "Bakuchiol",
+  "category": "Botanical",
+  "origin": "Natural",
+  "countryOfOrigin": "India",
+  "description": "A natural, plant-based alternative to retinol that offers similar benefits without the irritation.",
+  "benefits": [
+    "Firms skin",
+    "Reduces wrinkles",
+    "Treats acne"
+  ],
+  "skinTypes": [
+    "Sensitive",
+    "All"
+  ],
+  "concerns": [
+    "Aging",
+    "Acne",
+    "Sensitivity"
+  ],
+  "image": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?q=80&w=600&auto=format&fit=crop",
+  "irritationLevel": 1,
+  "comedogenicRating": 1,
+  "fungalAcneSafe": true,
+  "pregnancySafe": true,
+  "strengthLevel": "low",
+  "barrierImpactScore": 1,
+  "pH_range": "N/A",
+  "photosensitivityRisk": false,
+  "goalTags": [
+    "aging",
+    "acne",
+    "sensitivity"
+  ],
+  "layeringConflicts": [],
+  "redundancyTags": [],
+  "frequencyLimit": "daily",
+  "timeOfDay": "both",
+  "climateSuitability": [
+    "dry",
+    "temperate",
+    "humid",
+    "tropical"
+  ],
+  "scientificSummary": "Activates the same receptors as retinol to stimulate collagen production and speed cell turnover.",
+  "mechanismOfAction": "Activates the same receptors as retinol to stimulate collagen production and speed cell turnover.",
+  "evidenceLevel": "strong",
+  "seo": {
+    "title": "Bakuchiol - Clinical Profile & Compatibility | Dew Theory",
+    "description": "Discover the scientific benefits, compatibility, and clinical profile of Bakuchiol in skincare."
+  }
+}

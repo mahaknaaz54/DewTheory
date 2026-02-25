@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#ec5b13",
+                        "background-light": "#f8f6f6",
+                        "background-dark": "#221610",
+                    },
+                    fontFamily: {
+                        "display": ["Public Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                    boxShadow: {
+                        'clay-light': '8px 8px 16px rgba(0,0,0,0.05), inset -8px -8px 12px rgba(0,0,0,0.05), inset 8px 8px 12px rgba(255,255,255,0.8)',
+                        'clay-primary': '8px 8px 16px rgba(236,91,19,0.2), inset -8px -8px 12px rgba(0,0,0,0.1), inset 8px 8px 12px rgba(255,255,255,0.3)',
+                        'clay-inner': 'inset 4px 4px 8px rgba(0,0,0,0.05), inset -4px -4px 8px rgba(255,255,255,0.7)',
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .clay-card {
+            background: #f8f6f6;
+            box-shadow: 12px 12px 24px #e0dede, -12px -12px 24px #ffffff, inset 4px 4px 8px rgba(255,255,255,0.5), inset -4px -4px 8px rgba(0,0,0,0.02);
+            border-radius: 2rem;
+        }
+        .dark .clay-card {
+            background: #2a1d16;
+            box-shadow: 12px 12px 24px #1a110c, -12px -12px 24px #36251c, inset 4px 4px 8px rgba(255,255,255,0.05), inset -4px -4px 8px rgba(0,0,0,0.2);
+        }
+        .clay-button {
+            transition: all 0.2s ease;
+            box-shadow: 8px 8px 16px rgba(0,0,0,0.05), inset -6px -6px 10px rgba(0,0,0,0.05), inset 6px 6px 10px rgba(255,255,255,0.8);
+        }
+        .clay-button:active {
+            box-shadow: inset 6px 6px 12px rgba(0,0,0,0.08), inset -6px -6px 12px rgba(255,255,255,0.5);
+            transform: scale(0.98);
+        }
+        .clay-progress-track {
+            box-shadow: inset 4px 4px 8px rgba(0,0,0,0.05), inset -4px -4px 8px rgba(255,255,255,0.7);
+        }
+        .clay-progress-bar {
+            box-shadow: 2px 0px 6px rgba(236,91,19,0.3), inset 0px 2px 4px rgba(255,255,255,0.4);
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-slate-900 dark:text-slate-100 min-h-screen">
+<div class="max-w-xl mx-auto px-6 py-8 md:py-12">
+<!-- Header -->
+<header class="flex items-center justify-between mb-10">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 bg-primary rounded-xl flex items-center justify-center text-white shadow-lg">
+<span class="material-symbols-outlined">water_drop</span>
+</div>
+<h2 class="text-2xl font-bold tracking-tight text-slate-900 dark:text-slate-100">HIKARI</h2>
+</div>
+<button class="w-10 h-10 rounded-full flex items-center justify-center bg-slate-200/50 dark:bg-slate-800/50 hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors">
+<span class="material-symbols-outlined text-slate-600 dark:text-slate-400">close</span>
+</button>
+</header>
+<!-- Progress Section -->
+<div class="mb-12">
+<div class="flex justify-between items-end mb-4">
+<div>
+<span class="text-primary font-bold text-sm uppercase tracking-widest">Step 02</span>
+<h1 class="text-3xl font-extrabold mt-1">Skin Profile</h1>
+</div>
+<span class="text-slate-400 font-medium">40% Complete</span>
+</div>
+<div class="h-4 w-full bg-slate-200/50 dark:bg-slate-800/50 rounded-full clay-progress-track p-1 overflow-hidden">
+<div class="h-full bg-primary rounded-full clay-progress-bar" style="width: 40%;"></div>
+</div>
+</div>
+<!-- Question Section -->
+<div class="mb-8">
+<h2 class="text-xl md:text-2xl font-semibold mb-8 text-center px-4">What is your primary skin concern today?</h2>
+<div class="grid gap-5">
+<!-- Option 1 -->
+<label class="group cursor-pointer">
+<input class="hidden peer" name="concern" type="radio"/>
+<div class="clay-card p-6 flex items-center justify-between transition-all border-2 border-transparent peer-checked:border-primary/30 peer-checked:bg-primary/5">
+<div class="flex items-center gap-5">
+<div class="w-14 h-14 rounded-2xl bg-white dark:bg-slate-800 flex items-center justify-center shadow-inner">
+<span class="material-symbols-outlined text-primary text-3xl">opacity</span>
+</div>
+<div>
+<h3 class="font-bold text-lg">Dryness &amp; Dehydration</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm">Tightness, flaking or rough patches</p>
+</div>
+</div>
+<div class="w-6 h-6 rounded-full border-2 border-slate-300 dark:border-slate-600 flex items-center justify-center peer-checked:group-[]:border-primary peer-checked:group-[]:bg-primary transition-all">
+<div class="w-2.5 h-2.5 bg-white rounded-full opacity-0 peer-checked:group-[]:opacity-100 transition-opacity"></div>
+</div>
+</div>
+</label>
+<!-- Option 2 -->
+<label class="group cursor-pointer">
+<input checked="" class="hidden peer" name="concern" type="radio"/>
+<div class="clay-card p-6 flex items-center justify-between transition-all border-2 border-transparent peer-checked:border-primary/30 peer-checked:bg-primary/5">
+<div class="flex items-center gap-5">
+<div class="w-14 h-14 rounded-2xl bg-white dark:bg-slate-800 flex items-center justify-center shadow-inner">
+<span class="material-symbols-outlined text-primary text-3xl">auto_fix_high</span>
+</div>
+<div>
+<h3 class="font-bold text-lg">Fine Lines &amp; Wrinkles</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm">Visible signs of aging and expression</p>
+</div>
+</div>
+<div class="w-6 h-6 rounded-full border-2 border-slate-300 dark:border-slate-600 flex items-center justify-center peer-checked:group-[]:border-primary peer-checked:group-[]:bg-primary transition-all">
+<div class="w-2.5 h-2.5 bg-white rounded-full opacity-0 peer-checked:group-[]:opacity-100 transition-opacity"></div>
+</div>
+</div>
+</label>
+<!-- Option 3 -->
+<label class="group cursor-pointer">
+<input class="hidden peer" name="concern" type="radio"/>
+<div class="clay-card p-6 flex items-center justify-between transition-all border-2 border-transparent peer-checked:border-primary/30 peer-checked:bg-primary/5">
+<div class="flex items-center gap-5">
+<div class="w-14 h-14 rounded-2xl bg-white dark:bg-slate-800 flex items-center justify-center shadow-inner">
+<span class="material-symbols-outlined text-primary text-3xl">emergency</span>
+</div>
+<div>
+<h3 class="font-bold text-lg">Acne &amp; Blemishes</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm">Active breakouts and congested pores</p>
+</div>
+</div>
+<div class="w-6 h-6 rounded-full border-2 border-slate-300 dark:border-slate-600 flex items-center justify-center peer-checked:group-[]:border-primary peer-checked:group-[]:bg-primary transition-all">
+<div class="w-2.5 h-2.5 bg-white rounded-full opacity-0 peer-checked:group-[]:opacity-100 transition-opacity"></div>
+</div>
+</div>
+</label>
+<!-- Option 4 -->
+<label class="group cursor-pointer">
+<input class="hidden peer" name="concern" type="radio"/>
+<div class="clay-card p-6 flex items-center justify-between transition-all border-2 border-transparent peer-checked:border-primary/30 peer-checked:bg-primary/5">
+<div class="flex items-center gap-5">
+<div class="w-14 h-14 rounded-2xl bg-white dark:bg-slate-800 flex items-center justify-center shadow-inner">
+<span class="material-symbols-outlined text-primary text-3xl">wb_sunny</span>
+</div>
+<div>
+<h3 class="font-bold text-lg">Uneven Tone</h3>
+<p class="text-slate-500 dark:text-slate-400 text-sm">Dark spots and hyperpigmentation</p>
+</div>
+</div>
+<div class="w-6 h-6 rounded-full border-2 border-slate-300 dark:border-slate-600 flex items-center justify-center peer-checked:group-[]:border-primary peer-checked:group-[]:bg-primary transition-all">
+<div class="w-2.5 h-2.5 bg-white rounded-full opacity-0 peer-checked:group-[]:opacity-100 transition-opacity"></div>
+</div>
+</div>
+</label>
+</div>
+</div>
+<!-- Navigation -->
+<div class="flex items-center gap-4 pt-6">
+<button class="flex-1 py-4 px-6 rounded-2xl font-bold bg-slate-200/50 dark:bg-slate-800/50 text-slate-600 dark:text-slate-400 clay-button">
+                Back
+            </button>
+<button class="flex-[2] py-4 px-6 rounded-2xl font-bold bg-primary text-white shadow-lg shadow-primary/30 flex items-center justify-center gap-2 clay-button">
+                Continue
+                <span class="material-symbols-outlined text-lg">arrow_forward</span>
+</button>
+</div>
+<!-- Footer Help -->
+<p class="mt-12 text-center text-slate-400 text-sm">
+            Not sure? <a class="text-primary font-semibold underline decoration-primary/30 underline-offset-4" href="#">Talk to a skin expert</a>
+</p>
+</div>
+<!-- Background Decoration -->
+<div class="fixed top-0 right-0 -z-10 w-64 h-64 bg-primary/5 rounded-full blur-3xl translate-x-1/2 -translate-y-1/2"></div>
+<div class="fixed bottom-0 left-0 -z-10 w-96 h-96 bg-primary/5 rounded-full blur-3xl -translate-x-1/2 translate-y-1/2"></div>
+</body></html>

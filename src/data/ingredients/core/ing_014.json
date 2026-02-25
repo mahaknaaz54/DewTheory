@@ -1,0 +1,54 @@
+{
+  "id": "ing_014",
+  "name": "Peptides",
+  "inciName": "Palmitoyl Pentapeptide-4",
+  "category": "Peptide",
+  "origin": "Synthetic",
+  "countryOfOrigin": null,
+  "description": "Short chains of amino acids that serve as building blocks for proteins like collagen.",
+  "benefits": [
+    "Firms skin",
+    "Smooths wrinkles",
+    "Repairs barrier"
+  ],
+  "skinTypes": [
+    "All",
+    "Mature"
+  ],
+  "concerns": [
+    "Aging",
+    "Loss of Firmness",
+    "Fine Lines"
+  ],
+  "image": "https://images.unsplash.com/photo-1629198688000-71f23e745b6e?q=80&w=600&auto=format&fit=crop",
+  "irritationLevel": 1,
+  "comedogenicRating": 0,
+  "fungalAcneSafe": true,
+  "pregnancySafe": true,
+  "strengthLevel": "medium",
+  "barrierImpactScore": 2,
+  "pH_range": "N/A",
+  "photosensitivityRisk": false,
+  "goalTags": [
+    "aging",
+    "loss-of-firmness",
+    "fine-lines"
+  ],
+  "layeringConflicts": [],
+  "redundancyTags": [],
+  "frequencyLimit": "daily",
+  "timeOfDay": "both",
+  "climateSuitability": [
+    "dry",
+    "temperate",
+    "humid",
+    "tropical"
+  ],
+  "scientificSummary": "Signaling mechanisms tell the skin to produce more collagen and elastin.",
+  "mechanismOfAction": "Signaling mechanisms tell the skin to produce more collagen and elastin.",
+  "evidenceLevel": "strong",
+  "seo": {
+    "title": "Peptides - Clinical Profile & Compatibility | Dew Theory",
+    "description": "Discover the scientific benefits, compatibility, and clinical profile of Peptides in skincare."
+  }
+}

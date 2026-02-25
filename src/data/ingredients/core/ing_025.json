@@ -1,0 +1,52 @@
+{
+  "id": "ing_025",
+  "name": "Polyglutamic Acid",
+  "inciName": "Polyglutamic Acid",
+  "category": "Humectant",
+  "origin": "Hybrid",
+  "countryOfOrigin": null,
+  "description": "A moisture-binding peptide derived from fermented soybeans that holds 4000x its weight in water.",
+  "benefits": [
+    "Intense hydration",
+    "Reduces fine lines",
+    "Locks in moisture"
+  ],
+  "skinTypes": [
+    "Dry",
+    "Dehydrated"
+  ],
+  "concerns": [
+    "Dryness",
+    "Aging"
+  ],
+  "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600&auto=format&fit=crop",
+  "irritationLevel": 1,
+  "comedogenicRating": 0,
+  "fungalAcneSafe": true,
+  "pregnancySafe": true,
+  "strengthLevel": "low",
+  "barrierImpactScore": 2,
+  "pH_range": "N/A",
+  "photosensitivityRisk": false,
+  "goalTags": [
+    "dryness",
+    "aging"
+  ],
+  "layeringConflicts": [],
+  "redundancyTags": [],
+  "frequencyLimit": "daily",
+  "timeOfDay": "both",
+  "climateSuitability": [
+    "dry",
+    "temperate",
+    "humid",
+    "tropical"
+  ],
+  "scientificSummary": "Forms a hydrogel film on the skin's surface to prevent water evaporation.",
+  "mechanismOfAction": "Forms a hydrogel film on the skin's surface to prevent water evaporation.",
+  "evidenceLevel": "strong",
+  "seo": {
+    "title": "Polyglutamic Acid - Clinical Profile & Compatibility | Dew Theory",
+    "description": "Discover the scientific benefits, compatibility, and clinical profile of Polyglutamic Acid in skincare."
+  }
+}

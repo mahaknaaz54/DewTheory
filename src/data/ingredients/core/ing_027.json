@@ -1,0 +1,54 @@
+{
+  "id": "ing_027",
+  "name": "Kojic Acid",
+  "inciName": "Kojic Acid",
+  "category": "Antioxidant",
+  "origin": "Hybrid",
+  "countryOfOrigin": null,
+  "description": "A byproduct of fermented rice wine (sake) and soy sauce production, potent for brightening.",
+  "benefits": [
+    "Lightens sun damage",
+    "Treats melasma",
+    "Fades dark spots"
+  ],
+  "skinTypes": [
+    "All",
+    "Oily"
+  ],
+  "concerns": [
+    "Hyperpigmentation",
+    "Melasma",
+    "Uneven Tone"
+  ],
+  "image": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?q=80&w=600&auto=format&fit=crop",
+  "irritationLevel": 1,
+  "comedogenicRating": 0,
+  "fungalAcneSafe": true,
+  "pregnancySafe": false,
+  "strengthLevel": "low",
+  "barrierImpactScore": 1,
+  "pH_range": "N/A",
+  "photosensitivityRisk": false,
+  "goalTags": [
+    "hyperpigmentation",
+    "melasma",
+    "uneven-tone"
+  ],
+  "layeringConflicts": [],
+  "redundancyTags": [],
+  "frequencyLimit": "daily",
+  "timeOfDay": "AM",
+  "climateSuitability": [
+    "dry",
+    "temperate",
+    "humid",
+    "tropical"
+  ],
+  "scientificSummary": "Chelates copper, inhibiting tyrosinase and halting production of visible pigment.",
+  "mechanismOfAction": "Chelates copper, inhibiting tyrosinase and halting production of visible pigment.",
+  "evidenceLevel": "strong",
+  "seo": {
+    "title": "Kojic Acid - Clinical Profile & Compatibility | Dew Theory",
+    "description": "Discover the scientific benefits, compatibility, and clinical profile of Kojic Acid in skincare."
+  }
+}

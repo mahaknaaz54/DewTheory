@@ -1,0 +1,55 @@
+{
+  "id": "ing_007",
+  "name": "Ceramides",
+  "inciName": "Ceramide NP",
+  "category": "Emollient",
+  "origin": "Synthetic",
+  "countryOfOrigin": null,
+  "description": "Lipids (fats) that are found naturally in high concentrations in the uppermost layers of skin.",
+  "benefits": [
+    "Restores barrier",
+    "Locks in moisture",
+    "Soothes irritation"
+  ],
+  "skinTypes": [
+    "All",
+    "Dry",
+    "Sensitive"
+  ],
+  "concerns": [
+    "Dryness",
+    "Redness",
+    "Barrier Damage"
+  ],
+  "image": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?q=80&w=600&auto=format&fit=crop",
+  "irritationLevel": 1,
+  "comedogenicRating": 0,
+  "fungalAcneSafe": true,
+  "pregnancySafe": true,
+  "strengthLevel": "low",
+  "barrierImpactScore": 2,
+  "pH_range": "N/A",
+  "photosensitivityRisk": false,
+  "goalTags": [
+    "dryness",
+    "redness",
+    "barrier-damage"
+  ],
+  "layeringConflicts": [],
+  "redundancyTags": [],
+  "frequencyLimit": "daily",
+  "timeOfDay": "both",
+  "climateSuitability": [
+    "dry",
+    "temperate",
+    "humid",
+    "tropical"
+  ],
+  "scientificSummary": "Acts like mortar between the bricks of your skin cells, preventing moisture loss and blocking out environmental damage.",
+  "mechanismOfAction": "Acts like mortar between the bricks of your skin cells, preventing moisture loss and blocking out environmental damage.",
+  "evidenceLevel": "strong",
+  "seo": {
+    "title": "Ceramides - Clinical Profile & Compatibility | Dew Theory",
+    "description": "Discover the scientific benefits, compatibility, and clinical profile of Ceramides in skincare."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "ing_018",
+  "name": "Beta-Glucan",
+  "inciName": "Beta-Glucan",
+  "category": "Humectant",
+  "origin": "Natural",
+  "countryOfOrigin": "Oats",
+  "description": "A polysaccharide derived from oats or mushrooms, 20% more hydrating than hyaluronic acid.",
+  "benefits": [
+    "Deeply hydrates",
+    "Soothes redness",
+    "Plumps skin"
+  ],
+  "skinTypes": [
+    "Dry",
+    "Sensitive",
+    "All"
+  ],
+  "concerns": [
+    "Dehydration",
+    "Redness",
+    "Irritation"
+  ],
+  "image": "https://images.unsplash.com/photo-1629198688000-71f23e745b6e?q=80&w=600&auto=format&fit=crop",
+  "irritationLevel": 1,
+  "comedogenicRating": 0,
+  "fungalAcneSafe": true,
+  "pregnancySafe": true,
+  "strengthLevel": "low",
+  "barrierImpactScore": 2,
+  "pH_range": "N/A",
+  "photosensitivityRisk": false,
+  "goalTags": [
+    "dehydration",
+    "redness",
+    "irritation"
+  ],
+  "layeringConflicts": [],
+  "redundancyTags": [],
+  "frequencyLimit": "daily",
+  "timeOfDay": "both",
+  "climateSuitability": [
+    "dry",
+    "temperate",
+    "humid",
+    "tropical"
+  ],
+  "scientificSummary": "Forms a thin film over the skin locking in moisture, while triggering immune cells to repair tissue.",
+  "mechanismOfAction": "Forms a thin film over the skin locking in moisture, while triggering immune cells to repair tissue.",
+  "evidenceLevel": "strong",
+  "seo": {
+    "title": "Beta-Glucan - Clinical Profile & Compatibility | Dew Theory",
+    "description": "Discover the scientific benefits, compatibility, and clinical profile of Beta-Glucan in skincare."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "id": "ing_003",
+  "name": "Salicylic Acid",
+  "inciName": "Salicylic Acid",
+  "category": "Exfoliant",
+  "origin": "Synthetic",
+  "countryOfOrigin": null,
+  "description": "A beta-hydroxy acid (BHA) that exfoliates deep within the pores.",
+  "benefits": [
+    "Unclogs pores",
+    "Reduces acne",
+    "Exfoliates"
+  ],
+  "skinTypes": [
+    "Oily",
+    "Acne-Prone",
+    "Combination"
+  ],
+  "concerns": [
+    "Acne",
+    "Blackheads",
+    "Enlarged Pores"
+  ],
+  "image": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?q=80&w=600&auto=format&fit=crop",
+  "irritationLevel": 3,
+  "comedogenicRating": 0,
+  "fungalAcneSafe": true,
+  "pregnancySafe": false,
+  "strengthLevel": "medium",
+  "barrierImpactScore": -1,
+  "pH_range": "N/A",
+  "photosensitivityRisk": false,
+  "goalTags": [
+    "acne",
+    "blackheads",
+    "enlarged-pores"
+  ],
+  "layeringConflicts": [],
+  "redundancyTags": [],
+  "frequencyLimit": "3x_week",
+  "timeOfDay": "PM",
+  "climateSuitability": [
+    "dry",
+    "temperate",
+    "humid",
+    "tropical"
+  ],
+  "scientificSummary": "Being oil-soluble, it penetrates lipid layers to dissolve sebum and dead skin cells inside pores.",
+  "mechanismOfAction": "Being oil-soluble, it penetrates lipid layers to dissolve sebum and dead skin cells inside pores.",
+  "evidenceLevel": "strong",
+  "seo": {
+    "title": "Salicylic Acid - Clinical Profile & Compatibility | Dew Theory",
+    "description": "Discover the scientific benefits, compatibility, and clinical profile of Salicylic Acid in skincare."
+  }
+}

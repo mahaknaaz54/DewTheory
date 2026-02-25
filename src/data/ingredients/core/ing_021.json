@@ -1,0 +1,55 @@
+{
+  "id": "ing_021",
+  "name": "Green Tea Extract",
+  "inciName": "Camellia Sinensis Leaf Extract",
+  "category": "Botanical",
+  "origin": "Natural",
+  "countryOfOrigin": "Japan",
+  "description": "Rich in polyphenols (EGCG), offering profound antioxidant and soothing benefits.",
+  "benefits": [
+    "Reduces sebum",
+    "Fights free radicals",
+    "Soothes inflammation"
+  ],
+  "skinTypes": [
+    "Oily",
+    "Acne-Prone",
+    "Sensitive"
+  ],
+  "concerns": [
+    "Oiliness",
+    "Redness",
+    "Aging"
+  ],
+  "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600&auto=format&fit=crop",
+  "irritationLevel": 1,
+  "comedogenicRating": 0,
+  "fungalAcneSafe": true,
+  "pregnancySafe": true,
+  "strengthLevel": "low",
+  "barrierImpactScore": 1,
+  "pH_range": "N/A",
+  "photosensitivityRisk": false,
+  "goalTags": [
+    "oiliness",
+    "redness",
+    "aging"
+  ],
+  "layeringConflicts": [],
+  "redundancyTags": [],
+  "frequencyLimit": "daily",
+  "timeOfDay": "both",
+  "climateSuitability": [
+    "dry",
+    "temperate",
+    "humid",
+    "tropical"
+  ],
+  "scientificSummary": "EGCG binds to androgen receptors, effectively reducing sebum production and oxidative damage.",
+  "mechanismOfAction": "EGCG binds to androgen receptors, effectively reducing sebum production and oxidative damage.",
+  "evidenceLevel": "strong",
+  "seo": {
+    "title": "Green Tea Extract - Clinical Profile & Compatibility | Dew Theory",
+    "description": "Discover the scientific benefits, compatibility, and clinical profile of Green Tea Extract in skincare."
+  }
+}

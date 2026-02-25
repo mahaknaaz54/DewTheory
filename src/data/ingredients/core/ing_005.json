@@ -1,0 +1,53 @@
+{
+  "id": "ing_005",
+  "name": "Vitamin C",
+  "inciName": "Ascorbic Acid",
+  "category": "Antioxidant",
+  "origin": "Synthetic",
+  "countryOfOrigin": null,
+  "description": "A highly potent antioxidant that neutralizes free radicals.",
+  "benefits": [
+    "Brightens complexion",
+    "Boosts collagen",
+    "Fades dark spots"
+  ],
+  "skinTypes": [
+    "All"
+  ],
+  "concerns": [
+    "Hyperpigmentation",
+    "Aging",
+    "Dullness"
+  ],
+  "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600&auto=format&fit=crop",
+  "irritationLevel": 1,
+  "comedogenicRating": 0,
+  "fungalAcneSafe": true,
+  "pregnancySafe": true,
+  "strengthLevel": "low",
+  "barrierImpactScore": 1,
+  "pH_range": "N/A",
+  "photosensitivityRisk": false,
+  "goalTags": [
+    "hyperpigmentation",
+    "aging",
+    "dullness"
+  ],
+  "layeringConflicts": [],
+  "redundancyTags": [],
+  "frequencyLimit": "daily",
+  "timeOfDay": "AM",
+  "climateSuitability": [
+    "dry",
+    "temperate",
+    "humid",
+    "tropical"
+  ],
+  "scientificSummary": "Inhibits melanin production and neutralizes oxidative stress from UV rays and pollution.",
+  "mechanismOfAction": "Inhibits melanin production and neutralizes oxidative stress from UV rays and pollution.",
+  "evidenceLevel": "strong",
+  "seo": {
+    "title": "Vitamin C - Clinical Profile & Compatibility | Dew Theory",
+    "description": "Discover the scientific benefits, compatibility, and clinical profile of Vitamin C in skincare."
+  }
+}

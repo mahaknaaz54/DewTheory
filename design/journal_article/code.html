@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>The Ritual of Renewal | HIKARI Journal</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#ec5b13",
+                        "background-light": "#f8f6f6",
+                        "background-dark": "#221610",
+                    },
+                    fontFamily: {
+                        "display": ["Public Sans", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        body { font-family: 'Public Sans', sans-serif; }
+        .progress-bar { transition: width 0.2s ease; }
+        .glass-nav { backdrop-filter: blur(12px); background-color: rgba(34, 22, 16, 0.85); }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 selection:bg-primary/30">
+<!-- Sticky Navigation -->
+<nav class="fixed top-0 w-full z-50 border-b border-primary/10 glass-nav">
+<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+<div class="flex items-center gap-12">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-3xl">flare</span>
+<h1 class="text-2xl font-black tracking-tighter text-slate-900 dark:text-white">HIKARI</h1>
+</div>
+<div class="hidden md:flex items-center gap-8 text-sm font-semibold tracking-wide uppercase">
+<a class="hover:text-primary transition-colors" href="#">Rituals</a>
+<a class="hover:text-primary transition-colors" href="#">Shop</a>
+<a class="text-primary underline underline-offset-8 decoration-2" href="#">Journal</a>
+<a class="hover:text-primary transition-colors" href="#">About</a>
+</div>
+</div>
+<div class="flex items-center gap-5">
+<button class="p-2 hover:bg-primary/10 rounded-full transition-colors">
+<span class="material-symbols-outlined">search</span>
+</button>
+<button class="p-2 hover:bg-primary/10 rounded-full transition-colors relative">
+<span class="material-symbols-outlined">shopping_bag</span>
+<span class="absolute top-1 right-1 w-2 h-2 bg-primary rounded-full"></span>
+</button>
+<button class="hidden lg:flex items-center gap-2 bg-primary text-white px-5 py-2.5 rounded-lg font-bold text-sm">
+                    Account
+                </button>
+</div>
+</div>
+<!-- Reading Progress Bar -->
+<div class="w-full h-1 bg-primary/20">
+<div class="h-full bg-primary progress-bar" style="width: 35%;"></div>
+</div>
+</nav>
+<main class="pt-20">
+<!-- Hero Section -->
+<section class="relative h-[85vh] w-full overflow-hidden">
+<div class="absolute inset-0 bg-black/40 z-10"></div>
+<div class="absolute inset-0 bg-cover bg-center scale-105" data-alt="Misty Japanese mountains at dawn with soft orange sunlight" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDeOVw-SgTlGdE5r9xHlEHYOaaYA9smPUdSpjy6579XmwctylgbMTVed2TTL_PjzNE3VAkBkgozgCEQ3i7xZeU3mWkTcy6k2pId0JEuecazFzZkU52AerXvhwgDpypl7wWjCHT9lSkKE2Qsxp9GPjcyvHKbognanLOv83myZdEJMwrMt0wIdjCFjmcW-y3OTafut9s4rSkUp5fpydhnmXpQs8h7iioXNTiwjaHZavnZN-xudqzQPXXs0HwynZeS7drY_3fzWohqW2Gj')">
+</div>
+<div class="relative z-20 h-full flex flex-col items-center justify-center text-center px-6">
+<span class="text-primary font-bold tracking-[0.3em] uppercase mb-6 text-sm">Philosophy • Rituals</span>
+<h2 class="text-5xl md:text-8xl font-extrabold text-white mb-8 tracking-tight max-w-4xl leading-tight">
+                    The Ritual of <br/> <span class="text-primary italic">Renewal</span>
+</h2>
+<div class="flex items-center gap-4 text-white/80 font-medium">
+<span>By Dr. Emi Nakamura</span>
+<span class="w-1 h-1 bg-primary rounded-full"></span>
+<span>8 Min Read</span>
+</div>
+</div>
+<div class="absolute bottom-10 left-1/2 -translate-x-1/2 z-20 animate-bounce">
+<span class="material-symbols-outlined text-white text-3xl">expand_more</span>
+</div>
+</section>
+<!-- Article Content -->
+<article class="max-w-3xl mx-auto px-6 py-24">
+<div class="flex items-center gap-4 mb-12 text-slate-500 dark:text-slate-400 text-sm font-semibold uppercase tracking-widest">
+<a class="hover:text-primary transition-colors" href="#">Journal</a>
+<span class="material-symbols-outlined text-xs">arrow_forward_ios</span>
+<span class="text-primary">Skincare Rituals</span>
+</div>
+<p class="text-2xl md:text-3xl font-light leading-relaxed mb-12 text-slate-700 dark:text-slate-300 italic">
+<span class="text-primary font-bold text-6xl float-left mr-4 mt-2 leading-none">I</span>n the quiet moments before the sun breaks the horizon, there exists a profound opportunity for transformation. This is the essence of "Shin-sei" — the Japanese art of renewal.
+            </p>
+<div class="prose prose-lg dark:prose-invert max-w-none text-slate-600 dark:text-slate-400 leading-loose space-y-8">
+<p>
+                    Modern life often demands constant output, leaving little space for the internal replenishment required to maintain both physical radiance and mental clarity. At HIKARI, we believe that skincare is more than a sequence of products; it is a sacred pause in the day, a physical manifestation of self-respect.
+                </p>
+<h3 class="text-3xl font-bold text-slate-900 dark:text-white mt-16 mb-6">The Foundations of Shin-sei</h3>
+<p>
+                    The ritual begins with cleansing, not merely as a hygienic necessity but as a symbolic shedding of the day's burdens. Our Zen Cleansing Oil utilizes cold-pressed Camellia Japonica seeds, an ingredient cherished by Geishas for centuries. It dissolves impurities while respecting the skin's delicate moisture barrier.
+                </p>
+</div>
+<!-- Pull Quote -->
+<div class="my-20 py-12 border-y border-primary/20 relative">
+<span class="material-symbols-outlined absolute -top-6 left-1/2 -translate-x-1/2 text-primary text-5xl bg-background-light dark:bg-background-dark px-4">format_quote</span>
+<blockquote class="text-3xl md:text-4xl font-bold text-center text-slate-900 dark:text-white leading-tight italic">
+                    "True beauty is the reflection of a spirit that has found its center amidst the chaos."
+                </blockquote>
+<cite class="block text-center mt-6 font-bold text-primary uppercase tracking-widest text-sm">— Ancient Zen Proverb</cite>
+</div>
+<!-- Shop Section Integration -->
+<section class="my-24 bg-primary/5 dark:bg-primary/10 rounded-xl p-10 border border-primary/20">
+<div class="flex flex-col md:flex-row gap-10 items-center">
+<div class="w-full md:w-1/2">
+<img class="rounded-lg shadow-2xl" data-alt="Minimalist amber glass skincare bottle on a stone pedestal" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEe2X3fcgAPQJeQcHJqOQTnGK9-4_x3L-slKVxy7SR7SOvK_tOl2gPs39L5f85sHqHY7e8hUy6u8gcxugeLfu_s_bf4WRudXYmuD6JqywpDM6OYZY4LBZCQKsVg9O7GZG2-l2CNokfv-OWvuTgVuToj0-G9eP1fjD3mMfGpWfYYRL3hJ8Nx7hZeU6P37KdvMpMEkJNL534p8i1Xv--xSdZosmoHzClATwuf7YzejFQgAgw1xkDXCuHlU2trFb2RvNplgBn7mCUtBXO"/>
+</div>
+<div class="w-full md:w-1/2 space-y-6">
+<span class="text-primary font-bold text-xs uppercase tracking-widest">Featured Essential</span>
+<h4 class="text-3xl font-bold text-slate-900 dark:text-white">Renewal Night Cream</h4>
+<p class="text-slate-600 dark:text-slate-400 leading-relaxed">
+                            Infused with Fermented Rice Water and Reishi Mushroom, this overnight treatment accelerates cellular turnover while you sleep.
+                        </p>
+<div class="flex items-center gap-4">
+<span class="text-2xl font-bold text-slate-900 dark:text-white">$82.00</span>
+<button class="bg-primary hover:bg-primary/90 text-white px-8 py-3 rounded-lg font-bold transition-all transform hover:-translate-y-1 shadow-lg shadow-primary/20">
+                                Add to Bag
+                            </button>
+</div>
+</div>
+</div>
+</section>
+<div class="prose prose-lg dark:prose-invert max-w-none text-slate-600 dark:text-slate-400 leading-loose space-y-8 mt-16">
+<h3 class="text-3xl font-bold text-slate-900 dark:text-white mb-6">Embracing the Evening</h3>
+<p>
+                    As the light fades, the skin enters its peak restorative phase. Application should be deliberate. Use the warmth of your fingertips to press—not rub—the product into the skin. This stimulates lymphatic drainage and ensures deeper penetration of the bioactive compounds.
+                </p>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8 my-12">
+<img class="rounded-lg aspect-square object-cover" data-alt="Hands applying creamy skincare product to face" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA25ZoRpDp3QUh165Kn_i0wyaeNA5yKeHQJmA4dhPfsht032SmGWm1B1qgfFZP2Cq7mUvxKM4Bxmlq7zSuZXTzhIb1ZvJWwd1gcAKUDcfHft1V3MDpFlmRqdkWsEaPptT7GwlAdgJ-vpnmesxU1xCA3-WhcCGMbMO9A10wiA-XgjzOVKh95pXS1tx4hCNYr37hsWZ6FVxuoROjAMl-eMs-8fOxzhH4-Fnw65NMHVTmxSiDKTJOJe7wZ55Ov9bkoRiPk6g-SgNLspqCZ"/>
+<img class="rounded-lg aspect-square object-cover" data-alt="Close up of a Zen garden with raked sand" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAAPbH1qgySZ3rrz6bh5hhAUPsRy8tjlm6KaDRLX9qK5vOUFuAQeo-9wehfgrijkY5TF4PXYvjE7qVhqVCq8Az5pQkTMPnK_9blyx_2xGL6735qNxNC_TlX_kHFhgARuknQY1tqYoKlaShCCA37JrR-L6lf-CK0hU4WGsuuJescbBQ2eJ1KTvPiv1cki7i0ateO1busNBrLzh2Dkrg3sxHqV3b8ibppKh10IDzXgPnwiZ9pwc9m424VoK1W3Y0dU37fcEwIOaz3R8Vg"/>
+</div>
+<p>
+                    By aligning our habits with the natural rhythms of the Earth, we achieve a glow that is more than skin deep. It is a luminosity born of balance, persistence, and the quiet power of the HIKARI ritual.
+                </p>
+</div>
+<!-- Author Bio -->
+<footer class="mt-24 pt-12 border-t border-slate-200 dark:border-slate-800">
+<div class="flex items-center gap-6">
+<img class="w-20 h-20 rounded-full grayscale" data-alt="Professional portrait of a woman in a neutral studio" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAFFXQTr2DX3TlE1lflD7AcSc6JZPofaXCaJkDlqqyXGh98tiYvv_KOFSk02R4D5x37BLKBn1wHRgT0QUf_ou8Ws-Dqhb-Wf509V6ytnzwEjpct6NKXAn8yZ888v-_atoscaJ4TPvVqtcaIf6QA-FJqjFKJ3fvIiCk6oaJtiQnR26-coN2joiWkwqfiN433SVvAQmbZZIG7OFfUYf5cHel6s5QTZQtCsnTEAIxbuzCKD3osIi2kBBeXQp0RacmefGcQbjpdKSm20bDO"/>
+<div>
+<h5 class="text-lg font-bold text-slate-900 dark:text-white">Dr. Emi Nakamura</h5>
+<p class="text-slate-500 dark:text-slate-400 text-sm italic">Lead Formulator &amp; Holistic Wellness Expert</p>
+<div class="flex gap-4 mt-3">
+<a class="text-primary hover:opacity-80 transition-opacity" href="#"><span class="material-symbols-outlined text-lg">public</span></a>
+<a class="text-primary hover:opacity-80 transition-opacity" href="#"><span class="material-symbols-outlined text-lg">share</span></a>
+</div>
+</div>
+</div>
+</footer>
+</article>
+<!-- Recommended Articles -->
+<section class="bg-slate-100 dark:bg-black/20 py-24">
+<div class="max-w-7xl mx-auto px-6">
+<div class="flex justify-between items-end mb-12">
+<div>
+<span class="text-primary font-bold uppercase tracking-widest text-xs">Explore More</span>
+<h3 class="text-4xl font-bold text-slate-900 dark:text-white mt-2">Continue Your Journey</h3>
+</div>
+<a class="group flex items-center gap-2 font-bold text-primary" href="#">
+                        View All Articles 
+                        <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Article Card 1 -->
+<div class="group cursor-pointer">
+<div class="overflow-hidden rounded-xl mb-6 aspect-[4/3]">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="Person receiving a facial massage" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBlDuTzD749O3S-sHq3HYdJqi0-XaYgnhMZihxVUuzlNKaXcam6cfhAcAVbPRAlyHRoFHxGE66wBXvSqfB-DgvRPgjWDIZgeDCJPicPWmtCBKnU4af99sE4MuGGFdzqgh5VVmgSJxJYidUjdTUHToEyvh_S0s02CmQinUtoK7dGUAWnw7oT76pWHaTLaRt6Q8ZAHf9LNY1-fQRpRzMGb0o-q-WFl8lxiwnb3-ZiCA4TlXAIDbz-M1IFgEf9q9qKCuf-CyeY5kgD_UVV"/>
+</div>
+<span class="text-slate-500 text-xs font-bold uppercase tracking-widest">Technique</span>
+<h4 class="text-xl font-bold text-slate-900 dark:text-white mt-2 group-hover:text-primary transition-colors">The Art of Kobido Massage</h4>
+<p class="text-slate-600 dark:text-slate-400 mt-3 line-clamp-2">Learn the 500-year-old technique for naturally lifting and firming facial contours.</p>
+</div>
+<!-- Article Card 2 -->
+<div class="group cursor-pointer">
+<div class="overflow-hidden rounded-xl mb-6 aspect-[4/3]">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="Assorted Japanese herbs and teas" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC4GSaeTimTcIISW0ZJ0DffMhPns0FMK5LLNlwPjIY63X_x29Ihm7uPqw-LUcz5AOJzXuNgDF6Y36ZSAg7ALFd0arSl0SgZBw1iDbLix5oc-ZRhIjeTJUHuAOWykr0ORPN06eYRwlhO1cJuQ95MKu6ndBHV6TVqSX-Vpaqz2olq7yION811yTWMdT8dUEW5ayNC88QGW6KVEGQwc39KgoZC1toM02-1_SqZDSSSgJ7Fq-fgCDmB8V0OdgZptNncLqL8ZcwxE9TZIW-y"/>
+</div>
+<span class="text-slate-500 text-xs font-bold uppercase tracking-widest">Ingredients</span>
+<h4 class="text-xl font-bold text-slate-900 dark:text-white mt-2 group-hover:text-primary transition-colors">Botanical Alchemy: Green Tea</h4>
+<p class="text-slate-600 dark:text-slate-400 mt-3 line-clamp-2">Why Matcha is the ultimate antioxidant shield for modern urban skin.</p>
+</div>
+<!-- Article Card 3 -->
+<div class="group cursor-pointer">
+<div class="overflow-hidden rounded-xl mb-6 aspect-[4/3]">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" data-alt="Woman meditating by a lake" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBRsnsZP19f8rn0u28QxMQ3hAxk3JS4Vgo5JJbkwr4krtejmxvmynJx6QqnrIzdQCUweg5hCwX8QJ2VxV1UAJkUYs2A3iRyplLorLuBH7nGcqnZ0FqsQmgRd4Tkt1InMZwcRfsLf9KpUjkzYDZFDhgZxbIEMRzwHSNNKXZmh0voBoz4JQemRt6zWMg1A_syWKk4dIft7bPcJINI-LU4DKxs3WijR6PgNPWr516PuUKkH-nqEI9ObNRHtkKNtGyXXl-4qhER83EzFpv"/>
+</div>
+<span class="text-slate-500 text-xs font-bold uppercase tracking-widest">Mindfulness</span>
+<h4 class="text-xl font-bold text-slate-900 dark:text-white mt-2 group-hover:text-primary transition-colors">Morning Zen: A 5-Minute Guide</h4>
+<p class="text-slate-600 dark:text-slate-400 mt-3 line-clamp-2">Reset your nervous system before starting your daily skincare routine.</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-background-dark text-slate-400 py-20 px-6 border-t border-primary/20">
+<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
+<div class="space-y-6">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-3xl">flare</span>
+<h1 class="text-2xl font-black tracking-tighter text-white">HIKARI</h1>
+</div>
+<p class="text-sm leading-relaxed">
+                    Bridging ancient Japanese wisdom with cutting-edge dermatology to reveal your inner light.
+                </p>
+<div class="flex gap-4">
+<a class="w-10 h-10 rounded-full border border-slate-700 flex items-center justify-center hover:bg-primary hover:text-white transition-all" href="#"><span class="material-symbols-outlined text-lg">star</span></a>
+<a class="w-10 h-10 rounded-full border border-slate-700 flex items-center justify-center hover:bg-primary hover:text-white transition-all" href="#"><span class="material-symbols-outlined text-lg">favorite</span></a>
+<a class="w-10 h-10 rounded-full border border-slate-700 flex items-center justify-center hover:bg-primary hover:text-white transition-all" href="#"><span class="material-symbols-outlined text-lg">camera</span></a>
+</div>
+</div>
+<div>
+<h6 class="text-white font-bold uppercase tracking-widest text-xs mb-6">Explore</h6>
+<ul class="space-y-4 text-sm">
+<li><a class="hover:text-primary transition-colors" href="#">Shop All</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Our Rituals</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Best Sellers</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">New Arrivals</a></li>
+</ul>
+</div>
+<div>
+<h6 class="text-white font-bold uppercase tracking-widest text-xs mb-6">Support</h6>
+<ul class="space-y-4 text-sm">
+<li><a class="hover:text-primary transition-colors" href="#">Shipping &amp; Returns</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">FAQs</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Contact Us</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Store Locator</a></li>
+</ul>
+</div>
+<div>
+<h6 class="text-white font-bold uppercase tracking-widest text-xs mb-6">Newsletter</h6>
+<p class="text-xs mb-4">Join our inner circle for exclusive rituals and product launches.</p>
+<div class="relative">
+<input class="w-full bg-slate-800 border-none rounded-lg py-3 pl-4 pr-12 focus:ring-1 focus:ring-primary text-sm" placeholder="Email Address" type="email"/>
+<button class="absolute right-2 top-1/2 -translate-y-1/2 text-primary">
+<span class="material-symbols-outlined">send</span>
+</button>
+</div>
+</div>
+</div>
+<div class="max-w-7xl mx-auto mt-20 pt-8 border-t border-slate-800 flex flex-col md:row justify-between items-center gap-6 text-[10px] uppercase tracking-widest">
+<p>© 2024 HIKARI Skincare. All Rights Reserved.</p>
+<div class="flex gap-8">
+<a class="hover:text-white" href="#">Privacy Policy</a>
+<a class="hover:text-white" href="#">Terms of Service</a>
+<a class="hover:text-white" href="#">Accessibility</a>
+</div>
+</div>
+</footer>
+</body></html>

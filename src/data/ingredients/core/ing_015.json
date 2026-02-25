@@ -1,0 +1,53 @@
+{
+  "id": "ing_015",
+  "name": "Jojoba Oil",
+  "inciName": "Simmondsia Chinensis Seed Oil",
+  "category": "Emollient",
+  "origin": "Natural",
+  "countryOfOrigin": "USA",
+  "description": "A lightweight wax ester that closely mimics human sebum.",
+  "benefits": [
+    "Balances oil",
+    "Moisturizes",
+    "Soothes"
+  ],
+  "skinTypes": [
+    "Oily",
+    "Dry",
+    "Combination"
+  ],
+  "concerns": [
+    "Dehydration",
+    "Excess Oil"
+  ],
+  "image": "https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?q=80&w=600&auto=format&fit=crop",
+  "irritationLevel": 1,
+  "comedogenicRating": 2,
+  "fungalAcneSafe": false,
+  "pregnancySafe": true,
+  "strengthLevel": "low",
+  "barrierImpactScore": 2,
+  "pH_range": "N/A",
+  "photosensitivityRisk": false,
+  "goalTags": [
+    "dehydration",
+    "excess-oil"
+  ],
+  "layeringConflicts": [],
+  "redundancyTags": [],
+  "frequencyLimit": "daily",
+  "timeOfDay": "both",
+  "climateSuitability": [
+    "dry",
+    "temperate",
+    "humid",
+    "tropical"
+  ],
+  "scientificSummary": "Tricks the skin into thinking it has produced enough oil, thus balancing sebum levels.",
+  "mechanismOfAction": "Tricks the skin into thinking it has produced enough oil, thus balancing sebum levels.",
+  "evidenceLevel": "strong",
+  "seo": {
+    "title": "Jojoba Oil - Clinical Profile & Compatibility | Dew Theory",
+    "description": "Discover the scientific benefits, compatibility, and clinical profile of Jojoba Oil in skincare."
+  }
+}

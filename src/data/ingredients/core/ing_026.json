@@ -1,0 +1,55 @@
+{
+  "id": "ing_026",
+  "name": "Rosehip Oil",
+  "inciName": "Rosa Canina Fruit Oil",
+  "category": "Emollient",
+  "origin": "Natural",
+  "countryOfOrigin": "Chile",
+  "description": "A dry oil packed with vitamins A, C, and essential fatty acids.",
+  "benefits": [
+    "Fades scars",
+    "Moisturizes",
+    "Boosts collagen"
+  ],
+  "skinTypes": [
+    "Dry",
+    "Acne-Prone",
+    "Mature"
+  ],
+  "concerns": [
+    "Scars",
+    "Aging",
+    "Dryness"
+  ],
+  "image": "https://images.unsplash.com/photo-1629198688000-71f23e745b6e?q=80&w=600&auto=format&fit=crop",
+  "irritationLevel": 1,
+  "comedogenicRating": 2,
+  "fungalAcneSafe": false,
+  "pregnancySafe": true,
+  "strengthLevel": "low",
+  "barrierImpactScore": 2,
+  "pH_range": "N/A",
+  "photosensitivityRisk": false,
+  "goalTags": [
+    "scars",
+    "aging",
+    "dryness"
+  ],
+  "layeringConflicts": [],
+  "redundancyTags": [],
+  "frequencyLimit": "daily",
+  "timeOfDay": "both",
+  "climateSuitability": [
+    "dry",
+    "temperate",
+    "humid",
+    "tropical"
+  ],
+  "scientificSummary": "Delivers a natural dose of tretinoin (Vitamin A) to increase cell turnover gently.",
+  "mechanismOfAction": "Delivers a natural dose of tretinoin (Vitamin A) to increase cell turnover gently.",
+  "evidenceLevel": "strong",
+  "seo": {
+    "title": "Rosehip Oil - Clinical Profile & Compatibility | Dew Theory",
+    "description": "Discover the scientific benefits, compatibility, and clinical profile of Rosehip Oil in skincare."
+  }
+}

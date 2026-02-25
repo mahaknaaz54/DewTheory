@@ -1,0 +1,55 @@
+{
+  "id": "ing_010",
+  "name": "Centella Asiatica",
+  "inciName": "Centella Asiatica Extract",
+  "category": "Botanical",
+  "origin": "Natural",
+  "countryOfOrigin": "Madagascar",
+  "description": "A medicinal herb known as 'Cica', famous for its rapid skin-soothing properties.",
+  "benefits": [
+    "Calms redness",
+    "Heals wounds",
+    "Boosts antioxidants"
+  ],
+  "skinTypes": [
+    "All",
+    "Sensitive",
+    "Acne-Prone"
+  ],
+  "concerns": [
+    "Redness",
+    "Irritation",
+    "Acne"
+  ],
+  "image": "https://images.unsplash.com/photo-1629198688000-71f23e745b6e?q=80&w=600&auto=format&fit=crop",
+  "irritationLevel": 1,
+  "comedogenicRating": 0,
+  "fungalAcneSafe": true,
+  "pregnancySafe": true,
+  "strengthLevel": "low",
+  "barrierImpactScore": 1,
+  "pH_range": "N/A",
+  "photosensitivityRisk": false,
+  "goalTags": [
+    "redness",
+    "irritation",
+    "acne"
+  ],
+  "layeringConflicts": [],
+  "redundancyTags": [],
+  "frequencyLimit": "daily",
+  "timeOfDay": "both",
+  "climateSuitability": [
+    "dry",
+    "temperate",
+    "humid",
+    "tropical"
+  ],
+  "scientificSummary": "Contains compounds like madecassoside that significantly lower inflammation and stimulate collagen synthesis in wounds.",
+  "mechanismOfAction": "Contains compounds like madecassoside that significantly lower inflammation and stimulate collagen synthesis in wounds.",
+  "evidenceLevel": "strong",
+  "seo": {
+    "title": "Centella Asiatica - Clinical Profile & Compatibility | Dew Theory",
+    "description": "Discover the scientific benefits, compatibility, and clinical profile of Centella Asiatica in skincare."
+  }
+}
