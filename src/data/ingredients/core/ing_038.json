@@ -1,0 +1,52 @@
+{
+    "id": "ing_038",
+    "name": "Caffeine",
+    "inciName": "Caffeine",
+    "category": "Antioxidant",
+    "origin": "Plant-derived (Coffee, Tea)",
+    "countryOfOrigin": null,
+    "description": "A powerful antioxidant that reduces puffiness and improves circulation.",
+    "benefits": [
+        "Reduces puffiness",
+        "Brightens under-eyes",
+        "Antioxidant protection"
+    ],
+    "skinTypes": [
+        "All"
+    ],
+    "concerns": [
+        "Puffiness",
+        "Dark Circles",
+        "Dullness"
+    ],
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 1,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": true,
+    "pregnancySafe": true,
+    "strengthLevel": "low",
+    "barrierImpactScore": 0,
+    "pH_range": "N/A",
+    "photosensitivityRisk": false,
+    "goalTags": [
+        "puffiness",
+        "brightening"
+    ],
+    "layeringConflicts": [],
+    "redundancyTags": [],
+    "frequencyLimit": "twice-daily",
+    "timeOfDay": "AM",
+    "climateSuitability": [
+        "dry",
+        "temperate",
+        "humid",
+        "tropical"
+    ],
+    "scientificSummary": "Acts as a vasoconstrictor and possesses antioxidant properties that protect skin cells from UV radiation and slow down photoaging.",
+    "mechanismOfAction": "Constricts blood vessels to reduce swelling and improves microcirculation for a brighter appearance.",
+    "evidenceLevel": "moderate",
+    "seo": {
+        "title": "Caffeine in Skincare - Puffiness & Dark Circles | Dew Theory",
+        "description": "Discover how caffeine revitalizes tired skin and reduces under-eye puffiness."
+    }
+}

@@ -9,12 +9,12 @@ export default {
         extend: {
             colors: {
                 hikari: {
-                    orange: '#e8601c',
-                    dark: '#1a1209',
-                    cream: '#faf8f5',
-                    clay: '#f2eee8',
-                    text: '#2d2824',
-                    muted: '#8e867d'
+                    orange: 'var(--accent-color)',
+                    dark: 'var(--bg-color)', /* Re-mapped so dark utilities use active background */
+                    cream: 'var(--bg-color)', /* Re-mapped so light utilities use active background */
+                    clay: 'var(--surface-color)',
+                    text: 'var(--text-color)',
+                    muted: 'var(--muted-color)'
                 }
             },
             fontFamily: {

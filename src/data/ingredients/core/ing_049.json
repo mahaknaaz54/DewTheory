@@ -1,0 +1,60 @@
+{
+    "id": "ing_049",
+    "name": "Mandelic Acid",
+    "inciName": "Mandelic Acid",
+    "category": "Exfoliant (AHA)",
+    "origin": "Plant-derived (Bitter Almonds)",
+    "countryOfOrigin": null,
+    "description": "A slow-absorbing AHA that is ideal for sensitive skin and acne.",
+    "benefits": [
+        "Gentle exfoliation",
+        "Treats acne",
+        "Reduces hyperpigmentation"
+    ],
+    "skinTypes": [
+        "Sensitive",
+        "Acne-Prone",
+        "All"
+    ],
+    "concerns": [
+        "Acne",
+        "Fine Lines",
+        "Sensitivity"
+    ],
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 1,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": true,
+    "pregnancySafe": true,
+    "strengthLevel": "low",
+    "barrierImpactScore": 0,
+    "pH_range": "3.0 - 4.0",
+    "photosensitivityRisk": true,
+    "goalTags": [
+        "gentle-exfoliation",
+        "acne"
+    ],
+    "layeringConflicts": [
+        "retinoids",
+        "other-AHAs"
+    ],
+    "redundancyTags": [
+        "glycolic acid",
+        "lactic acid"
+    ],
+    "frequencyLimit": "3-4 times a week",
+    "timeOfDay": "PM",
+    "climateSuitability": [
+        "dry",
+        "temperate",
+        "humid",
+        "tropical"
+    ],
+    "scientificSummary": "With a larger molecular weight than most AHAs, it penetrates the skin more slowly, making it less likely to cause irritation.",
+    "mechanismOfAction": "Possesses antibacterial properties and helps dissolve the bonds between skin cells to promote turnover.",
+    "evidenceLevel": "moderate",
+    "seo": {
+        "title": "Mandelic Acid - The Gentle AHA | Dew Theory",
+        "description": "Discover why Mandelic Acid is the perfect exfoliant for sensitive and acne-prone skin."
+    }
+}

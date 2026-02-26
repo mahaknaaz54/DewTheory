@@ -1,0 +1,54 @@
+{
+    "id": "ing_043",
+    "name": "Ferulic Acid",
+    "inciName": "Ferulic Acid",
+    "category": "Antioxidant",
+    "origin": "Plant-derived (Bran, Grasses)",
+    "countryOfOrigin": null,
+    "description": "A potent antioxidant that stabilizes and boosts the efficacy of Vitamin C and E.",
+    "benefits": [
+        "Boosts antioxidants",
+        "Sun damage protection",
+        "Anti-aging"
+    ],
+    "skinTypes": [
+        "All"
+    ],
+    "concerns": [
+        "Sun Damage",
+        "Aging",
+        "Fine Lines"
+    ],
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 1,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": true,
+    "pregnancySafe": true,
+    "strengthLevel": "medium",
+    "barrierImpactScore": 0,
+    "pH_range": "3.0 - 4.0",
+    "photosensitivityRisk": false,
+    "goalTags": [
+        "antioxidant",
+        "anti-aging"
+    ],
+    "layeringConflicts": [
+        "exfoliating acids"
+    ],
+    "redundancyTags": [],
+    "frequencyLimit": "daily",
+    "timeOfDay": "AM",
+    "climateSuitability": [
+        "dry",
+        "temperate",
+        "humid",
+        "tropical"
+    ],
+    "scientificSummary": "A phytochemical found in various plants, particularly in cereals like rice, wheat, and oats, it is a powerful scavenger of free radicals.",
+    "mechanismOfAction": "Works synergistically with Vitamin C and Vitamin E to double their photoprotective capacity.",
+    "evidenceLevel": "strong",
+    "seo": {
+        "title": "Ferulic Acid - The Antioxidant Booster | Dew Theory",
+        "description": "Learn why Ferulic Acid is the secret ingredient that makes your Vitamin C serum even better."
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "id": "ing_040",
+    "name": "Centella Asiatica",
+    "inciName": "Centella Asiatica Extract",
+    "category": "Soothing",
+    "origin": "Plant-derived (Tiger Grass)",
+    "countryOfOrigin": null,
+    "description": "A legendary soothing herb known for its wound-healing and anti-inflammatory properties.",
+    "benefits": [
+        "Calms redness",
+        "Strengthens barrier",
+        "Heals skin"
+    ],
+    "skinTypes": [
+        "All",
+        "Sensitive",
+        "Acne-Prone",
+        "Damaged"
+    ],
+    "concerns": [
+        "Redness",
+        "Irritation",
+        "Barrier Damage"
+    ],
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 0,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": true,
+    "pregnancySafe": true,
+    "strengthLevel": "low",
+    "barrierImpactScore": 2,
+    "pH_range": "N/A",
+    "photosensitivityRisk": false,
+    "goalTags": [
+        "soothing",
+        "redness",
+        "barrier-repair"
+    ],
+    "layeringConflicts": [],
+    "redundancyTags": [
+        "madecassoside",
+        "asiaticoside"
+    ],
+    "frequencyLimit": "twice-daily",
+    "timeOfDay": "Both",
+    "climateSuitability": [
+        "dry",
+        "temperate",
+        "humid",
+        "tropical"
+    ],
+    "scientificSummary": "Contains triterpene saponins (like madecassoside) that stimulate collagen synthesis and have potent anti-inflammatory effects.",
+    "mechanismOfAction": "Increases antioxidant activity at the site of wounds, strengthening the skin and increasing blood supply to the area.",
+    "evidenceLevel": "strong",
+    "seo": {
+        "title": "Centella Asiatica - The Ultimate Soothing Herb | Dew Theory",
+        "description": "Discover the healing power of Cica for sensitive and irritated skin."
+    }
+}

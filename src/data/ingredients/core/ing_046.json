@@ -1,0 +1,56 @@
+{
+    "id": "ing_046",
+    "name": "Kojic Acid",
+    "inciName": "Kojic Acid",
+    "category": "Brightening",
+    "origin": "Fungal-derived (Mushroom or fermented saki)",
+    "countryOfOrigin": null,
+    "description": "An effective brightening agent that targets melanin production.",
+    "benefits": [
+        "Lightens dark spots",
+        "Evens skin tone",
+        "Anti-fungal properties"
+    ],
+    "skinTypes": [
+        "All",
+        "Hyperpigmentation-Prone"
+    ],
+    "concerns": [
+        "Hyperpigmentation",
+        "Dark Spots",
+        "Melasma"
+    ],
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 3,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": true,
+    "pregnancySafe": true,
+    "strengthLevel": "medium",
+    "barrierImpactScore": 0,
+    "pH_range": "3.0 - 5.0",
+    "photosensitivityRisk": true,
+    "goalTags": [
+        "brightening",
+        "hyperpigmentation"
+    ],
+    "layeringConflicts": [
+        "retinoids",
+        "exfoliating acids"
+    ],
+    "redundancyTags": [],
+    "frequencyLimit": "daily",
+    "timeOfDay": "PM",
+    "climateSuitability": [
+        "dry",
+        "temperate",
+        "humid",
+        "tropical"
+    ],
+    "scientificSummary": "A tyrosinase inhibitor derived from various fungi that helps suppress the formation of melanin in the skin.",
+    "mechanismOfAction": "Chelates copper atoms required for tyrosinase activity, thus inhibiting the conversion of tyrosine to melanin.",
+    "evidenceLevel": "moderate",
+    "seo": {
+        "title": "Kojic Acid - Targeting Hyperpigmentation | Dew Theory",
+        "description": "Learn how Kojic Acid brightens skin and treats concerns like sun damage and melasma."
+    }
+}

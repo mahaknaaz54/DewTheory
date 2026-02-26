@@ -2,7 +2,6 @@ import { Link } from 'react-router-dom';
 import Button from '../components/Button';
 import Container from '../components/Container';
 import SectionWrapper from '../components/SectionWrapper';
-import DarkModeToggle from '../components/DarkModeToggle';
 import { motion } from 'framer-motion';
 import { allIngredients as ingredients } from '../data/ingredients';
 import IngredientMockup from '../components/IngredientMockup';
@@ -11,8 +10,6 @@ import IngredientCard from '../components/IngredientCard';
 const Home = () => {
     return (
         <div className="overflow-hidden bg-hikari-cream dark:bg-hikari-dark text-hikari-text dark:text-hikari-cream transition-colors duration-300">
-            <DarkModeToggle />
-
             {/* Hero Section */}
             <section className="relative pt-12 pb-24 md:pt-20 md:pb-32 overflow-hidden">
                 <Container>

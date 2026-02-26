@@ -1,0 +1,56 @@
+{
+    "id": "ing_035",
+    "name": "Azelaic Acid",
+    "inciName": "Azelaic Acid",
+    "category": "Exfoliant",
+    "origin": "Synthetic or Grain-derived",
+    "countryOfOrigin": null,
+    "description": "A dicarboxylic acid that gently exfoliates and treats acne and rosacea.",
+    "benefits": [
+        "Reduces redness",
+        "Clears acne",
+        "Fades post-acne marks"
+    ],
+    "skinTypes": [
+        "All",
+        "Acne-Prone",
+        "Sensitive (Rosacea)"
+    ],
+    "concerns": [
+        "Acne",
+        "Rosacea",
+        "Redness",
+        "PIH"
+    ],
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 2,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": true,
+    "pregnancySafe": true,
+    "strengthLevel": "medium",
+    "barrierImpactScore": 0,
+    "pH_range": "4.0 - 5.0",
+    "photosensitivityRisk": false,
+    "goalTags": [
+        "acne",
+        "redness",
+        "brightening"
+    ],
+    "layeringConflicts": [],
+    "redundancyTags": [],
+    "frequencyLimit": "daily",
+    "timeOfDay": "PM",
+    "climateSuitability": [
+        "dry",
+        "temperate",
+        "humid",
+        "tropical"
+    ],
+    "scientificSummary": "Shows anti-inflammatory, antibacterial, and anti-keratinizing properties, making it effective for acne and rosacea.",
+    "mechanismOfAction": "Inhibits the growth of acne-causing bacteria and prevents the buildup of dead skin cells in pores.",
+    "evidenceLevel": "strong",
+    "seo": {
+        "title": "Azelaic Acid - Acne & Rosacea Treatment | Dew Theory",
+        "description": "Discover the multi-tasking benefits of Azelaic Acid for clear and calm skin."
+    }
+}

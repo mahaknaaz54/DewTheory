@@ -1,0 +1,56 @@
+{
+    "id": "ing_052",
+    "name": "Peptides",
+    "inciName": "Palmitoyl Pentapeptide-4",
+    "category": "Anti-Aging",
+    "origin": "Synthetic (Biotech)",
+    "countryOfOrigin": null,
+    "description": "Small chains of amino acids that signal skin to produce more collagen.",
+    "benefits": [
+        "Firms skin",
+        "Reduces wrinkles",
+        "Boosts collagen"
+    ],
+    "skinTypes": [
+        "All",
+        "Mature"
+    ],
+    "concerns": [
+        "Aging",
+        "Loss of Firmness",
+        "Fine Lines"
+    ],
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 0,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": true,
+    "pregnancySafe": true,
+    "strengthLevel": "medium",
+    "barrierImpactScore": 1,
+    "pH_range": "5.0 - 7.0",
+    "photosensitivityRisk": false,
+    "goalTags": [
+        "anti-aging",
+        "firmness"
+    ],
+    "layeringConflicts": [
+        "exfoliating acids",
+        "Vitamin C"
+    ],
+    "redundancyTags": [],
+    "frequencyLimit": "twice-daily",
+    "timeOfDay": "Both",
+    "climateSuitability": [
+        "dry",
+        "temperate",
+        "humid",
+        "tropical"
+    ],
+    "scientificSummary": "Peptides act as messenger molecules that can stimulate the synthesis of collagen, elastin, and other structural proteins.",
+    "mechanismOfAction": "Signals to skin cells to repair damage and build new structural components, leading to firmer and smoother skin.",
+    "evidenceLevel": "moderate",
+    "seo": {
+        "title": "Peptides in Skincare - Collagen & Firmness | Dew Theory",
+        "description": "Learn how peptides act as messengers to help your skin stay firm and youthful."
+    }
+}

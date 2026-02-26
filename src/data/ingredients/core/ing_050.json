@@ -1,0 +1,54 @@
+{
+    "id": "ing_050",
+    "name": "Mugwort",
+    "inciName": "Artemisia Princeps Leaf Extract",
+    "category": "Soothing",
+    "origin": "Plant-derived",
+    "countryOfOrigin": null,
+    "description": "An herb used in traditional medicine for its incredible soothing and antibacterial properties.",
+    "benefits": [
+        "Calms irritation",
+        "Antibacterial",
+        "Reduces redness"
+    ],
+    "skinTypes": [
+        "Sensitive",
+        "Acne-Prone",
+        "Dry"
+    ],
+    "concerns": [
+        "Redness",
+        "Acne",
+        "Sensitivity"
+    ],
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 0,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": true,
+    "pregnancySafe": true,
+    "strengthLevel": "low",
+    "barrierImpactScore": 1,
+    "pH_range": "N/A",
+    "photosensitivityRisk": false,
+    "goalTags": [
+        "soothing",
+        "redness"
+    ],
+    "layeringConflicts": [],
+    "redundancyTags": [],
+    "frequencyLimit": "twice-daily",
+    "timeOfDay": "Both",
+    "climateSuitability": [
+        "dry",
+        "temperate",
+        "humid",
+        "tropical"
+    ],
+    "scientificSummary": "Contains various essential oils and flavonoids that exhibit anti-inflammatory and skin-healing effects.",
+    "mechanismOfAction": "Relieves inflammation and helps detoxify the skin, providing a cooling and calming sensation.",
+    "evidenceLevel": "moderate",
+    "seo": {
+        "title": "Mugwort - Ancient Soothing Ingredient | Dew Theory",
+        "description": "Discover the traditional and modern benefits of Mugwort for calming stressed skin."
+    }
+}

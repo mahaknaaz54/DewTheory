@@ -1,0 +1,56 @@
+{
+    "id": "ing_054",
+    "name": "Propolis Extract",
+    "inciName": "Propolis Extract",
+    "category": "Antioxidant/Soothing",
+    "origin": "Bee-derived",
+    "countryOfOrigin": null,
+    "description": "A resinous mixture that bees produce to seal their hive, known for its antibacterial and healing properties.",
+    "benefits": [
+        "Antibacterial",
+        "Heals breakouts",
+        "Calms irritation"
+    ],
+    "skinTypes": [
+        "Acne-Prone",
+        "Sensitive",
+        "All"
+    ],
+    "concerns": [
+        "Acne",
+        "Irritation",
+        "Dullness"
+    ],
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 1,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": true,
+    "pregnancySafe": true,
+    "strengthLevel": "low",
+    "barrierImpactScore": 1,
+    "pH_range": "N/A",
+    "photosensitivityRisk": false,
+    "goalTags": [
+        "acne",
+        "antioxidant"
+    ],
+    "layeringConflicts": [],
+    "redundancyTags": [
+        "honey extract"
+    ],
+    "frequencyLimit": "twice-daily",
+    "timeOfDay": "Both",
+    "climateSuitability": [
+        "dry",
+        "temperate",
+        "humid",
+        "tropical"
+    ],
+    "scientificSummary": "Rich in flavonoids and phenolic acids, it has documented anti-inflammatory, antioxidant, and anti-microbial activities.",
+    "mechanismOfAction": "Inhibits bacterial growth and supports the skin's natural healing process by providing essential nutrients and protection.",
+    "evidenceLevel": "moderate",
+    "seo": {
+        "title": "Propolis Extract - Natural Healing | Dew Theory",
+        "description": "Discover the bee-powered benefits of Propolis for clear and healthy skin."
+    }
+}

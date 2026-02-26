@@ -1,0 +1,55 @@
+{
+    "id": "ing_056",
+    "name": "Rosehip Oil",
+    "inciName": "Rosa Canina Fruit Oil",
+    "category": "Facial Oil",
+    "origin": "Plant-derived (Rose hips)",
+    "countryOfOrigin": null,
+    "description": "A vitamin-rich oil that hydrates, brightens, and regenerates the skin.",
+    "benefits": [
+        "Brightens skin",
+        "Reduces scarring",
+        "Deeply moisturizes"
+    ],
+    "skinTypes": [
+        "Dry",
+        "Normal",
+        "Acne-Prone",
+        "Mature"
+    ],
+    "concerns": [
+        "Scarring",
+        "Fine Lines",
+        "Dullness"
+    ],
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 0,
+    "comedogenicRating": 1,
+    "fungalAcneSafe": false,
+    "pregnancySafe": true,
+    "strengthLevel": "low",
+    "barrierImpactScore": 2,
+    "pH_range": "N/A",
+    "photosensitivityRisk": false,
+    "goalTags": [
+        "brightening",
+        "scar-repair"
+    ],
+    "layeringConflicts": [],
+    "redundancyTags": [],
+    "frequencyLimit": "daily",
+    "timeOfDay": "PM",
+    "climateSuitability": [
+        "dry",
+        "temperate",
+        "humid",
+        "tropical"
+    ],
+    "scientificSummary": "Rich in essential fatty acids (linoleic and linolenic) and Vitamin A precursors (beta-carotene), providing potent regenerative effects.",
+    "mechanismOfAction": "Supports skin cell turnover and provides essential lipids to restore the skin's moisture barrier.",
+    "evidenceLevel": "strong",
+    "seo": {
+        "title": "Rosehip Oil - Regenerative Skin Care | Dew Theory",
+        "description": "Transform your skin with the vitamin-rich goodness of Rosehip Oil."
+    }
+}

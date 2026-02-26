@@ -1,0 +1,55 @@
+{
+    "id": "ing_051",
+    "name": "Panthenol",
+    "inciName": "Panthenol",
+    "category": "Humectant",
+    "origin": "Synthetic",
+    "countryOfOrigin": null,
+    "description": "Pro-vitamin B5 that attracts and holds moisture while soothing the skin.",
+    "benefits": [
+        "Deep hydration",
+        "Soothes redness",
+        "Heals barrier"
+    ],
+    "skinTypes": [
+        "All",
+        "Sensitive",
+        "Dry"
+    ],
+    "concerns": [
+        "Dryness",
+        "Irritation",
+        "Barrier Damage"
+    ],
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 0,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": true,
+    "pregnancySafe": true,
+    "strengthLevel": "low",
+    "barrierImpactScore": 2,
+    "pH_range": "N/A",
+    "photosensitivityRisk": false,
+    "goalTags": [
+        "hydration",
+        "soothing",
+        "barrier-repair"
+    ],
+    "layeringConflicts": [],
+    "redundancyTags": [],
+    "frequencyLimit": "twice-daily",
+    "timeOfDay": "Both",
+    "climateSuitability": [
+        "dry",
+        "temperate",
+        "humid",
+        "tropical"
+    ],
+    "scientificSummary": "The alcohol analog of pantothenic acid (vitamin B5), it is converted to vitamin B5 in the skin and acts as both a humectant and an emollient.",
+    "mechanismOfAction": "Binds to water and deeply hydrates the stratum corneum, while also promoting fibroblast proliferation for wound healing.",
+    "evidenceLevel": "strong",
+    "seo": {
+        "title": "Panthenol (Pro-Vitamin B5) - Hydration & Healing | Dew Theory",
+        "description": "Discover how Panthenol moisturizes and calms irritated skin for a healthier barrier."
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "id": "ing_039",
+    "name": "Caprylic/Capric Triglyceride",
+    "inciName": "Caprylic/Capric Triglyceride",
+    "category": "Emollient",
+    "origin": "Plant-derived (Coconut Oil)",
+    "countryOfOrigin": null,
+    "description": "A lightweight, non-greasy emollient that smoothes the skin.",
+    "benefits": [
+        "Silky application",
+        "Moisturizes skin",
+        "Enhances absorption"
+    ],
+    "skinTypes": [
+        "All",
+        "Dry",
+        "Oily"
+    ],
+    "concerns": [
+        "Dryness",
+        "Texture"
+    ],
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 0,
+    "comedogenicRating": 2,
+    "fungalAcneSafe": false,
+    "pregnancySafe": true,
+    "strengthLevel": "low",
+    "barrierImpactScore": 1,
+    "pH_range": "N/A",
+    "photosensitivityRisk": false,
+    "goalTags": [
+        "moisturizing"
+    ],
+    "layeringConflicts": [],
+    "redundancyTags": [],
+    "frequencyLimit": "daily",
+    "timeOfDay": "Both",
+    "climateSuitability": [
+        "dry",
+        "temperate",
+        "humid",
+        "tropical"
+    ],
+    "scientificSummary": "A mixed triester derived from coconut oil and glycerin, providing a lightweight feel and good oxidative stability.",
+    "mechanismOfAction": "Forms a barrier on the skin's surface, decreasing skin moisture loss by preventing evaporation.",
+    "evidenceLevel": "strong",
+    "seo": {
+        "title": "Caprylic/Capric Triglyceride - Skin Softening | Dew Theory",
+        "description": "Learn about this versatile emollient that makes your skincare products feel silky smooth."
+    }
+}

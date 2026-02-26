@@ -1,0 +1,56 @@
+{
+    "id": "ing_048",
+    "name": "Madecassoside",
+    "inciName": "Madecassoside",
+    "category": "Soothing",
+    "origin": "Plant-derived (Centella Asiatica)",
+    "countryOfOrigin": null,
+    "description": "A highly purified component of Centella Asiatica that offers intense soothing benefits.",
+    "benefits": [
+        "Intense calming",
+        "Wound healing",
+        "Anti-itch"
+    ],
+    "skinTypes": [
+        "Sensitive",
+        "Damaged",
+        "Acne-Prone"
+    ],
+    "concerns": [
+        "Irritation",
+        "Redness",
+        "Barrier Damage"
+    ],
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 0,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": true,
+    "pregnancySafe": true,
+    "strengthLevel": "low",
+    "barrierImpactScore": 2,
+    "pH_range": "N/A",
+    "photosensitivityRisk": false,
+    "goalTags": [
+        "soothing",
+        "barrier-repair"
+    ],
+    "layeringConflicts": [],
+    "redundancyTags": [
+        "centella asiatica"
+    ],
+    "frequencyLimit": "twice-daily",
+    "timeOfDay": "Both",
+    "climateSuitability": [
+        "dry",
+        "temperate",
+        "humid",
+        "tropical"
+    ],
+    "scientificSummary": "One of the four main bioactive triterpenes in Centella Asiatica which stimulates collagen synthesis and suppresses inflammation.",
+    "mechanismOfAction": "Regulates inflammation by modulating cytokine production and promotes skin regeneration.",
+    "evidenceLevel": "strong",
+    "seo": {
+        "title": "Madecassoside - Concentrated Skin Healing | Dew Theory",
+        "description": "Learn about Madecassoside, the potent soothing agent for compromised skin."
+    }
+}

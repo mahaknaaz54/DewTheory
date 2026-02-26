@@ -1,0 +1,53 @@
+{
+    "id": "ing_041",
+    "name": "Coenzyme Q10",
+    "inciName": "Ubiquinone",
+    "category": "Antioxidant",
+    "origin": "Synthetic or Natural",
+    "countryOfOrigin": null,
+    "description": "An essential antioxidant that energizes skin cells and protects against damage.",
+    "benefits": [
+        "Protects from UV damage",
+        "Energizes skin",
+        "Reduces fine lines"
+    ],
+    "skinTypes": [
+        "All",
+        "Mature"
+    ],
+    "concerns": [
+        "Aging",
+        "Sun Damage",
+        "Dullness"
+    ],
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 0,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": true,
+    "pregnancySafe": true,
+    "strengthLevel": "low",
+    "barrierImpactScore": 1,
+    "pH_range": "N/A",
+    "photosensitivityRisk": false,
+    "goalTags": [
+        "anti-aging",
+        "antioxidant"
+    ],
+    "layeringConflicts": [],
+    "redundancyTags": [],
+    "frequencyLimit": "daily",
+    "timeOfDay": "Both",
+    "climateSuitability": [
+        "dry",
+        "temperate",
+        "humid",
+        "tropical"
+    ],
+    "scientificSummary": "Ubiquinone is a fat-soluble, vitamin-like substance that is a component of the electron transport chain and participates in aerobic cellular respiration.",
+    "mechanismOfAction": "Neutralizes free radicals and provides cells with the energy they need to repair and regenerate.",
+    "evidenceLevel": "moderate",
+    "seo": {
+        "title": "Coenzyme Q10 - Cellular Energy for Skin | Dew Theory",
+        "description": "Learn how CoQ10 protects and energizes your skin cells for a youthful glow."
+    }
+}

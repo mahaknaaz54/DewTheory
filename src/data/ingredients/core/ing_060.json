@@ -1,0 +1,54 @@
+{
+    "id": "ing_060",
+    "name": "Witch Hazel",
+    "inciName": "Hamamelis Virginiana Water",
+    "category": "Extract",
+    "origin": "Plant-derived",
+    "countryOfOrigin": null,
+    "description": "A natural astringent that tightens pores and calms skin.",
+    "benefits": [
+        "Tightens pores",
+        "Controls oil",
+        "Calms irritation"
+    ],
+    "skinTypes": [
+        "Oily",
+        "Normal",
+        "Combination"
+    ],
+    "concerns": [
+        "Enlarged Pores",
+        "Oiliness",
+        "Redness"
+    ],
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 2,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": true,
+    "pregnancySafe": true,
+    "strengthLevel": "medium",
+    "barrierImpactScore": -1,
+    "pH_range": "3.0 - 5.0",
+    "photosensitivityRisk": false,
+    "goalTags": [
+        "oil-control",
+        "enlarged-pores"
+    ],
+    "layeringConflicts": [],
+    "redundancyTags": [],
+    "frequencyLimit": "once-daily",
+    "timeOfDay": "AM",
+    "climateSuitability": [
+        "dry",
+        "temperate",
+        "humid",
+        "tropical"
+    ],
+    "scientificSummary": "High in tannins, which are natural astringents that can temporarily shrink pores and reduce inflammation.",
+    "mechanismOfAction": "Astringent action causes skin tissues to contract, while polyphenols provide antioxidant benefits.",
+    "evidenceLevel": "moderate",
+    "seo": {
+        "title": "Witch Hazel - Natural Astringent | Dew Theory",
+        "description": "Learn how Witch Hazel can help refine your skin's texture and control excess oil."
+    }
+}

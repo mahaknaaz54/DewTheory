@@ -1,0 +1,53 @@
+{
+    "id": "ing_034",
+    "name": "Arbutin",
+    "inciName": "Alpha-Arbutin",
+    "category": "Brightening",
+    "origin": "Plant-derived (Bearberry)",
+    "countryOfOrigin": null,
+    "description": "A natural alternative to hydroquinone that fades hyperpigmentation.",
+    "benefits": [
+        "Fades dark spots",
+        "Evens skin tone",
+        "Brightens complexion"
+    ],
+    "skinTypes": [
+        "All",
+        "Hyperpigmentation-Prone"
+    ],
+    "concerns": [
+        "Hyperpigmentation",
+        "Dark Spots",
+        "Dullness"
+    ],
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 1,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": true,
+    "pregnancySafe": true,
+    "strengthLevel": "medium",
+    "barrierImpactScore": 0,
+    "pH_range": "3.5 - 6.5",
+    "photosensitivityRisk": false,
+    "goalTags": [
+        "brightening",
+        "hyperpigmentation"
+    ],
+    "layeringConflicts": [],
+    "redundancyTags": [],
+    "frequencyLimit": "twice-daily",
+    "timeOfDay": "Both",
+    "climateSuitability": [
+        "dry",
+        "temperate",
+        "humid",
+        "tropical"
+    ],
+    "scientificSummary": "A tyrosinase inhibitor that reduces melanin production by inhibiting the enzyme that triggers pigment production.",
+    "mechanismOfAction": "Slowly releases hydroquinone onto the skin to inhibit tyrosinase activity without the risk of irritation.",
+    "evidenceLevel": "moderate",
+    "seo": {
+        "title": "Alpha-Arbutin - Natural Skin Brightener | Dew Theory",
+        "description": "Learn how Alpha-Arbutin effectively fades dark spots and evens out your skin tone."
+    }
+}

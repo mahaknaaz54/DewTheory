@@ -1,0 +1,56 @@
+{
+    "id": "ing_031",
+    "name": "Squalane",
+    "inciName": "Squalane",
+    "category": "Emollient",
+    "origin": "Plant-derived (Olive or Sugarcane)",
+    "countryOfOrigin": null,
+    "description": "A stable, lightweight oil that mimics skin's natural sebum.",
+    "benefits": [
+        "Hydrates skin",
+        "Softens texture",
+        "Non-comedogenic"
+    ],
+    "skinTypes": [
+        "All",
+        "Dry",
+        "Oily",
+        "Acne-Prone",
+        "Sensitive"
+    ],
+    "concerns": [
+        "Dryness",
+        "Dehydration",
+        "Texture"
+    ],
+    "image": "https://images.unsplash.com/photo-1598440947619-2c35fc9aa908?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 0,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": true,
+    "pregnancySafe": true,
+    "strengthLevel": "low",
+    "barrierImpactScore": 1,
+    "pH_range": "N/A",
+    "photosensitivityRisk": false,
+    "goalTags": [
+        "dryness",
+        "hydration"
+    ],
+    "layeringConflicts": [],
+    "redundancyTags": [],
+    "frequencyLimit": "daily",
+    "timeOfDay": "Both",
+    "climateSuitability": [
+        "dry",
+        "temperate",
+        "humid",
+        "tropical"
+    ],
+    "scientificSummary": "A hydrogenated version of squalene, it provides exceptional hydration and prevents transepidermal water loss.",
+    "mechanismOfAction": "Mimics natural skin oils to reinforce the lipid barrier and lock in moisture.",
+    "evidenceLevel": "strong",
+    "seo": {
+        "title": "Squalane - Hydration & Barrier Support | Dew Theory",
+        "description": "Learn about Squalane, the lightweight emollient that hydrates without clogging pores."
+    }
+}

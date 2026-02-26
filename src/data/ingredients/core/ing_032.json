@@ -1,0 +1,55 @@
+{
+    "id": "ing_032",
+    "name": "Ceramide NP",
+    "inciName": "Ceramide NP",
+    "category": "Barrier Repair",
+    "origin": "Synthetic or Yeast-derived",
+    "countryOfOrigin": null,
+    "description": "A major component of the skin's lipid barrier that helps retain moisture.",
+    "benefits": [
+        "Repairs skin barrier",
+        "Retains moisture",
+        "Plumps skin"
+    ],
+    "skinTypes": [
+        "All",
+        "Dry",
+        "Sensitive",
+        "Mature"
+    ],
+    "concerns": [
+        "Barrier Damage",
+        "Dryness",
+        "Fine Lines"
+    ],
+    "image": "https://images.unsplash.com/photo-1556228578-8c89e6afd6f5?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 0,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": true,
+    "pregnancySafe": true,
+    "strengthLevel": "low",
+    "barrierImpactScore": 2,
+    "pH_range": "N/A",
+    "photosensitivityRisk": false,
+    "goalTags": [
+        "barrier-repair",
+        "dryness"
+    ],
+    "layeringConflicts": [],
+    "redundancyTags": [],
+    "frequencyLimit": "daily",
+    "timeOfDay": "Both",
+    "climateSuitability": [
+        "dry",
+        "temperate",
+        "humid",
+        "tropical"
+    ],
+    "scientificSummary": "One of the most common ceramides found in the skin, it is essential for maintaining the integrity of the epidermal water barrier.",
+    "mechanismOfAction": "Fills the gaps between skin cells (corneocytes) to prevent water loss and protect against irritants.",
+    "evidenceLevel": "strong",
+    "seo": {
+        "title": "Ceramide NP - Barrier Restoration | Dew Theory",
+        "description": "Discover how Ceramide NP strengthens your skin barrier and locks in deep hydration."
+    }
+}

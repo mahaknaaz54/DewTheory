@@ -1,0 +1,58 @@
+{
+    "id": "ing_044",
+    "name": "Gluconolactone",
+    "inciName": "Gluconolactone",
+    "category": "Exfoliant (PHA)",
+    "origin": "Synthetic or Plant-derived",
+    "countryOfOrigin": null,
+    "description": "A gentle polyhydroxy acid that exfoliates while hydrating the skin.",
+    "benefits": [
+        "Gentle exfoliation",
+        "Hydrates skin",
+        "Strengthens barrier"
+    ],
+    "skinTypes": [
+        "All",
+        "Sensitive",
+        "Dry"
+    ],
+    "concerns": [
+        "Texture",
+        "Dullness",
+        "Sensitivity"
+    ],
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 1,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": true,
+    "pregnancySafe": true,
+    "strengthLevel": "low",
+    "barrierImpactScore": 1,
+    "pH_range": "3.5 - 4.5",
+    "photosensitivityRisk": false,
+    "goalTags": [
+        "gentle-exfoliation",
+        "hydration"
+    ],
+    "layeringConflicts": [
+        "retinoids"
+    ],
+    "redundancyTags": [
+        "lactobionic acid"
+    ],
+    "frequencyLimit": "daily",
+    "timeOfDay": "PM",
+    "climateSuitability": [
+        "dry",
+        "temperate",
+        "humid",
+        "tropical"
+    ],
+    "scientificSummary": "A large-molecule PHA that does not penetrate as deeply as AHAs, providing surface exfoliation with less irritation risk.",
+    "mechanismOfAction": "Breaks the bonds between dead skin cells and attracts water to the skin surface due to its many hydroxyl groups.",
+    "evidenceLevel": "strong",
+    "seo": {
+        "title": "Gluconolactone - Gentle PHA Exfoliation | Dew Theory",
+        "description": "Discover the benefits of Gluconolactone for sensitive skin needing gentle renewal."
+    }
+}

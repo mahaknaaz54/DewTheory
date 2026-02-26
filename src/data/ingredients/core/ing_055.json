@@ -1,0 +1,53 @@
+{
+    "id": "ing_055",
+    "name": "Resveratrol",
+    "inciName": "Resveratrol",
+    "category": "Antioxidant",
+    "origin": "Plant-derived (Grapes, Berries)",
+    "countryOfOrigin": null,
+    "description": "A powerful polyphenol that protects against environmental stressors and slows down aging.",
+    "benefits": [
+        "Antioxidant defense",
+        "Evens skin tone",
+        "Anti-aging"
+    ],
+    "skinTypes": [
+        "All",
+        "Mature"
+    ],
+    "concerns": [
+        "Aging",
+        "Sun Damage",
+        "Redness"
+    ],
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 0,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": true,
+    "pregnancySafe": true,
+    "strengthLevel": "medium",
+    "barrierImpactScore": 1,
+    "pH_range": "N/A",
+    "photosensitivityRisk": false,
+    "goalTags": [
+        "antioxidant",
+        "anti-aging"
+    ],
+    "layeringConflicts": [],
+    "redundancyTags": [],
+    "frequencyLimit": "daily",
+    "timeOfDay": "PM",
+    "climateSuitability": [
+        "dry",
+        "temperate",
+        "humid",
+        "tropical"
+    ],
+    "scientificSummary": "A natural phytoalexin produced by several plants in response to injury or when the plant is under attack by pathogens such as bacteria or fungi.",
+    "mechanismOfAction": "Activates sirtuins (longevity genes) and neutralizes free radicals to protect skin structure.",
+    "evidenceLevel": "strong",
+    "seo": {
+        "title": "Resveratrol - The Longevity Antioxidant | Dew Theory",
+        "description": "Protect your skin from the signs of aging with the powerful antioxidant Resveratrol."
+    }
+}

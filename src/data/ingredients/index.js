@@ -34,6 +34,37 @@ import ing_027 from './core/ing_027.json';
 import ing_028 from './core/ing_028.json';
 import ing_029 from './core/ing_029.json';
 import ing_030 from './core/ing_030.json';
+import ing_031 from './core/ing_031.json';
+import ing_032 from './core/ing_032.json';
+import ing_033 from './core/ing_033.json';
+import ing_034 from './core/ing_034.json';
+import ing_035 from './core/ing_035.json';
+import ing_036 from './core/ing_036.json';
+import ing_037 from './core/ing_037.json';
+import ing_038 from './core/ing_038.json';
+import ing_039 from './core/ing_039.json';
+import ing_040 from './core/ing_040.json';
+import ing_041 from './core/ing_041.json';
+import ing_042 from './core/ing_042.json';
+import ing_043 from './core/ing_043.json';
+import ing_044 from './core/ing_044.json';
+import ing_045 from './core/ing_045.json';
+import ing_046 from './core/ing_046.json';
+import ing_047 from './core/ing_047.json';
+import ing_048 from './core/ing_048.json';
+import ing_049 from './core/ing_049.json';
+import ing_050 from './core/ing_050.json';
+import ing_051 from './core/ing_051.json';
+import ing_052 from './core/ing_052.json';
+import ing_053 from './core/ing_053.json';
+import ing_054 from './core/ing_054.json';
+import ing_055 from './core/ing_055.json';
+import ing_056 from './core/ing_056.json';
+import ing_057 from './core/ing_057.json';
+import ing_058 from './core/ing_058.json';
+import ing_059 from './core/ing_059.json';
+import ing_060 from './core/ing_060.json';
+
 
 // The master list of all ingredients
 export const allIngredients = [
@@ -66,7 +97,37 @@ export const allIngredients = [
     ing_027,
     ing_028,
     ing_029,
-    ing_030
+    ing_030,
+    ing_031,
+    ing_032,
+    ing_033,
+    ing_034,
+    ing_035,
+    ing_036,
+    ing_037,
+    ing_038,
+    ing_039,
+    ing_040,
+    ing_041,
+    ing_042,
+    ing_043,
+    ing_044,
+    ing_045,
+    ing_046,
+    ing_047,
+    ing_048,
+    ing_049,
+    ing_050,
+    ing_051,
+    ing_052,
+    ing_053,
+    ing_054,
+    ing_055,
+    ing_056,
+    ing_057,
+    ing_058,
+    ing_059,
+    ing_060
 ];
 
 // Helper map for O(1) lookups

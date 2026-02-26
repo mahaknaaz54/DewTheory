@@ -1,0 +1,58 @@
+{
+    "id": "ing_058",
+    "name": "Tea Tree Oil",
+    "inciName": "Melaleuca Alternifolia Leaf Oil",
+    "category": "Extract/Essential Oil",
+    "origin": "Plant-derived",
+    "countryOfOrigin": null,
+    "description": "A natural essential oil with potent antibacterial and anti-inflammatory properties.",
+    "benefits": [
+        "Reduces acne",
+        "Antibacterial",
+        "Calms inflammation"
+    ],
+    "skinTypes": [
+        "Oily",
+        "Acne-Prone"
+    ],
+    "concerns": [
+        "Acne",
+        "Blemishes",
+        "Oiliness"
+    ],
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 4,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": true,
+    "pregnancySafe": true,
+    "strengthLevel": "high",
+    "barrierImpactScore": 0,
+    "pH_range": "N/A",
+    "photosensitivityRisk": false,
+    "goalTags": [
+        "acne",
+        "oil-control"
+    ],
+    "layeringConflicts": [
+        "retinoids",
+        "exfoliating acids"
+    ],
+    "redundancyTags": [
+        "benzoyl peroxide"
+    ],
+    "frequencyLimit": "daily (diluted)",
+    "timeOfDay": "PM",
+    "climateSuitability": [
+        "dry",
+        "temperate",
+        "humid",
+        "tropical"
+    ],
+    "scientificSummary": "Contains terpinen-4-ol, which has been shown to kill various bacteria, viruses, and fungi, and increase white blood cell activity.",
+    "mechanismOfAction": "Quickly penetrates the pores to kill Propionibacterium acnes and reduce the associated inflammation.",
+    "evidenceLevel": "strong",
+    "seo": {
+        "title": "Tea Tree Oil - Natural Acne Fighter | Dew Theory",
+        "description": "Learn how Tea Tree Oil effectively treats acne and keeps your skin clear and healthy."
+    }
+}

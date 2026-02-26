@@ -1,0 +1,55 @@
+{
+    "id": "ing_033",
+    "name": "Allantoin",
+    "inciName": "Allantoin",
+    "category": "Soothing",
+    "origin": "Synthetic or Plant-derived (Comfrey)",
+    "countryOfOrigin": null,
+    "description": "An effective soothing and anti-irritant agent that promotes skin healing.",
+    "benefits": [
+        "Calms irritation",
+        "Promotes healing",
+        "Softens skin"
+    ],
+    "skinTypes": [
+        "All",
+        "Sensitive",
+        "Acne-Prone",
+        "Dry"
+    ],
+    "concerns": [
+        "Redness",
+        "Irritation",
+        "Sensitivity"
+    ],
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 0,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": true,
+    "pregnancySafe": true,
+    "strengthLevel": "low",
+    "barrierImpactScore": 1,
+    "pH_range": "N/A",
+    "photosensitivityRisk": false,
+    "goalTags": [
+        "soothing",
+        "redness"
+    ],
+    "layeringConflicts": [],
+    "redundancyTags": [],
+    "frequencyLimit": "daily",
+    "timeOfDay": "Both",
+    "climateSuitability": [
+        "dry",
+        "temperate",
+        "humid",
+        "tropical"
+    ],
+    "scientificSummary": "A keratolytic agent that increases the water content of the extracellular matrix and enhances the desquamation of dead skin cells.",
+    "mechanismOfAction": "Stimulates cell regeneration and provides anti-inflammatory benefits to calm the skin.",
+    "evidenceLevel": "strong",
+    "seo": {
+        "title": "Allantoin - Soothing & Healing Properties | Dew Theory",
+        "description": "Find out why Allantoin is a must-have for sensitive skin and post-procedure care."
+    }
+}

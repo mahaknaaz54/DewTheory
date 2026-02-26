@@ -1,0 +1,56 @@
+{
+    "id": "ing_057",
+    "name": "Snail Mucin",
+    "inciName": "Snail Secretion Filtrate",
+    "category": "Soothing/Hydration",
+    "origin": "Animal-derived",
+    "countryOfOrigin": null,
+    "description": "A powerhouse ingredient that hydrates, repairs damage, and improves skin elasticity.",
+    "benefits": [
+        "Deep hydration",
+        "Repairs damage",
+        "Soothes redness"
+    ],
+    "skinTypes": [
+        "All",
+        "Acne-Prone",
+        "Sensitive",
+        "Dry"
+    ],
+    "concerns": [
+        "Dehydration",
+        "Acne Scars",
+        "Redness"
+    ],
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 0,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": true,
+    "pregnancySafe": true,
+    "strengthLevel": "low",
+    "barrierImpactScore": 2,
+    "pH_range": "N/A",
+    "photosensitivityRisk": false,
+    "goalTags": [
+        "hydration",
+        "healing",
+        "soothing"
+    ],
+    "layeringConflicts": [],
+    "redundancyTags": [],
+    "frequencyLimit": "twice-daily",
+    "timeOfDay": "Both",
+    "climateSuitability": [
+        "dry",
+        "temperate",
+        "humid",
+        "tropical"
+    ],
+    "scientificSummary": "Contains a complex mix of glycoproteins, hyaluronic acid, glycolic acid, and copper peptides which together promote skin repair.",
+    "mechanismOfAction": "Stimulates the production of collagen and elastin while providing a high concentration of nutrients to the skin.",
+    "evidenceLevel": "moderate",
+    "seo": {
+        "title": "Snail Mucin - Repair & Hydration | Dew Theory",
+        "description": "Discover why Snail Mucin is the holy grail for repairing and hydrating your skin."
+    }
+}

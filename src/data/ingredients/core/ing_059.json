@@ -1,0 +1,53 @@
+{
+    "id": "ing_059",
+    "name": "Tranexamic Acid",
+    "inciName": "Tranexamic Acid",
+    "category": "Brightening",
+    "origin": "Synthetic",
+    "countryOfOrigin": null,
+    "description": "A powerful ingredient that helps fade persistent dark spots and melasma.",
+    "benefits": [
+        "Fades melasma",
+        "Evens skin tone",
+        "Reduces PIH"
+    ],
+    "skinTypes": [
+        "All",
+        "Hyperpigmentation-Prone"
+    ],
+    "concerns": [
+        "Melasma",
+        "PIH",
+        "Dark Spots"
+    ],
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 1,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": true,
+    "pregnancySafe": true,
+    "strengthLevel": "medium",
+    "barrierImpactScore": 1,
+    "pH_range": "3.0 - 5.0",
+    "photosensitivityRisk": false,
+    "goalTags": [
+        "brightening",
+        "hyperpigmentation"
+    ],
+    "layeringConflicts": [],
+    "redundancyTags": [],
+    "frequencyLimit": "twice-daily",
+    "timeOfDay": "Both",
+    "climateSuitability": [
+        "dry",
+        "temperate",
+        "humid",
+        "tropical"
+    ],
+    "scientificSummary": "A synthetic derivative of the amino acid lysine that inhibits the interaction of melanocytes and keratinocytes.",
+    "mechanismOfAction": "Inhibits UV-induced plasminogen activity in keratinocytes, which in turn reduces melanin synthesis.",
+    "evidenceLevel": "strong",
+    "seo": {
+        "title": "Tranexamic Acid - Fading Melasma | Dew Theory",
+        "description": "Discover the effective brightening power of Tranexamic Acid for stubborn pigmentation."
+    }
+}
