@@ -9,7 +9,7 @@ import IngredientCard from '../components/IngredientCard';
 
 const Home = () => {
     return (
-        <div className="overflow-hidden bg-hikari-cream dark:bg-hikari-dark text-hikari-text dark:text-hikari-cream transition-colors duration-300">
+        <div className="overflow-hidden bg-hikari-cream dark:bg-hikari-dark text-hikari-text dark:text-hikari-cream">
             {/* Hero Section */}
             <section className="relative pt-12 pb-24 md:pt-20 md:pb-32 overflow-hidden">
                 <Container>

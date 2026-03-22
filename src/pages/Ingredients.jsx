@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Search, ChevronDown, SlidersHorizontal, X } from 'lucide-react';
 import Container from '../components/Container';
 import IngredientCard from '../components/IngredientCard';

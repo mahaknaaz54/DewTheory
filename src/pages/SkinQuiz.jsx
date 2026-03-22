@@ -133,7 +133,7 @@ const SkinQuiz = () => {
                                             }`}
                                     >
                                         {/* Icon bubble */}
-                                        <div className={`w-11 h-11 rounded-xl flex items-center justify-center text-xl shrink-0 transition-colors duration-300 ${isSelected
+                                        <div className={`w-11 h-11 rounded-xl flex items-center justify-center text-xl shrink-0 ${isSelected
                                             ? 'bg-hikari-orange/15'
                                             : 'bg-hikari-clay/60 dark:bg-white/10'
                                             }`}>
@@ -142,7 +142,7 @@ const SkinQuiz = () => {
 
                                         {/* Text */}
                                         <div className="flex-1 min-w-0">
-                                            <p className={`font-semibold text-sm transition-colors duration-200 ${isSelected ? 'text-hikari-orange' : 'text-hikari-text dark:text-white'
+                                            <p className={`font-semibold text-sm ${isSelected ? 'text-hikari-orange' : 'text-hikari-text dark:text-white'
                                                 }`}>
                                                 {option.label}
                                             </p>
