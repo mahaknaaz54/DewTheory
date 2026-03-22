@@ -1,0 +1,38 @@
+{
+    "id": "ing_082",
+    "name": "Bisabolol",
+    "inciName": "Alpha-Bisabolol",
+    "category": "Extract",
+    "origin": "Plant-derived",
+    "countryOfOrigin": "Brazil",
+    "description": "A naturally occurring terpene from chamomile renowned for its exceptional skin-calming and healing properties.",
+    "benefits": [
+        "Calms redness",
+        "Promotes healing",
+        "Enhances penetration"
+    ],
+    "skinTypes": ["Sensitive", "Dry", "All"],
+    "concerns": ["Redness", "Sensitivity", "Irritation"],
+    "image": "https://images.unsplash.com/photo-1621827979747-c31dbc34c8b3?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 1,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": true,
+    "pregnancySafe": true,
+    "strengthLevel": "low",
+    "barrierImpactScore": 2,
+    "pH_range": "N/A",
+    "photosensitivityRisk": false,
+    "goalTags": ["soothing", "healing", "sensitivity"],
+    "layeringConflicts": [],
+    "redundancyTags": [],
+    "frequencyLimit": "daily",
+    "timeOfDay": "AM/PM",
+    "climateSuitability": ["dry", "temperate", "humid", "tropical"],
+    "scientificSummary": "Clinical studies show bisabolol inhibits NF-kB signaling pathway, directly reducing the production of pro-inflammatory compounds.",
+    "mechanismOfAction": "Inhibits 5-lipoxygenase and NF-kB, reducing prostaglandin E2 and cytokine production while also acting as a penetration enhancer.",
+    "evidenceLevel": "moderate",
+    "seo": {
+        "title": "Bisabolol - Chamomile's Ultimate Soothing Extract | Dew Theory",
+        "description": "Explore the science of Alpha-Bisabolol and how it calms reactive skin and aids healing."
+    }
+}

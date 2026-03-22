@@ -1,0 +1,38 @@
+{
+    "id": "ing_084",
+    "name": "Colloidal Oatmeal",
+    "inciName": "Avena Sativa Kernel Flour",
+    "category": "Extract",
+    "origin": "Plant-derived",
+    "countryOfOrigin": null,
+    "description": "A finely milled oat ingredient with FDA-approved skin protectant status, proven to relieve eczema and dry skin.",
+    "benefits": [
+        "Relieves eczema",
+        "Intense soothing",
+        "Protective barrier"
+    ],
+    "skinTypes": ["Sensitive", "Eczema-Prone", "Dry", "All"],
+    "concerns": ["Eczema", "Sensitivity", "Dryness"],
+    "image": "https://images.unsplash.com/photo-1543362906-acfc16c67564?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 1,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": false,
+    "pregnancySafe": true,
+    "strengthLevel": "low",
+    "barrierImpactScore": 4,
+    "pH_range": "N/A",
+    "photosensitivityRisk": false,
+    "goalTags": ["eczema", "soothing", "barrier-repair"],
+    "layeringConflicts": [],
+    "redundancyTags": [],
+    "frequencyLimit": "daily",
+    "timeOfDay": "AM/PM",
+    "climateSuitability": ["dry", "temperate", "humid", "tropical"],
+    "scientificSummary": "Contains avenanthramides, unique polyphenols exclusive to oats, with potent anti-itch and anti-histamine properties.",
+    "mechanismOfAction": "Avenanthramides inhibit NF-kB and reduce histamine release, while beta-glucan and starches form a protective film.",
+    "evidenceLevel": "strong",
+    "seo": {
+        "title": "Colloidal Oatmeal - FDA-Approved Skin Protectant | Dew Theory",
+        "description": "Learn how Colloidal Oatmeal soothes eczema, calms itching, and protects the most sensitive skin."
+    }
+}

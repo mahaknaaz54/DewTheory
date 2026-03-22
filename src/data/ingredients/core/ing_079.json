@@ -1,0 +1,38 @@
+{
+    "id": "ing_079",
+    "name": "Argan Oil",
+    "inciName": "Argania Spinosa Kernel Oil",
+    "category": "Oil",
+    "origin": "Plant-derived",
+    "countryOfOrigin": "Morocco",
+    "description": "Liquid gold from Morocco — a non-greasy oil rich in linoleic acid and vitamin E for soft, luminous skin.",
+    "benefits": [
+        "Moisturizes deeply",
+        "Softens skin",
+        "Adds radiance"
+    ],
+    "skinTypes": ["Dry", "Normal", "Mature"],
+    "concerns": ["Dryness", "Rough Texture", "Dullness"],
+    "image": "https://images.unsplash.com/photo-1601362840469-51e4d8d58785?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 1,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": false,
+    "pregnancySafe": true,
+    "strengthLevel": "low",
+    "barrierImpactScore": 3,
+    "pH_range": "N/A",
+    "photosensitivityRisk": false,
+    "goalTags": ["hydration", "smoothing", "radiance"],
+    "layeringConflicts": [],
+    "redundancyTags": [],
+    "frequencyLimit": "daily",
+    "timeOfDay": "PM",
+    "climateSuitability": ["dry", "temperate"],
+    "scientificSummary": "Contains 80% unsaturated fatty acids (oleic and linoleic) and is rich in tocopherols (vitamin E), squalene, and polyphenols.",
+    "mechanismOfAction": "Linoleic acid restores barrier integrity while tocopherols provide antioxidant protection and improve skin feel.",
+    "evidenceLevel": "moderate",
+    "seo": {
+        "title": "Argan Oil - Morocco's Liquid Gold for Skin | Dew Theory",
+        "description": "Discover how Argan Oil nourishes, softens, and adds a healthy glow to skin without greasiness."
+    }
+}

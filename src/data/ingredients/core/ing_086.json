@@ -1,0 +1,38 @@
+{
+    "id": "ing_086",
+    "name": "Snowmushroom Extract",
+    "inciName": "Tremella Fuciformis Sporocarp Extract",
+    "category": "Extract",
+    "origin": "Fermented",
+    "countryOfOrigin": "China",
+    "description": "A rare Chinese medicinal fungus with particles smaller than hyaluronic acid for superior skin penetration and hydration.",
+    "benefits": [
+        "Superior hydration",
+        "Antioxidant protection",
+        "Smooths texture"
+    ],
+    "skinTypes": ["All", "Dry", "Dehydrated"],
+    "concerns": ["Dehydration", "Fine Lines", "Dullness"],
+    "image": "https://images.unsplash.com/photo-1543362906-acfc16c67564?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 1,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": true,
+    "pregnancySafe": true,
+    "strengthLevel": "low",
+    "barrierImpactScore": 3,
+    "pH_range": "N/A",
+    "photosensitivityRisk": false,
+    "goalTags": ["hydration", "anti-aging", "brightening"],
+    "layeringConflicts": [],
+    "redundancyTags": ["hyaluronic-acid"],
+    "frequencyLimit": "daily",
+    "timeOfDay": "AM/PM",
+    "climateSuitability": ["dry", "temperate", "humid", "tropical"],
+    "scientificSummary": "A polysaccharide from snow mushroom forms particles significantly smaller than HA, enabling deeper dermal penetration.",
+    "mechanismOfAction": "Nano-sized polysaccharide particles penetrate deeper than HA, while bioactive compounds reduce melanin production.",
+    "evidenceLevel": "emerging",
+    "seo": {
+        "title": "Snow Mushroom Extract - Superior Hydrating Fungus | Dew Theory",
+        "description": "Discover how Snow Mushroom Extract penetrates deeper than hyaluronic acid for lasting skin plumpness."
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "id": "ing_072",
+    "name": "Polyglutamic Acid",
+    "inciName": "Polyglutamic Acid",
+    "category": "Humectant",
+    "origin": "Fermented",
+    "countryOfOrigin": null,
+    "description": "A fermentation-derived super-humectant that holds 5,000 times its weight in water — four times more than hyaluronic acid.",
+    "benefits": [
+        "Intense hydration",
+        "Plumps skin",
+        "Locks in moisture"
+    ],
+    "skinTypes": [
+        "Dry",
+        "Dehydrated",
+        "All"
+    ],
+    "concerns": [
+        "Dehydration",
+        "Fine Lines",
+        "Dullness"
+    ],
+    "image": "https://images.unsplash.com/photo-1585378455028-3a0b4c0fb47c?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 1,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": true,
+    "pregnancySafe": true,
+    "strengthLevel": "low",
+    "barrierImpactScore": 3,
+    "pH_range": "N/A",
+    "photosensitivityRisk": false,
+    "goalTags": [
+        "hydration",
+        "plumping",
+        "anti-aging"
+    ],
+    "layeringConflicts": [],
+    "redundancyTags": ["hyaluronic-acid"],
+    "frequencyLimit": "daily",
+    "timeOfDay": "AM/PM",
+    "climateSuitability": [
+        "dry",
+        "temperate",
+        "humid",
+        "tropical"
+    ],
+    "scientificSummary": "A naturally occurring polymer found in fermented soybeans (natto) with exceptional water-binding capacity exceeding hyaluronic acid.",
+    "mechanismOfAction": "Forms a moisture-locking film on skin while attracting and retaining water molecules from the environment.",
+    "evidenceLevel": "moderate",
+    "seo": {
+        "title": "Polyglutamic Acid - Super Hydrating Humectant | Dew Theory",
+        "description": "Discover how Polyglutamic Acid delivers intense, lasting hydration that surpasses hyaluronic acid."
+    }
+}

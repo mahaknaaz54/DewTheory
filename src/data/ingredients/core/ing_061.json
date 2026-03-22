@@ -1,0 +1,56 @@
+{
+    "id": "ing_061",
+    "name": "Centella Asiatica",
+    "inciName": "Centella Asiatica Extract",
+    "category": "Extract",
+    "origin": "Plant-derived",
+    "countryOfOrigin": "Asia",
+    "description": "A healing botanical known as 'tiger grass' that repairs the skin barrier and calms inflammation.",
+    "benefits": [
+        "Soothes irritation",
+        "Repairs skin barrier",
+        "Promotes wound healing"
+    ],
+    "skinTypes": [
+        "Sensitive",
+        "Dry",
+        "Acne-Prone",
+        "All"
+    ],
+    "concerns": [
+        "Redness",
+        "Sensitivity",
+        "Scarring"
+    ],
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 1,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": true,
+    "pregnancySafe": true,
+    "strengthLevel": "low",
+    "barrierImpactScore": 3,
+    "pH_range": "N/A",
+    "photosensitivityRisk": false,
+    "goalTags": [
+        "barrier-repair",
+        "redness",
+        "scarring"
+    ],
+    "layeringConflicts": [],
+    "redundancyTags": [],
+    "frequencyLimit": "daily",
+    "timeOfDay": "AM/PM",
+    "climateSuitability": [
+        "dry",
+        "temperate",
+        "humid",
+        "tropical"
+    ],
+    "scientificSummary": "Contains asiaticoside, madecassoside, and asiatic acid which stimulate collagen synthesis and reduce inflammation.",
+    "mechanismOfAction": "Activates fibroblasts to produce collagen and inhibits inflammatory cytokines for calming effects.",
+    "evidenceLevel": "strong",
+    "seo": {
+        "title": "Centella Asiatica - Skin Repair Extract | Dew Theory",
+        "description": "Discover how Centella Asiatica calms irritation, repairs the skin barrier, and supports wound healing."
+    }
+}

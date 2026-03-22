@@ -1,0 +1,56 @@
+{
+    "id": "ing_067",
+    "name": "Ceramide NP",
+    "inciName": "Ceramide NP",
+    "category": "Lipid",
+    "origin": "Synthetic",
+    "countryOfOrigin": null,
+    "description": "A key skin-identical lipid that restores the skin's natural protective barrier layer.",
+    "benefits": [
+        "Repairs skin barrier",
+        "Retains moisture",
+        "Reduces sensitivity"
+    ],
+    "skinTypes": [
+        "Dry",
+        "Sensitive",
+        "Eczema-Prone",
+        "All"
+    ],
+    "concerns": [
+        "Dryness",
+        "Sensitivity",
+        "Eczema"
+    ],
+    "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 1,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": true,
+    "pregnancySafe": true,
+    "strengthLevel": "low",
+    "barrierImpactScore": 5,
+    "pH_range": "N/A",
+    "photosensitivityRisk": false,
+    "goalTags": [
+        "barrier-repair",
+        "hydration",
+        "eczema"
+    ],
+    "layeringConflicts": [],
+    "redundancyTags": [],
+    "frequencyLimit": "daily",
+    "timeOfDay": "AM/PM",
+    "climateSuitability": [
+        "dry",
+        "temperate",
+        "humid",
+        "tropical"
+    ],
+    "scientificSummary": "Ceramides constitute approximately 50% of the lipid matrix of the stratum corneum, making them essential for barrier function.",
+    "mechanismOfAction": "Fills gaps between corneocytes in the stratum corneum, sealing the skin barrier and reducing transepidermal water loss.",
+    "evidenceLevel": "strong",
+    "seo": {
+        "title": "Ceramide NP - Essential Skin Barrier Lipid | Dew Theory",
+        "description": "Learn how Ceramide NP restores the skin's lipid barrier to prevent moisture loss and sensitivity."
+    }
+}

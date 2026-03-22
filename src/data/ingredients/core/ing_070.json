@@ -1,0 +1,53 @@
+{
+    "id": "ing_070",
+    "name": "Rosehip Oil",
+    "inciName": "Rosa Canina Fruit Oil",
+    "category": "Oil",
+    "origin": "Plant-derived",
+    "countryOfOrigin": "Chile",
+    "description": "A rich botanical oil packed with trans-retinoic acid and essential fatty acids for skin regeneration.",
+    "benefits": [
+        "Fades scars",
+        "Improves elasticity",
+        "Reduces hyperpigmentation"
+    ],
+    "skinTypes": [
+        "Dry",
+        "Mature",
+        "Normal"
+    ],
+    "concerns": [
+        "Scarring",
+        "Hyperpigmentation",
+        "Fine Lines"
+    ],
+    "image": "https://images.unsplash.com/photo-1601362840469-51e4d8d58785?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 2,
+    "comedogenicRating": 1,
+    "fungalAcneSafe": false,
+    "pregnancySafe": false,
+    "strengthLevel": "medium",
+    "barrierImpactScore": 2,
+    "pH_range": "N/A",
+    "photosensitivityRisk": true,
+    "goalTags": [
+        "scarring",
+        "hyperpigmentation",
+        "anti-aging"
+    ],
+    "layeringConflicts": [],
+    "redundancyTags": ["retinol"],
+    "frequencyLimit": "daily",
+    "timeOfDay": "PM",
+    "climateSuitability": [
+        "dry",
+        "temperate"
+    ],
+    "scientificSummary": "Contains approximately 80% essential fatty acids (linoleic and alpha-linolenic acid) and naturally occurring trans-retinoic acid.",
+    "mechanismOfAction": "Retinoic acid in the oil normalizes cell turnover while essential fatty acids reinforce the skin's lipid barrier.",
+    "evidenceLevel": "moderate",
+    "seo": {
+        "title": "Rosehip Oil - Regenerating Botanical Oil | Dew Theory",
+        "description": "Discover how Rosehip Oil fades scars, reduces pigmentation, and restores youthful elasticity."
+    }
+}

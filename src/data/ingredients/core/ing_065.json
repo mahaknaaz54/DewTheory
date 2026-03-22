@@ -1,0 +1,55 @@
+{
+    "id": "ing_065",
+    "name": "Mandelic Acid",
+    "inciName": "Mandelic Acid",
+    "category": "Acid",
+    "origin": "Synthetic",
+    "countryOfOrigin": null,
+    "description": "A gentle alpha-hydroxy acid derived from bitter almonds, ideal for sensitive skin wanting exfoliation.",
+    "benefits": [
+        "Gentle exfoliation",
+        "Brightens complexion",
+        "Reduces acne"
+    ],
+    "skinTypes": [
+        "Sensitive",
+        "Acne-Prone",
+        "Combination",
+        "Dark Skin Tones"
+    ],
+    "concerns": [
+        "Acne",
+        "Dullness",
+        "Hyperpigmentation"
+    ],
+    "image": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 2,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": false,
+    "pregnancySafe": false,
+    "strengthLevel": "medium",
+    "barrierImpactScore": -1,
+    "pH_range": "3.0 - 4.0",
+    "photosensitivityRisk": true,
+    "goalTags": [
+        "exfoliation",
+        "acne",
+        "brightening"
+    ],
+    "layeringConflicts": ["retinol", "vitamin-c"],
+    "redundancyTags": ["glycolic-acid", "lactic-acid"],
+    "frequencyLimit": "3x-weekly",
+    "timeOfDay": "PM",
+    "climateSuitability": [
+        "temperate",
+        "humid",
+        "tropical"
+    ],
+    "scientificSummary": "Larger molecular size than glycolic acid means slower skin penetration and reduced irritation potential on sensitive skin.",
+    "mechanismOfAction": "Loosens desmosomes between corneocytes to accelerate cell turnover and reveal brighter, smoother skin underneath.",
+    "evidenceLevel": "moderate",
+    "seo": {
+        "title": "Mandelic Acid - Gentle AHA Exfoliant | Dew Theory",
+        "description": "Learn how Mandelic Acid provides effective exfoliation with minimal irritation for sensitive skin types."
+    }
+}

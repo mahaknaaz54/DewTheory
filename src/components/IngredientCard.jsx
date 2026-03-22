@@ -1,14 +1,10 @@
-import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import IngredientMockup from './IngredientMockup';
 
 const IngredientCard = ({ ingredient }) => {
     return (
         <Link to={`/ingredients/${ingredient.slug || ingredient.id}`}>
-            <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-50px" }}
+            <div
                 className="group relative bg-white dark:bg-white/5 rounded-3xl p-5 shadow-sm hover:shadow-glow dark:border dark:border-white/10 transition-all duration-500 flex flex-col h-full cursor-pointer"
             >
                 {/* Ingredient Image Mockup */}
@@ -43,7 +39,7 @@ const IngredientCard = ({ ingredient }) => {
                         {ingredient.benefits?.[0]} — {ingredient.description?.substring(0, 60)}...
                     </p>
                 </div>
-            </motion.div>
+            </div>
         </Link>
     );
 };

@@ -1,0 +1,55 @@
+{
+    "id": "ing_071",
+    "name": "Licorice Root Extract",
+    "inciName": "Glycyrrhiza Glabra Root Extract",
+    "category": "Extract",
+    "origin": "Plant-derived",
+    "countryOfOrigin": "Asia",
+    "description": "A potent botanical brightener that inhibits melanin production and soothes inflamed skin.",
+    "benefits": [
+        "Brightens dark spots",
+        "Soothes irritation",
+        "Anti-inflammatory"
+    ],
+    "skinTypes": [
+        "Sensitive",
+        "Combination",
+        "All"
+    ],
+    "concerns": [
+        "Hyperpigmentation",
+        "Redness",
+        "Dullness"
+    ],
+    "image": "https://images.unsplash.com/photo-1543362906-acfc16c67564?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 1,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": true,
+    "pregnancySafe": true,
+    "strengthLevel": "low",
+    "barrierImpactScore": 1,
+    "pH_range": "N/A",
+    "photosensitivityRisk": false,
+    "goalTags": [
+        "hyperpigmentation",
+        "brightening",
+        "redness"
+    ],
+    "layeringConflicts": [],
+    "redundancyTags": ["kojic-acid"],
+    "frequencyLimit": "daily",
+    "timeOfDay": "AM/PM",
+    "climateSuitability": [
+        "dry",
+        "temperate",
+        "humid",
+        "tropical"
+    ],
+    "scientificSummary": "Glabridin, the key flavonoid in licorice root, inhibits UVB-induced melanogenesis more effectively than kojic acid.",
+    "mechanismOfAction": "Glabridin inhibits tyrosinase activity and COX-2 expression, simultaneously reducing pigment and inflammation.",
+    "evidenceLevel": "moderate",
+    "seo": {
+        "title": "Licorice Root Extract - Natural Brightener | Dew Theory",
+        "description": "Explore how Licorice Root Extract fades dark spots and calms inflammation naturally."
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "id": "ing_066",
+    "name": "Peptide Complex",
+    "inciName": "Palmitoyl Tripeptide-1",
+    "category": "Peptide",
+    "origin": "Synthetic",
+    "countryOfOrigin": null,
+    "description": "A signal peptide that communicates with skin cells to boost collagen and elastin production.",
+    "benefits": [
+        "Boosts collagen",
+        "Firms skin",
+        "Reduces wrinkles"
+    ],
+    "skinTypes": [
+        "Mature",
+        "Dry",
+        "All"
+    ],
+    "concerns": [
+        "Fine Lines",
+        "Loss of Firmness",
+        "Wrinkles"
+    ],
+    "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 1,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": true,
+    "pregnancySafe": true,
+    "strengthLevel": "medium",
+    "barrierImpactScore": 2,
+    "pH_range": "N/A",
+    "photosensitivityRisk": false,
+    "goalTags": [
+        "anti-aging",
+        "firming",
+        "collagen-boost"
+    ],
+    "layeringConflicts": [],
+    "redundancyTags": [],
+    "frequencyLimit": "daily",
+    "timeOfDay": "AM/PM",
+    "climateSuitability": [
+        "dry",
+        "temperate",
+        "humid",
+        "tropical"
+    ],
+    "scientificSummary": "Peptides are short chains of amino acids that serve as messengers, signaling fibroblasts to ramp up collagen synthesis.",
+    "mechanismOfAction": "Mimics collagen breakdown fragments to trigger a wound-healing response, accelerating collagen and elastin production.",
+    "evidenceLevel": "moderate",
+    "seo": {
+        "title": "Peptide Complex - Collagen Boosting Peptides | Dew Theory",
+        "description": "Explore how signal peptides like Palmitoyl Tripeptide-1 firm skin and reduce the appearance of wrinkles."
+    }
+}

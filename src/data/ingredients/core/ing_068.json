@@ -1,0 +1,56 @@
+{
+    "id": "ing_068",
+    "name": "Azelaic Acid",
+    "inciName": "Azelaic Acid",
+    "category": "Acid",
+    "origin": "Synthetic",
+    "countryOfOrigin": null,
+    "description": "A multi-functional acid that fights acne, reduces redness, and brightens skin with minimal irritation.",
+    "benefits": [
+        "Reduces acne",
+        "Fades post-acne marks",
+        "Calms rosacea"
+    ],
+    "skinTypes": [
+        "Acne-Prone",
+        "Sensitive",
+        "Combination",
+        "All"
+    ],
+    "concerns": [
+        "Acne",
+        "Rosacea",
+        "Post-Acne Marks"
+    ],
+    "image": "https://images.unsplash.com/photo-1556228720-195a672e8a03?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 2,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": true,
+    "pregnancySafe": true,
+    "strengthLevel": "medium",
+    "barrierImpactScore": 0,
+    "pH_range": "4.0 - 5.5",
+    "photosensitivityRisk": false,
+    "goalTags": [
+        "acne",
+        "redness",
+        "brightening"
+    ],
+    "layeringConflicts": [],
+    "redundancyTags": [],
+    "frequencyLimit": "daily",
+    "timeOfDay": "AM/PM",
+    "climateSuitability": [
+        "dry",
+        "temperate",
+        "humid",
+        "tropical"
+    ],
+    "scientificSummary": "A naturally occurring dicarboxylic acid with proven antibacterial, anti-inflammatory, and anti-keratinizing properties.",
+    "mechanismOfAction": "Inhibits tyrosinase activity to reduce pigment, and disrupts bacterial protein synthesis to fight acne-causing bacteria.",
+    "evidenceLevel": "strong",
+    "seo": {
+        "title": "Azelaic Acid - Multi-Action Acne & Redness Treatment | Dew Theory",
+        "description": "Discover how Azelaic Acid targets acne, rosacea, and hyperpigmentation all at once."
+    }
+}

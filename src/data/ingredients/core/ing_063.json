@@ -1,0 +1,55 @@
+{
+    "id": "ing_063",
+    "name": "Tranexamic Acid",
+    "inciName": "Tranexamic Acid",
+    "category": "Acid",
+    "origin": "Synthetic",
+    "countryOfOrigin": null,
+    "description": "A gentle brightening acid that targets stubborn discoloration and melasma without irritation.",
+    "benefits": [
+        "Fades dark spots",
+        "Reduces melasma",
+        "Evens skin tone"
+    ],
+    "skinTypes": [
+        "All",
+        "Sensitive",
+        "Combination"
+    ],
+    "concerns": [
+        "Hyperpigmentation",
+        "Melasma",
+        "Uneven Skin Tone"
+    ],
+    "image": "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 1,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": true,
+    "pregnancySafe": false,
+    "strengthLevel": "medium",
+    "barrierImpactScore": 0,
+    "pH_range": "N/A",
+    "photosensitivityRisk": false,
+    "goalTags": [
+        "hyperpigmentation",
+        "brightening",
+        "melasma"
+    ],
+    "layeringConflicts": [],
+    "redundancyTags": ["kojic-acid", "alpha-arbutin"],
+    "frequencyLimit": "daily",
+    "timeOfDay": "AM/PM",
+    "climateSuitability": [
+        "dry",
+        "temperate",
+        "humid",
+        "tropical"
+    ],
+    "scientificSummary": "Inhibits the interaction between keratinocytes and melanocytes, reducing melanin transfer and visible pigmentation.",
+    "mechanismOfAction": "Blocks plasminogen activator pathways that trigger melanogenesis, effectively reducing pigment production.",
+    "evidenceLevel": "strong",
+    "seo": {
+        "title": "Tranexamic Acid - Brightening & Melasma | Dew Theory",
+        "description": "Discover how Tranexamic Acid fades stubborn dark spots and melasma gently and effectively."
+    }
+}

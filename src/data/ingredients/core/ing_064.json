@@ -1,0 +1,56 @@
+{
+    "id": "ing_064",
+    "name": "Squalane",
+    "inciName": "Squalane",
+    "category": "Emollient",
+    "origin": "Plant-derived",
+    "countryOfOrigin": null,
+    "description": "A lightweight, stable hydrocarbon that mimics skin's natural sebum for deep hydration without greasiness.",
+    "benefits": [
+        "Deep moisturization",
+        "Softens skin texture",
+        "Strengthens barrier"
+    ],
+    "skinTypes": [
+        "All",
+        "Oily",
+        "Dry",
+        "Sensitive"
+    ],
+    "concerns": [
+        "Dryness",
+        "Dehydration",
+        "Rough Texture"
+    ],
+    "image": "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 1,
+    "comedogenicRating": 1,
+    "fungalAcneSafe": true,
+    "pregnancySafe": true,
+    "strengthLevel": "low",
+    "barrierImpactScore": 3,
+    "pH_range": "N/A",
+    "photosensitivityRisk": false,
+    "goalTags": [
+        "hydration",
+        "barrier-repair",
+        "smoothing"
+    ],
+    "layeringConflicts": [],
+    "redundancyTags": [],
+    "frequencyLimit": "daily",
+    "timeOfDay": "AM/PM",
+    "climateSuitability": [
+        "dry",
+        "temperate",
+        "humid",
+        "tropical"
+    ],
+    "scientificSummary": "An analogue of squalene, a naturally occurring lipid in sebum. Provides excellent emolliency and non-comedogenic moisturization.",
+    "mechanismOfAction": "Integrates into the lipid matrix of the stratum corneum, reducing transepidermal water loss and improving skin flexibility.",
+    "evidenceLevel": "strong",
+    "seo": {
+        "title": "Squalane - Lightweight Deep Moisturizer | Dew Theory",
+        "description": "Explore the science behind Squalane, the skin-identical emollient that hydrates all skin types."
+    }
+}

@@ -40,7 +40,7 @@ const Ingredients = () => {
     const allConcerns = [...new Set(ingredientsData.flatMap(i => i.concerns))].sort();
 
     // Reset pagination when filters change
-    useMemo(() => {
+    useEffect(() => {
         setVisibleCount(ITEMS_PER_PAGE);
     }, [debouncedSearch, activeCategory, activeConcern, isPregnancySafe, isFASafe]);
 
@@ -205,22 +205,21 @@ const Ingredients = () => {
                 </div>
 
                 {/* Ingredients Grid */}
-                <motion.div layout className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8 min-h-[400px]">
-                    <AnimatePresence mode="popLayout">
-                        {visibleIngredients.map(ingredient => (
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8 min-h-[400px]">
+                    <AnimatePresence mode="sync">
+                        {visibleIngredients.map((ingredient, index) => (
                             <motion.div
                                 key={ingredient.id}
-                                layout
-                                initial={{ opacity: 0, scale: 0.9 }}
-                                animate={{ opacity: 1, scale: 1 }}
-                                exit={{ opacity: 0, scale: 0.9 }}
-                                transition={{ duration: 0.3 }}
+                                initial={{ opacity: 0, y: 16 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                exit={{ opacity: 0 }}
+                                transition={{ duration: 0.2, delay: Math.min(index % ITEMS_PER_PAGE, 8) * 0.04 }}
                             >
                                 <IngredientCard ingredient={ingredient} />
                             </motion.div>
                         ))}
                     </AnimatePresence>
-                </motion.div>
+                </div>
 
                 {/* Zero State */}
                 {filteredIngredients.length === 0 && (

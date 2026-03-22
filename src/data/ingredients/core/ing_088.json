@@ -1,0 +1,38 @@
+{
+    "id": "ing_088",
+    "name": "Neem Oil",
+    "inciName": "Melia Azadirachta Seed Oil",
+    "category": "Oil",
+    "origin": "Plant-derived",
+    "countryOfOrigin": "India",
+    "description": "A potent Ayurvedic oil with powerful antibacterial, antifungal, and anti-inflammatory properties for acne-prone skin.",
+    "benefits": [
+        "Kills acne bacteria",
+        "Anti-fungal",
+        "Reduces inflammation"
+    ],
+    "skinTypes": ["Acne-Prone", "Oily"],
+    "concerns": ["Acne", "Fungal Acne", "Oiliness"],
+    "image": "https://images.unsplash.com/photo-1601362840469-51e4d8d58785?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 3,
+    "comedogenicRating": 1,
+    "fungalAcneSafe": true,
+    "pregnancySafe": false,
+    "strengthLevel": "high",
+    "barrierImpactScore": 0,
+    "pH_range": "N/A",
+    "photosensitivityRisk": false,
+    "goalTags": ["acne", "oil-control", "anti-fungal"],
+    "layeringConflicts": [],
+    "redundancyTags": [],
+    "frequencyLimit": "3x-weekly",
+    "timeOfDay": "PM",
+    "climateSuitability": ["humid", "tropical", "temperate"],
+    "scientificSummary": "Contains nimbidin, azadirachtin, and gedunin — potent limonoids with proven antibacterial activity against P. acnes.",
+    "mechanismOfAction": "Disrupts bacterial cell membranes and inhibits biofilm formation. Nimbidin inhibits cyclooxygenase pathways to reduce inflammation.",
+    "evidenceLevel": "moderate",
+    "seo": {
+        "title": "Neem Oil - Ayurvedic Acne-Fighting Oil | Dew Theory",
+        "description": "Learn how Neem Oil's powerful antibacterial compounds target acne and fungal skin conditions."
+    }
+}

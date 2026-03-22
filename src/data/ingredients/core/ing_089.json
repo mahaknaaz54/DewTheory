@@ -1,0 +1,38 @@
+{
+    "id": "ing_089",
+    "name": "Mugwort Extract",
+    "inciName": "Artemisia Vulgaris Extract",
+    "category": "Extract",
+    "origin": "Plant-derived",
+    "countryOfOrigin": "Korea",
+    "description": "A beloved K-beauty botanical used for centuries to purify pores and calm reactive, sensitive skin.",
+    "benefits": [
+        "Purifies pores",
+        "Calms sensitive skin",
+        "Anti-bacterial"
+    ],
+    "skinTypes": ["Oily", "Sensitive", "Combination", "Acne-Prone"],
+    "concerns": ["Enlarged Pores", "Sensitivity", "Redness"],
+    "image": "https://images.unsplash.com/photo-1621827979747-c31dbc34c8b3?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 1,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": true,
+    "pregnancySafe": false,
+    "strengthLevel": "low",
+    "barrierImpactScore": 1,
+    "pH_range": "N/A",
+    "photosensitivityRisk": false,
+    "goalTags": ["soothing", "pore-minimizing", "acne"],
+    "layeringConflicts": [],
+    "redundancyTags": [],
+    "frequencyLimit": "daily",
+    "timeOfDay": "AM/PM",
+    "climateSuitability": ["temperate", "humid", "tropical"],
+    "scientificSummary": "Contains chamazulene, camphor, and flavonoids that work synergistically to soothe skin and regulate sebum production.",
+    "mechanismOfAction": "Chamazulene inhibits leukotriene B4 formation, reducing inflammation, while camphor acts as a mild antiseptic.",
+    "evidenceLevel": "emerging",
+    "seo": {
+        "title": "Mugwort Extract - K-Beauty Skin Purifier | Dew Theory",
+        "description": "Discover how Mugwort Extract purifies pores and calms sensitive, reactive skin the Korean beauty way."
+    }
+}

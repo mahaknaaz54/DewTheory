@@ -1,0 +1,55 @@
+{
+    "id": "ing_076",
+    "name": "Phytic Acid",
+    "inciName": "Phytic Acid",
+    "category": "Acid",
+    "origin": "Plant-derived",
+    "countryOfOrigin": null,
+    "description": "A gentle chelating AHA found in grains that exfoliates and brightens while binding to metals that trigger melanin.",
+    "benefits": [
+        "Gentle exfoliation",
+        "Brightens skin",
+        "Reduces pore size"
+    ],
+    "skinTypes": [
+        "Sensitive",
+        "Oily",
+        "All"
+    ],
+    "concerns": [
+        "Enlarged Pores",
+        "Dullness",
+        "Hyperpigmentation"
+    ],
+    "image": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 1,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": true,
+    "pregnancySafe": true,
+    "strengthLevel": "low",
+    "barrierImpactScore": 0,
+    "pH_range": "3.5 - 5.0",
+    "photosensitivityRisk": false,
+    "goalTags": [
+        "exfoliation",
+        "brightening",
+        "pore-minimizing"
+    ],
+    "layeringConflicts": [],
+    "redundancyTags": [],
+    "frequencyLimit": "daily",
+    "timeOfDay": "AM/PM",
+    "climateSuitability": [
+        "dry",
+        "temperate",
+        "humid",
+        "tropical"
+    ],
+    "scientificSummary": "Acts as a metal chelator, sequestering iron and copper ions that would otherwise activate tyrosinase and produce melanin.",
+    "mechanismOfAction": "Chelates pro-oxidant metal ions, inhibits tyrosinase indirectly, and gently exfoliates via AHA-like mechanism.",
+    "evidenceLevel": "emerging",
+    "seo": {
+        "title": "Phytic Acid - Gentle Brightening AHA | Dew Theory",
+        "description": "Learn how Phytic Acid gently exfoliates and brightens skin by targeting metal-triggered pigmentation."
+    }
+}

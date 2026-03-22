@@ -1,0 +1,53 @@
+{
+    "id": "ing_073",
+    "name": "Sea Buckthorn Oil",
+    "inciName": "Hippophae Rhamnoides Fruit Oil",
+    "category": "Oil",
+    "origin": "Plant-derived",
+    "countryOfOrigin": "Asia",
+    "description": "A nutrient-dense orange oil packed with omega-7, beta-carotene, and vitamins C and E.",
+    "benefits": [
+        "Heals damaged skin",
+        "Reduces inflammation",
+        "Brightens complexion"
+    ],
+    "skinTypes": [
+        "Dry",
+        "Mature",
+        "Damaged"
+    ],
+    "concerns": [
+        "Dryness",
+        "Redness",
+        "Scarring"
+    ],
+    "image": "https://images.unsplash.com/photo-1601362840469-51e4d8d58785?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 2,
+    "comedogenicRating": 2,
+    "fungalAcneSafe": false,
+    "pregnancySafe": null,
+    "strengthLevel": "medium",
+    "barrierImpactScore": 3,
+    "pH_range": "N/A",
+    "photosensitivityRisk": false,
+    "goalTags": [
+        "healing",
+        "anti-aging",
+        "brightening"
+    ],
+    "layeringConflicts": [],
+    "redundancyTags": [],
+    "frequencyLimit": "daily",
+    "timeOfDay": "PM",
+    "climateSuitability": [
+        "dry",
+        "temperate"
+    ],
+    "scientificSummary": "Exceptionally rich in palmitoleic acid (omega-7), tocotrienols, and carotenoids, all of which support skin regeneration.",
+    "mechanismOfAction": "Palmitoleic acid integrates into skin cell membranes, while carotenoids quench free radicals and stimulate cell turnover.",
+    "evidenceLevel": "moderate",
+    "seo": {
+        "title": "Sea Buckthorn Oil - Healing Botanical Oil | Dew Theory",
+        "description": "Learn how Sea Buckthorn Oil heals, brightens, and nourishes even the most damaged skin."
+    }
+}

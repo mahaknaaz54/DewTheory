@@ -1,0 +1,38 @@
+{
+    "id": "ing_080",
+    "name": "Tamanu Oil",
+    "inciName": "Calophyllum Inophyllum Seed Oil",
+    "category": "Oil",
+    "origin": "Plant-derived",
+    "countryOfOrigin": "Polynesia",
+    "description": "A therapeutic Polynesian oil legendary for healing scars, wounds, and blemishes through regenerative lipids.",
+    "benefits": [
+        "Heals scars",
+        "Anti-bacterial",
+        "Reduces inflammation"
+    ],
+    "skinTypes": ["Acne-Prone", "Oily", "Normal"],
+    "concerns": ["Scarring", "Acne", "Inflammation"],
+    "image": "https://images.unsplash.com/photo-1601362840469-51e4d8d58785?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 2,
+    "comedogenicRating": 2,
+    "fungalAcneSafe": false,
+    "pregnancySafe": null,
+    "strengthLevel": "medium",
+    "barrierImpactScore": 2,
+    "pH_range": "N/A",
+    "photosensitivityRisk": false,
+    "goalTags": ["scarring", "acne", "healing"],
+    "layeringConflicts": [],
+    "redundancyTags": [],
+    "frequencyLimit": "daily",
+    "timeOfDay": "PM",
+    "climateSuitability": ["temperate", "humid", "tropical"],
+    "scientificSummary": "Contains calophyllolide and inophyllum, anti-inflammatory coumarins unique to this plant, which promote wound closure.",
+    "mechanismOfAction": "Coumarins inhibit prostaglandin synthesis while fatty acids support fibroblast activity and new collagen deposition.",
+    "evidenceLevel": "emerging",
+    "seo": {
+        "title": "Tamanu Oil - Healing Polynesian Botanical | Dew Theory",
+        "description": "Learn how Tamanu Oil heals scars and blemishes through its unique regenerative compounds."
+    }
+}

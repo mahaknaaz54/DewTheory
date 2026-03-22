@@ -1,0 +1,38 @@
+{
+    "id": "ing_081",
+    "name": "Ectoin",
+    "inciName": "Ectoin",
+    "category": "Extract",
+    "origin": "Fermented",
+    "countryOfOrigin": null,
+    "description": "A naturally produced extremophile molecule that shields skin cells from UV damage, pollution, and dryness.",
+    "benefits": [
+        "UV damage protection",
+        "Anti-pollution shield",
+        "Intense hydration"
+    ],
+    "skinTypes": ["Sensitive", "All"],
+    "concerns": ["Sensitivity", "Environmental Damage", "Dehydration"],
+    "image": "https://images.unsplash.com/photo-1612817288484-6f916006741a?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 1,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": true,
+    "pregnancySafe": true,
+    "strengthLevel": "low",
+    "barrierImpactScore": 3,
+    "pH_range": "N/A",
+    "photosensitivityRisk": false,
+    "goalTags": ["barrier-repair", "hydration", "anti-pollution"],
+    "layeringConflicts": [],
+    "redundancyTags": [],
+    "frequencyLimit": "daily",
+    "timeOfDay": "AM/PM",
+    "climateSuitability": ["dry", "temperate", "humid", "tropical"],
+    "scientificSummary": "Produced by halophilic bacteria as a stress protectant, ectoin creates a hydration shell around proteins and cell membranes.",
+    "mechanismOfAction": "Forms a stable water-molecule cage around biomolecules, preventing denaturation from UV radiation, heat, and chemical stress.",
+    "evidenceLevel": "moderate",
+    "seo": {
+        "title": "Ectoin - Extremophile Skin Protection Molecule | Dew Theory",
+        "description": "Discover how Ectoin protects skin from UV damage, pollution, and dehydration at the cellular level."
+    }
+}

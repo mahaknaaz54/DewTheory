@@ -1,0 +1,42 @@
+{
+    "id": "ing_077",
+    "name": "Lactic Acid",
+    "inciName": "Lactic Acid",
+    "category": "Acid",
+    "origin": "Fermented",
+    "countryOfOrigin": null,
+    "description": "A mild AHA exfoliant that also acts as a skin-identical humectant, making it ideal for sensitive or dry skin.",
+    "benefits": [
+        "Gentle exfoliation",
+        "Hydrates skin",
+        "Smooths texture"
+    ],
+    "skinTypes": [
+        "Dry", "Sensitive", "Normal", "All"
+    ],
+    "concerns": [
+        "Rough Texture", "Dullness", "Dryness"
+    ],
+    "image": "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 2,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": false,
+    "pregnancySafe": false,
+    "strengthLevel": "low",
+    "barrierImpactScore": 0,
+    "pH_range": "3.5 - 4.5",
+    "photosensitivityRisk": true,
+    "goalTags": ["exfoliation", "hydration", "smoothing"],
+    "layeringConflicts": ["retinol", "vitamin-c"],
+    "redundancyTags": ["glycolic-acid"],
+    "frequencyLimit": "3x-weekly",
+    "timeOfDay": "PM",
+    "climateSuitability": ["dry", "temperate", "humid", "tropical"],
+    "scientificSummary": "Larger molecule than glycolic acid, penetrates more slowly for gentler results. Also recognized as a skin-identical NMF component.",
+    "mechanismOfAction": "Breaks desmosomes between corneocytes while simultaneously hydrating via its role as a natural moisturizing factor.",
+    "evidenceLevel": "strong",
+    "seo": {
+        "title": "Lactic Acid - Gentle Exfoliating AHA | Dew Theory",
+        "description": "Discover how Lactic Acid exfoliates and hydrates simultaneously for smoother, more radiant skin."
+    }
+}

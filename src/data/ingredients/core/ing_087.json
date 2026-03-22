@@ -1,0 +1,38 @@
+{
+    "id": "ing_087",
+    "name": "Ginseng Extract",
+    "inciName": "Panax Ginseng Root Extract",
+    "category": "Extract",
+    "origin": "Plant-derived",
+    "countryOfOrigin": "Korea",
+    "description": "A revered adaptogenic root extract that energizes skin cells, boosts circulation, and reduces the appearance of fatigue.",
+    "benefits": [
+        "Brightens complexion",
+        "Boosts circulation",
+        "Anti-aging"
+    ],
+    "skinTypes": ["Mature", "Dull", "All"],
+    "concerns": ["Dullness", "Fine Lines", "Uneven Skin Tone"],
+    "image": "https://images.unsplash.com/photo-1543362906-acfc16c67564?q=80&w=600&auto=format&fit=crop",
+    "irritationLevel": 1,
+    "comedogenicRating": 0,
+    "fungalAcneSafe": true,
+    "pregnancySafe": null,
+    "strengthLevel": "low",
+    "barrierImpactScore": 1,
+    "pH_range": "N/A",
+    "photosensitivityRisk": false,
+    "goalTags": ["brightening", "anti-aging", "radiance"],
+    "layeringConflicts": [],
+    "redundancyTags": [],
+    "frequencyLimit": "daily",
+    "timeOfDay": "AM/PM",
+    "climateSuitability": ["dry", "temperate", "humid", "tropical"],
+    "scientificSummary": "Ginsenosides (triterpenoid saponins) are the primary bioactive compounds that stimulate collagen synthesis and inhibit melanin.",
+    "mechanismOfAction": "Ginsenosides activate PCNA and VEGF pathways, promoting cell proliferation and improving microcirculation in the dermis.",
+    "evidenceLevel": "moderate",
+    "seo": {
+        "title": "Ginseng Extract - Korean Anti-Aging Botanical | Dew Theory",
+        "description": "Explore how Ginseng Extract brightens, firms, and revitalizes skin through centuries-old wisdom."
+    }
+}
