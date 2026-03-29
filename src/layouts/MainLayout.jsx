@@ -2,7 +2,6 @@ import { Outlet } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import ScrollToTop from '../components/ScrollToTop';
-import MidnightDropTransition from '../components/MidnightDropTransition';
 
 const MainLayout = () => {
     return (
@@ -13,7 +12,6 @@ const MainLayout = () => {
             </main>
             <Footer />
             <ScrollToTop />
-            <MidnightDropTransition />
         </div>
     );
 };
