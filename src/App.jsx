@@ -12,7 +12,9 @@ import Journal from './pages/Journal';
 import ArticleDetail from './pages/ArticleDetail';
 import About from './pages/About';
 import Science from './pages/Science';
+import CinematicIntro from './components/CinematicIntro';
 
+const INTRO_STORAGE_KEY = 'dew_intro_seen';
 
 // Scroll to top on route change component
 const ScrollToTopRoute = () => {
@@ -47,11 +49,20 @@ const AnimatedRoutes = () => {
 };
 
 function App() {
+    const [introComplete, setIntroComplete] = useState(false);
+
+    const handleIntroComplete = useCallback(() => {
+        setIntroComplete(true);
+    }, []);
+
     return (
         <HelmetProvider>
             <BrowserRouter>
                 <ScrollToTopRoute />
                 <AnimatedRoutes />
+                {!introComplete && (
+                    <CinematicIntro onComplete={handleIntroComplete} />
+                )}
             </BrowserRouter>
         </HelmetProvider>
     );

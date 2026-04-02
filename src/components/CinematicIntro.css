@@ -1,0 +1,191 @@
+/* ============================================
+   Dew Theory — Cinematic Intro Overlay
+   ============================================ */
+
+.cinematic-intro {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #0F0F11 0%, #1C1C1F 100%);
+    will-change: opacity;
+}
+
+/* Radial vignette */
+.cinematic-intro::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse 70% 60% at 50% 50%,
+            transparent 0%,
+            rgba(0, 0, 0, 0.45) 100%);
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* Center ambient bloom */
+.cinematic-intro::after {
+    content: '';
+    position: absolute;
+    width: 40vmax;
+    height: 40vmax;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(circle,
+            rgba(255, 255, 255, 0.03) 0%,
+            transparent 70%);
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* Canvas layer */
+.cinematic-intro__canvas {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    will-change: filter;
+}
+
+/* Film grain overlay */
+.cinematic-intro__grain {
+    position: absolute;
+    inset: -50%;
+    width: 200%;
+    height: 200%;
+    z-index: 3;
+    pointer-events: none;
+    opacity: 0.035;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
+    background-size: 128px 128px;
+    animation: grainShift 0.8s steps(4) infinite;
+}
+
+@keyframes grainShift {
+    0% {
+        transform: translate(0, 0);
+    }
+
+    25% {
+        transform: translate(-5%, -5%);
+    }
+
+    50% {
+        transform: translate(3%, -3%);
+    }
+
+    75% {
+        transform: translate(-3%, 5%);
+    }
+
+    100% {
+        transform: translate(5%, 3%);
+    }
+}
+
+/* Brand mark container */
+.cinematic-intro__brand {
+    position: relative;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    pointer-events: none;
+}
+
+/* Logo text */
+.cinematic-intro__logo {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    color: #FAFAF9;
+    letter-spacing: 0.06em;
+    line-height: 1;
+    will-change: transform, opacity, filter;
+}
+
+/* Tagline text */
+.cinematic-intro__tagline {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: clamp(0.65rem, 1.4vw, 0.85rem);
+    color: rgba(250, 250, 249, 0.55);
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    will-change: transform, opacity, filter;
+}
+
+/* Ambient glow behind brand mark */
+.cinematic-intro__brand-glow {
+    position: absolute;
+    width: 280px;
+    height: 120px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: radial-gradient(ellipse,
+            rgba(255, 255, 255, 0.06) 0%,
+            transparent 70%);
+    pointer-events: none;
+    z-index: 3;
+}
+
+/* Center pulse (Scene 2 trigger) */
+.cinematic-intro__pulse {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: radial-gradient(circle,
+            rgba(255, 255, 255, 0.08) 0%,
+            transparent 70%);
+    z-index: 2;
+    pointer-events: none;
+    will-change: width, height, opacity;
+}
+
+/* Light burst (Scene 3) */
+.cinematic-intro__burst {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30vmax;
+    height: 30vmax;
+    border-radius: 50%;
+    background: radial-gradient(circle,
+            rgba(255, 255, 255, 0.1) 0%,
+            rgba(255, 255, 255, 0.02) 40%,
+            transparent 70%);
+    z-index: 3;
+    pointer-events: none;
+    will-change: opacity;
+}
+
+/* ============================================
+   Reduced motion — skip canvas, instant reveal
+   ============================================ */
+@media (prefers-reduced-motion: reduce) {
+
+    .cinematic-intro__canvas,
+    .cinematic-intro__grain,
+    .cinematic-intro__pulse,
+    .cinematic-intro__burst {
+        display: none !important;
+    }
+
+    .cinematic-intro__logo,
+    .cinematic-intro__tagline {
+        opacity: 1 !important;
+        filter: none !important;
+        transform: none !important;
+    }
+}
